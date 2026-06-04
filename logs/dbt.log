@@ -1,0 +1,205 @@
+[0m08:16:51.705757 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x765295258440>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7652960eb470>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x765297943710>]}
+
+
+============================== 08:16:51.755251 | ce97e7a1-3535-47e8-a186-1f1f434f1580 ==============================
+[0m08:16:51.755251 [info ] [MainThread]: Running with dbt=1.11.11
+[0m08:16:51.757357 [debug] [MainThread]: running dbt with arguments {'warn_error': 'None', 'log_path': 'logs', 'indirect_selection': 'eager', 'printer_width': '80', 'fail_fast': 'False', 'version_check': 'True', 'empty': 'None', 'use_colors': 'True', 'debug': 'False', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True', 'profiles_dir': '/home/codespace/.dbt', 'cache_selected_only': 'False', 'static_parser': 'True', 'log_cache_events': 'False', 'write_json': 'True', 'introspect': 'True', 'no_print': 'None', 'invocation_command': 'dbt init trading_log_dbt', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'quiet': 'False', 'partial_parse': 'True', 'use_experimental_parser': 'False'}
+[0m08:16:51.790244 [info ] [MainThread]: Creating dbt configuration folder at /home/codespace/.dbt
+[0m08:16:51.792682 [debug] [MainThread]: Starter project path: /usr/local/python/3.12.1/lib/python3.12/site-packages/dbt/include/starter_project
+[0m08:16:51.801258 [info ] [MainThread]: 
+Your new dbt project "trading_log_dbt" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m08:16:51.802341 [info ] [MainThread]: Setting up your profile.
+[0m08:16:56.230114 [info ] [MainThread]: Profile trading_log_dbt written to /home/codespace/.dbt/profiles.yml using target's sample configuration. Once updated, you'll be able to start developing with dbt.
+[0m08:16:56.232502 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 4.597555, "process_in_blocks": "121248", "process_kernel_time": 0.341577, "process_mem_max_rss": "154692", "process_out_blocks": "72", "process_user_time": 3.003282}
+[0m08:16:56.233151 [debug] [MainThread]: Command `dbt init` succeeded at 08:16:56.233034 after 4.60 seconds
+[0m08:16:56.233693 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x765295173170>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x765294f313d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x76529538e9c0>]}
+[0m08:16:56.234259 [debug] [MainThread]: Flushing usage events
+[0m08:16:57.091189 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m08:24:33.533062 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7b433f663890>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7b433d24af00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7b433d5b2ff0>]}
+
+
+============================== 08:24:33.538285 | 6a48a4a5-e517-4663-adc6-22fa49d839a5 ==============================
+[0m08:24:33.538285 [info ] [MainThread]: Running with dbt=1.11.11
+[0m08:24:33.539303 [debug] [MainThread]: running dbt with arguments {'log_format': 'default', 'empty': 'None', 'profiles_dir': '/home/codespace/.dbt', 'send_anonymous_usage_stats': 'True', 'version_check': 'True', 'warn_error': 'None', 'log_path': 'logs', 'quiet': 'False', 'use_experimental_parser': 'False', 'write_json': 'True', 'introspect': 'True', 'debug': 'False', 'use_colors': 'True', 'indirect_selection': 'eager', 'fail_fast': 'False', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'partial_parse': 'True', 'invocation_command': 'dbt debug', 'cache_selected_only': 'False', 'target_path': 'None', 'no_print': 'None', 'printer_width': '80', 'static_parser': 'True', 'log_cache_events': 'False'}
+[0m08:24:33.567411 [info ] [MainThread]: dbt version: 1.11.11
+[0m08:24:33.568586 [info ] [MainThread]: python version: 3.12.1
+[0m08:24:33.569461 [info ] [MainThread]: python path: /usr/local/python/3.12.1/bin/python3
+[0m08:24:33.570351 [info ] [MainThread]: os info: Linux-6.8.0-1052-azure-x86_64-with-glibc2.39
+[0m08:24:33.803041 [info ] [MainThread]: Using profiles dir at /home/codespace/.dbt
+[0m08:24:33.804292 [info ] [MainThread]: Using profiles.yml file at /home/codespace/.dbt/profiles.yml
+[0m08:24:33.805222 [info ] [MainThread]: Using dbt_project.yml file at /workspaces/Trading_analytics-pipeline/dbt_project.yml
+[0m08:24:33.817539 [info ] [MainThread]: adapter type: duckdb
+[0m08:24:33.818683 [info ] [MainThread]: adapter version: 1.10.1
+[0m08:24:33.819655 [info ] [MainThread]: Configuration:
+[0m08:24:33.820478 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m08:24:33.821336 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m08:24:33.822232 [info ] [MainThread]: Required dependencies:
+[0m08:24:33.823060 [debug] [MainThread]: Executing "git --help"
+[0m08:24:33.837568 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Set `HEAD` or the index to a known state\n   switch     Switch branches\n   tag        Create, list, delete or verify tags\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m08:24:33.840995 [debug] [MainThread]: STDERR: "b''"
+[0m08:24:33.841931 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m08:24:33.842680 [info ] [MainThread]: Connection:
+[0m08:24:33.845457 [info ] [MainThread]:   database: dev
+[0m08:24:33.846195 [info ] [MainThread]:   schema: main
+[0m08:24:33.846879 [info ] [MainThread]:   path: dev.duckdb
+[0m08:24:33.849334 [info ] [MainThread]:   config_options: None
+[0m08:24:33.850089 [info ] [MainThread]:   extensions: None
+[0m08:24:33.850839 [info ] [MainThread]:   settings: {}
+[0m08:24:33.854271 [info ] [MainThread]:   external_root: .
+[0m08:24:33.854938 [info ] [MainThread]:   use_credential_provider: None
+[0m08:24:33.858666 [info ] [MainThread]:   attach: None
+[0m08:24:33.859321 [info ] [MainThread]:   filesystems: None
+[0m08:24:33.859919 [info ] [MainThread]:   remote: None
+[0m08:24:33.864737 [info ] [MainThread]:   plugins: None
+[0m08:24:33.867261 [info ] [MainThread]:   disable_transactions: False
+[0m08:24:33.869707 [info ] [MainThread]: Registered adapter: duckdb=1.10.1
+[0m08:24:34.045244 [debug] [MainThread]: Acquiring new duckdb connection 'debug'
+[0m08:24:34.498793 [debug] [MainThread]: Using duckdb connection "debug"
+[0m08:24:34.499530 [debug] [MainThread]: On debug: select 1 as id
+[0m08:24:34.500006 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m08:24:34.524135 [debug] [MainThread]: SQL status: OK in 0.024 seconds
+[0m08:24:34.525570 [debug] [MainThread]: On debug: Close
+[0m08:24:34.526121 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m08:24:34.526786 [info ] [MainThread]: [31m1 check failed:[0m
+[0m08:24:34.527357 [info ] [MainThread]: Project loading failed for the following reason:
+ project path </workspaces/Trading_analytics-pipeline/dbt_project.yml> not found
+
+[0m08:24:34.528615 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_success": false, "command_wall_clock_time": 1.074361, "process_in_blocks": "5208", "process_kernel_time": 0.396948, "process_mem_max_rss": "166852", "process_out_blocks": "56", "process_user_time": 3.133024}
+[0m08:24:34.529296 [debug] [MainThread]: Command `dbt debug` failed at 08:24:34.529187 after 1.08 seconds
+[0m08:24:34.529770 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m08:24:34.530273 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7b433c986540>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7b4337961f10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7b4337962630>]}
+[0m08:24:34.530842 [debug] [MainThread]: Flushing usage events
+[0m08:24:35.391255 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m08:26:30.193618 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x72b9a9ee9640>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x72b9abc7bf80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x72b9a99514c0>]}
+
+
+============================== 08:26:30.198702 | 6540e010-5918-4c27-b089-2cc55d881e90 ==============================
+[0m08:26:30.198702 [info ] [MainThread]: Running with dbt=1.11.11
+[0m08:26:30.200472 [debug] [MainThread]: running dbt with arguments {'use_colors': 'True', 'version_check': 'True', 'log_format': 'default', 'static_parser': 'True', 'indirect_selection': 'eager', 'write_json': 'True', 'fail_fast': 'False', 'debug': 'False', 'introspect': 'True', 'profiles_dir': '/home/codespace/.dbt', 'printer_width': '80', 'target_path': 'None', 'send_anonymous_usage_stats': 'True', 'no_print': 'None', 'empty': 'None', 'use_experimental_parser': 'False', 'log_cache_events': 'False', 'partial_parse': 'True', 'quiet': 'False', 'invocation_command': 'dbt debug', 'cache_selected_only': 'False', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'warn_error': 'None', 'log_path': '/workspaces/Trading_analytics-pipeline/logs'}
+[0m08:26:30.219817 [info ] [MainThread]: dbt version: 1.11.11
+[0m08:26:30.220862 [info ] [MainThread]: python version: 3.12.1
+[0m08:26:30.221750 [info ] [MainThread]: python path: /usr/local/python/3.12.1/bin/python3
+[0m08:26:30.222912 [info ] [MainThread]: os info: Linux-6.8.0-1052-azure-x86_64-with-glibc2.39
+[0m08:26:30.477121 [info ] [MainThread]: Using profiles dir at /home/codespace/.dbt
+[0m08:26:30.479808 [info ] [MainThread]: Using profiles.yml file at /home/codespace/.dbt/profiles.yml
+[0m08:26:30.483711 [info ] [MainThread]: Using dbt_project.yml file at /workspaces/Trading_analytics-pipeline/dbt_project.yml
+[0m08:26:30.487272 [info ] [MainThread]: adapter type: duckdb
+[0m08:26:30.488133 [info ] [MainThread]: adapter version: 1.10.1
+[0m08:26:30.612702 [info ] [MainThread]: Configuration:
+[0m08:26:30.613476 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m08:26:30.614022 [info ] [MainThread]:   dbt_project.yml file [[32mOK found and valid[0m]
+[0m08:26:30.614565 [info ] [MainThread]: Required dependencies:
+[0m08:26:30.615101 [debug] [MainThread]: Executing "git --help"
+[0m08:26:30.619316 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Set `HEAD` or the index to a known state\n   switch     Switch branches\n   tag        Create, list, delete or verify tags\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m08:26:30.621512 [debug] [MainThread]: STDERR: "b''"
+[0m08:26:30.622549 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m08:26:30.623665 [info ] [MainThread]: Connection:
+[0m08:26:30.624400 [info ] [MainThread]:   database: dev
+[0m08:26:30.624997 [info ] [MainThread]:   schema: main
+[0m08:26:30.625998 [info ] [MainThread]:   path: dev.duckdb
+[0m08:26:30.626936 [info ] [MainThread]:   config_options: None
+[0m08:26:30.627672 [info ] [MainThread]:   extensions: None
+[0m08:26:30.628717 [info ] [MainThread]:   settings: {}
+[0m08:26:30.629368 [info ] [MainThread]:   external_root: .
+[0m08:26:30.629964 [info ] [MainThread]:   use_credential_provider: None
+[0m08:26:30.630585 [info ] [MainThread]:   attach: None
+[0m08:26:30.631284 [info ] [MainThread]:   filesystems: None
+[0m08:26:30.631893 [info ] [MainThread]:   remote: None
+[0m08:26:30.632547 [info ] [MainThread]:   plugins: None
+[0m08:26:30.633214 [info ] [MainThread]:   disable_transactions: False
+[0m08:26:30.634100 [info ] [MainThread]: Registered adapter: duckdb=1.10.1
+[0m08:26:30.799940 [debug] [MainThread]: Acquiring new duckdb connection 'debug'
+[0m08:26:30.834874 [debug] [MainThread]: Using duckdb connection "debug"
+[0m08:26:30.835656 [debug] [MainThread]: On debug: select 1 as id
+[0m08:26:30.836363 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m08:26:30.850970 [debug] [MainThread]: SQL status: OK in 0.015 seconds
+[0m08:26:30.852593 [debug] [MainThread]: On debug: Close
+[0m08:26:30.853323 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m08:26:30.853999 [info ] [MainThread]: [32mAll checks passed![0m
+[0m08:26:30.855547 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_success": true, "command_wall_clock_time": 0.7427488, "process_in_blocks": "0", "process_kernel_time": 0.399462, "process_mem_max_rss": "168332", "process_out_blocks": "24", "process_user_time": 3.514283}
+[0m08:26:30.856425 [debug] [MainThread]: Command `dbt debug` succeeded at 08:26:30.856273 after 0.74 seconds
+[0m08:26:30.857080 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m08:26:30.857818 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x72b9a9e7b200>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x72b9a963b020>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x72b9a3900b90>]}
+[0m08:26:30.858644 [debug] [MainThread]: Flushing usage events
+[0m08:26:31.719730 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m08:30:31.792261 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7119d24e16d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7119d20270b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7119d1d8ef60>]}
+
+
+============================== 08:30:31.797571 | 7786f66c-484c-4ea8-9d45-271db992aedd ==============================
+[0m08:30:31.797571 [info ] [MainThread]: Running with dbt=1.11.11
+[0m08:30:31.798985 [debug] [MainThread]: running dbt with arguments {'use_colors': 'True', 'introspect': 'True', 'target_path': 'None', 'empty': 'None', 'log_cache_events': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'log_path': '/workspaces/Trading_analytics-pipeline/logs', 'invocation_command': 'dbt seed', 'debug': 'False', 'static_parser': 'True', 'quiet': 'False', 'use_experimental_parser': 'False', 'printer_width': '80', 'send_anonymous_usage_stats': 'True', 'log_format': 'default', 'cache_selected_only': 'False', 'version_check': 'True', 'fail_fast': 'False', 'write_json': 'True', 'profiles_dir': '/home/codespace/.dbt', 'partial_parse': 'True', 'warn_error': 'None', 'indirect_selection': 'eager'}
+[0m08:30:32.133396 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '7786f66c-484c-4ea8-9d45-271db992aedd', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7119cd6cd460>]}
+[0m08:30:32.204326 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '7786f66c-484c-4ea8-9d45-271db992aedd', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7119cd6cd610>]}
+[0m08:30:32.206410 [info ] [MainThread]: Registered adapter: duckdb=1.10.1
+[0m08:30:32.383282 [debug] [MainThread]: checksum: 30a8cc8fdcbf66701b0944d4ccce3fa46dd04b61e5df68b9f16d57b2e0e3f0be, vars: {}, profile: , target: , version: 1.11.11
+[0m08:30:32.384263 [info ] [MainThread]: Unable to do partial parsing because saved manifest not found. Starting full parse.
+[0m08:30:32.384845 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '7786f66c-484c-4ea8-9d45-271db992aedd', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7119cc5d43e0>]}
+[0m08:30:33.331046 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.trading_log_dbt.example
+[0m08:30:33.336637 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '7786f66c-484c-4ea8-9d45-271db992aedd', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7119d136a360>]}
+[0m08:30:33.420776 [debug] [MainThread]: Wrote artifact WritableManifest to /workspaces/Trading_analytics-pipeline/target/manifest.json
+[0m08:30:33.424988 [debug] [MainThread]: Wrote artifact SemanticManifest to /workspaces/Trading_analytics-pipeline/target/semantic_manifest.json
+[0m08:30:33.437939 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '7786f66c-484c-4ea8-9d45-271db992aedd', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7119cc23c920>]}
+[0m08:30:33.438826 [info ] [MainThread]: Found 485 macros
+[0m08:30:33.439664 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '7786f66c-484c-4ea8-9d45-271db992aedd', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7119d13ad610>]}
+[0m08:30:33.441705 [warn ] [MainThread]: Nothing to do. Try checking your model configs and model specification args
+[0m08:30:33.446474 [debug] [MainThread]: Command end result
+[0m08:30:33.488110 [debug] [MainThread]: Wrote artifact WritableManifest to /workspaces/Trading_analytics-pipeline/target/manifest.json
+[0m08:30:33.490498 [debug] [MainThread]: Wrote artifact SemanticManifest to /workspaces/Trading_analytics-pipeline/target/semantic_manifest.json
+[0m08:30:33.493935 [debug] [MainThread]: Wrote artifact RunExecutionResult to /workspaces/Trading_analytics-pipeline/target/run_results.json
+[0m08:30:33.494441 [info ] [MainThread]: 
+[0m08:30:33.495078 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m08:30:33.495620 [info ] [MainThread]: 
+[0m08:30:33.496177 [info ] [MainThread]: Done. PASS=0 WARN=0 ERROR=0 SKIP=0 NO-OP=0 TOTAL=0
+[0m08:30:33.497390 [debug] [MainThread]: Resource report: {"command_name": "seed", "command_success": true, "command_wall_clock_time": 1.7725508, "process_in_blocks": "3080", "process_kernel_time": 0.429533, "process_mem_max_rss": "165680", "process_out_blocks": "3152", "process_user_time": 4.451712}
+[0m08:30:33.498023 [debug] [MainThread]: Command `dbt seed` succeeded at 08:30:33.497909 after 1.77 seconds
+[0m08:30:33.498568 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7119d1bfd910>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7119d27fbd70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7119d18d3560>]}
+[0m08:30:33.499093 [debug] [MainThread]: Flushing usage events
+[0m08:30:34.444426 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m11:20:11.715383 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x738976a84560>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x738976d6e330>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x738976837770>]}
+
+
+============================== 11:20:11.720863 | 4a1de475-624b-4928-9e02-1b6126f38ba9 ==============================
+[0m11:20:11.720863 [info ] [MainThread]: Running with dbt=1.11.11
+[0m11:20:11.721993 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'log_path': '/workspaces/Trading_analytics-pipeline/logs', 'log_cache_events': 'False', 'no_print': 'None', 'partial_parse': 'True', 'version_check': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'cache_selected_only': 'False', 'target_path': 'None', 'empty': 'None', 'debug': 'False', 'profiles_dir': '/home/codespace/.dbt', 'write_json': 'True', 'invocation_command': 'dbt ', 'quiet': 'False', 'log_format': 'default', 'use_experimental_parser': 'False', 'send_anonymous_usage_stats': 'True', 'fail_fast': 'False', 'static_parser': 'True', 'introspect': 'True', 'warn_error': 'None', 'use_colors': 'True', 'indirect_selection': 'eager'}
+[0m11:20:11.927892 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '4a1de475-624b-4928-9e02-1b6126f38ba9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x738976126c90>]}
+[0m11:20:11.944548 [info ] [MainThread]: Warning: No packages were found in packages.yml
+[0m11:20:11.947676 [info ] [MainThread]: Warning: No packages were found in packages.yml
+[0m11:20:11.950229 [debug] [MainThread]: Resource report: {"command_name": "deps", "command_success": true, "command_wall_clock_time": 0.32709938, "process_in_blocks": "504", "process_kernel_time": 0.287581, "process_mem_max_rss": "121224", "process_out_blocks": "16", "process_user_time": 3.078808}
+[0m11:20:11.951311 [debug] [MainThread]: Command `cli deps` succeeded at 11:20:11.951139 after 0.33 seconds
+[0m11:20:11.952307 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x738976f4b6e0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7389772d6630>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x738975fdf6b0>]}
+[0m11:20:11.953281 [debug] [MainThread]: Flushing usage events
+[0m11:20:12.891158 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m12:16:13.972478 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7902c6539d30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7902c5ee0920>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7902c6563350>]}
+
+
+============================== 12:16:13.977612 | 8667d3bf-416b-4cb2-bcd6-4845aeb85615 ==============================
+[0m12:16:13.977612 [info ] [MainThread]: Running with dbt=1.11.11
+[0m12:16:13.978662 [debug] [MainThread]: running dbt with arguments {'indirect_selection': 'eager', 'target_path': 'None', 'send_anonymous_usage_stats': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'write_json': 'True', 'cache_selected_only': 'False', 'static_parser': 'True', 'fail_fast': 'False', 'debug': 'False', 'warn_error': 'None', 'invocation_command': 'dbt ', 'no_print': 'None', 'log_cache_events': 'False', 'log_format': 'default', 'introspect': 'True', 'profiles_dir': '/home/codespace/.dbt', 'quiet': 'False', 'empty': 'None', 'partial_parse': 'True', 'printer_width': '80', 'version_check': 'True', 'use_experimental_parser': 'False', 'use_colors': 'True', 'log_path': '/workspaces/Trading_analytics-pipeline/logs'}
+[0m12:16:14.168942 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '8667d3bf-416b-4cb2-bcd6-4845aeb85615', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7902c5da9520>]}
+[0m12:16:14.183477 [info ] [MainThread]: Warning: No packages were found in packages.yml
+[0m12:16:14.184705 [info ] [MainThread]: Warning: No packages were found in packages.yml
+[0m12:16:14.186309 [debug] [MainThread]: Resource report: {"command_name": "deps", "command_success": true, "command_wall_clock_time": 0.2843442, "process_in_blocks": "512", "process_kernel_time": 0.307073, "process_mem_max_rss": "121208", "process_out_blocks": "8", "process_user_time": 2.851396}
+[0m12:16:14.187184 [debug] [MainThread]: Command `cli deps` succeeded at 12:16:14.187043 after 0.29 seconds
+[0m12:16:14.187944 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7902c5dff8c0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7902c6016450>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7902c6016420>]}
+[0m12:16:14.188702 [debug] [MainThread]: Flushing usage events
+[0m12:16:14.997453 [debug] [MainThread]: An error was encountered while trying to flush usage events
