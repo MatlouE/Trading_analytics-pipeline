@@ -1,0 +1,20 @@
+version: 2
+
+sources:
+  - name: raw_data
+    description: "Raw transaction logs and execution exports from brokerage accounts."
+    tables:
+      - name: raw_trading_log
+        description: "trade data csv"
+        meta:
+          external_location: "read_csv_auto('trading_log_dbt/data/trade_data.csv')"
+        columns:
+          - name: Symbol
+            description: "The ticker symbol of the traded security."
+            tests:
+              - not_null
+
+          - name: Position
+            description: "The position type, either 'Long' or 'Short'."
+            tests:
+              - not_null

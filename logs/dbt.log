@@ -203,3 +203,1378 @@ There are 1 unused configuration paths:
 [0m12:16:14.187944 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7902c5dff8c0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7902c6016450>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7902c6016420>]}
 [0m12:16:14.188702 [debug] [MainThread]: Flushing usage events
 [0m12:16:14.997453 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m08:35:34.923745 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x70a3dcceba10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x70a3dd51bf80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x70a3dc6726f0>]}
+
+
+============================== 08:35:34.934497 | a5816efd-6233-4973-b26d-242cb0ab8fc7 ==============================
+[0m08:35:34.934497 [info ] [MainThread]: Running with dbt=1.11.11
+[0m08:35:34.935633 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'debug': 'False', 'log_cache_events': 'False', 'partial_parse': 'True', 'write_json': 'True', 'log_format': 'default', 'introspect': 'True', 'cache_selected_only': 'False', 'empty': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'use_experimental_parser': 'False', 'fail_fast': 'False', 'warn_error': 'None', 'invocation_command': 'dbt ', 'printer_width': '80', 'target_path': 'None', 'profiles_dir': '/home/codespace/.dbt', 'use_colors': 'True', 'send_anonymous_usage_stats': 'True', 'indirect_selection': 'eager', 'log_path': '/workspaces/Trading_analytics-pipeline/logs', 'static_parser': 'True', 'no_print': 'None'}
+[0m08:35:35.152437 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'a5816efd-6233-4973-b26d-242cb0ab8fc7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x70a3dcb7c5f0>]}
+[0m08:35:35.176846 [info ] [MainThread]: Warning: No packages were found in packages.yml
+[0m08:35:35.182097 [info ] [MainThread]: Warning: No packages were found in packages.yml
+[0m08:35:35.189114 [debug] [MainThread]: Resource report: {"command_name": "deps", "command_success": true, "command_wall_clock_time": 0.3384597, "process_in_blocks": "512", "process_kernel_time": 0.338968, "process_mem_max_rss": "121076", "process_out_blocks": "8", "process_user_time": 3.143158}
+[0m08:35:35.190082 [debug] [MainThread]: Command `cli deps` succeeded at 08:35:35.189906 after 0.34 seconds
+[0m08:35:35.191108 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x70a3dbbc7740>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x70a3de504e60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x70a3dbe3ac60>]}
+[0m08:35:35.192162 [debug] [MainThread]: Flushing usage events
+[0m08:35:36.185457 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m09:39:14.840011 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x70b0040c6870>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x70b0032a8c50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x70b002e6a6f0>]}
+
+
+============================== 09:39:14.889212 | cae896be-74f5-4957-a9e1-3a44ebc8bd7b ==============================
+[0m09:39:14.889212 [info ] [MainThread]: Running with dbt=1.11.11
+[0m09:39:14.890754 [debug] [MainThread]: running dbt with arguments {'invocation_command': 'dbt ', 'version_check': 'True', 'write_json': 'True', 'quiet': 'False', 'use_colors': 'True', 'profiles_dir': '/home/codespace/.dbt', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'fail_fast': 'False', 'empty': 'None', 'debug': 'False', 'printer_width': '80', 'use_experimental_parser': 'False', 'partial_parse': 'True', 'log_path': '/workspaces/Trading_analytics-pipeline/logs', 'no_print': 'None', 'cache_selected_only': 'False', 'introspect': 'True', 'send_anonymous_usage_stats': 'True', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'log_format': 'default', 'warn_error': 'None'}
+[0m09:39:15.119233 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'cae896be-74f5-4957-a9e1-3a44ebc8bd7b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x70b002620ec0>]}
+[0m09:39:15.134751 [info ] [MainThread]: Warning: No packages were found in packages.yml
+[0m09:39:15.136387 [info ] [MainThread]: Warning: No packages were found in packages.yml
+[0m09:39:15.138506 [debug] [MainThread]: Resource report: {"command_name": "deps", "command_success": true, "command_wall_clock_time": 0.5127599, "process_in_blocks": "504", "process_kernel_time": 0.308158, "process_mem_max_rss": "120992", "process_out_blocks": "16", "process_user_time": 3.381843}
+[0m09:39:15.139571 [debug] [MainThread]: Command `cli deps` succeeded at 09:39:15.139404 after 0.51 seconds
+[0m09:39:15.140410 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x70b004d53d10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x70b002bd1d60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x70b002bd0260>]}
+[0m09:39:15.141105 [debug] [MainThread]: Flushing usage events
+[0m09:39:16.066192 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m10:13:15.948615 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7875c4192840>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7875c3e63530>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7875c3f307a0>]}
+
+
+============================== 10:13:15.954038 | aa7b35ae-0cdf-431c-8b5d-02edd0c2de24 ==============================
+[0m10:13:15.954038 [info ] [MainThread]: Running with dbt=1.11.11
+[0m10:13:15.955097 [debug] [MainThread]: running dbt with arguments {'indirect_selection': 'eager', 'use_colors': 'True', 'profiles_dir': '/home/codespace/.dbt', 'cache_selected_only': 'False', 'quiet': 'False', 'use_experimental_parser': 'False', 'invocation_command': 'dbt ', 'empty': 'None', 'log_path': '/workspaces/Trading_analytics-pipeline/logs', 'write_json': 'True', 'printer_width': '80', 'no_print': 'None', 'log_format': 'default', 'static_parser': 'True', 'version_check': 'True', 'partial_parse': 'True', 'debug': 'False', 'send_anonymous_usage_stats': 'True', 'log_cache_events': 'False', 'fail_fast': 'False', 'warn_error': 'None', 'introspect': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])'}
+[0m10:13:16.294469 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'aa7b35ae-0cdf-431c-8b5d-02edd0c2de24', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7875c36b1370>]}
+[0m10:13:16.309710 [info ] [MainThread]: Warning: No packages were found in packages.yml
+[0m10:13:16.311345 [info ] [MainThread]: Warning: No packages were found in packages.yml
+[0m10:13:16.313506 [debug] [MainThread]: Resource report: {"command_name": "deps", "command_success": true, "command_wall_clock_time": 0.436677, "process_in_blocks": "520", "process_kernel_time": 0.307798, "process_mem_max_rss": "120984", "process_out_blocks": "8", "process_user_time": 3.148485}
+[0m10:13:16.314516 [debug] [MainThread]: Command `cli deps` succeeded at 10:13:16.314368 after 0.44 seconds
+[0m10:13:16.315942 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7875c38643e0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7875c313e090>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7875c30aa1e0>]}
+[0m10:13:16.317212 [debug] [MainThread]: Flushing usage events
+[0m10:13:17.211756 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m10:25:13.748316 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7e279fe7cb60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7e27a01385c0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7e27a13c8d40>]}
+
+
+============================== 10:25:13.777278 | a949c5ee-c875-4935-bd3f-b3e1675d367b ==============================
+[0m10:25:13.777278 [info ] [MainThread]: Running with dbt=1.11.11
+[0m10:25:13.789031 [debug] [MainThread]: running dbt with arguments {'fail_fast': 'False', 'warn_error': 'None', 'log_format': 'default', 'use_experimental_parser': 'False', 'cache_selected_only': 'False', 'indirect_selection': 'eager', 'use_colors': 'True', 'write_json': 'True', 'introspect': 'True', 'log_path': '/workspaces/Trading_analytics-pipeline/logs', 'version_check': 'True', 'profiles_dir': '/home/codespace/.dbt', 'printer_width': '80', 'partial_parse': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'quiet': 'False', 'target_path': 'None', 'no_print': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True', 'invocation_command': 'dbt init', 'log_cache_events': 'False', 'debug': 'False', 'empty': 'None'}
+[0m10:25:14.017814 [info ] [MainThread]: Setting up your profile.
+[0m10:25:24.191241 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 10.571851, "process_in_blocks": "48", "process_kernel_time": 0.262911, "process_mem_max_rss": "118860", "process_out_blocks": "8", "process_user_time": 3.013249}
+[0m10:25:24.192285 [debug] [MainThread]: Command `dbt init` succeeded at 10:25:24.192120 after 10.57 seconds
+[0m10:25:24.193405 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7e27a05171d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7e279f8cf680>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7e279f57c7d0>]}
+[0m10:25:24.194062 [debug] [MainThread]: Flushing usage events
+[0m10:25:25.228276 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m10:29:29.072047 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x791840cec0e0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x791842fb9fd0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x791842f39010>]}
+
+
+============================== 10:29:29.077153 | f3804383-84e6-4a9f-91b1-26df126302a1 ==============================
+[0m10:29:29.077153 [info ] [MainThread]: Running with dbt=1.11.11
+[0m10:29:29.078258 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'debug': 'False', 'send_anonymous_usage_stats': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'log_format': 'default', 'profiles_dir': '/home/codespace/.dbt', 'introspect': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'use_colors': 'True', 'static_parser': 'True', 'fail_fast': 'False', 'partial_parse': 'True', 'write_json': 'True', 'empty': 'False', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'quiet': 'False', 'target_path': 'None', 'version_check': 'True', 'log_cache_events': 'False', 'log_path': '/workspaces/Trading_analytics-pipeline/logs', 'invocation_command': 'dbt run'}
+[0m10:29:29.425406 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'f3804383-84e6-4a9f-91b1-26df126302a1', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x79183b211ca0>]}
+[0m10:29:29.507431 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'f3804383-84e6-4a9f-91b1-26df126302a1', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x791840b88740>]}
+[0m10:29:29.509583 [info ] [MainThread]: Registered adapter: duckdb=1.10.1
+[0m10:29:29.687631 [debug] [MainThread]: checksum: 30a8cc8fdcbf66701b0944d4ccce3fa46dd04b61e5df68b9f16d57b2e0e3f0be, vars: {}, profile: , target: , version: 1.11.11
+[0m10:29:29.735903 [info ] [MainThread]: Unable to do partial parsing because config vars, config profile, or config target have changed
+[0m10:29:29.736620 [debug] [MainThread]: previous checksum: 30a8cc8fdcbf66701b0944d4ccce3fa46dd04b61e5df68b9f16d57b2e0e3f0be, current checksum: b276df2e725538900e19c36eb2bf632d2152ccbe55054f2124b6d2db0feda968
+[0m10:29:29.737193 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': 'f3804383-84e6-4a9f-91b1-26df126302a1', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x79184090b0b0>]}
+[0m10:29:30.809969 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.trading_log_dbt.example
+[0m10:29:30.815472 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'f3804383-84e6-4a9f-91b1-26df126302a1', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x79183acd2e10>]}
+[0m10:29:30.877540 [debug] [MainThread]: Wrote artifact WritableManifest to /workspaces/Trading_analytics-pipeline/target/manifest.json
+[0m10:29:30.882213 [debug] [MainThread]: Wrote artifact SemanticManifest to /workspaces/Trading_analytics-pipeline/target/semantic_manifest.json
+[0m10:29:30.892230 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'f3804383-84e6-4a9f-91b1-26df126302a1', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x79183ac5e0c0>]}
+[0m10:29:30.892832 [info ] [MainThread]: Found 485 macros
+[0m10:29:30.893441 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'f3804383-84e6-4a9f-91b1-26df126302a1', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x79183b297380>]}
+[0m10:29:30.895095 [warn ] [MainThread]: Nothing to do. Try checking your model configs and model specification args
+[0m10:29:30.895903 [debug] [MainThread]: Command end result
+[0m10:29:30.941006 [debug] [MainThread]: Wrote artifact WritableManifest to /workspaces/Trading_analytics-pipeline/target/manifest.json
+[0m10:29:30.943964 [debug] [MainThread]: Wrote artifact SemanticManifest to /workspaces/Trading_analytics-pipeline/target/semantic_manifest.json
+[0m10:29:30.948111 [debug] [MainThread]: Wrote artifact RunExecutionResult to /workspaces/Trading_analytics-pipeline/target/run_results.json
+[0m10:29:30.949524 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": true, "command_wall_clock_time": 2.0120986, "process_in_blocks": "504", "process_kernel_time": 0.365851, "process_mem_max_rss": "162668", "process_out_blocks": "3152", "process_user_time": 4.96019}
+[0m10:29:30.950523 [debug] [MainThread]: Command `dbt run` succeeded at 10:29:30.950379 after 2.01 seconds
+[0m10:29:30.951308 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7918401d5010>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x79184090ae70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7918406b2b10>]}
+[0m10:29:30.952113 [debug] [MainThread]: Flushing usage events
+[0m10:29:32.005954 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m10:32:07.330988 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7e7cfc0740b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7e7cfaf05400>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7e7cfb486870>]}
+
+
+============================== 10:32:07.339421 | 7a36bdc1-9b21-4544-ad4d-52c2075d0b54 ==============================
+[0m10:32:07.339421 [info ] [MainThread]: Running with dbt=1.11.11
+[0m10:32:07.342193 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'quiet': 'False', 'static_parser': 'True', 'invocation_command': 'dbt run --select stg_tradelog', 'partial_parse': 'True', 'debug': 'False', 'indirect_selection': 'eager', 'send_anonymous_usage_stats': 'True', 'fail_fast': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'log_cache_events': 'False', 'log_path': '/workspaces/Trading_analytics-pipeline/logs', 'log_format': 'default', 'write_json': 'True', 'use_colors': 'True', 'cache_selected_only': 'False', 'printer_width': '80', 'introspect': 'True', 'profiles_dir': '/home/codespace/.dbt', 'use_experimental_parser': 'False', 'target_path': 'None', 'empty': 'False', 'warn_error': 'None'}
+[0m10:32:07.767519 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '7a36bdc1-9b21-4544-ad4d-52c2075d0b54', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7e7cfb629d30>]}
+[0m10:32:07.860899 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '7a36bdc1-9b21-4544-ad4d-52c2075d0b54', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7e7cfaa52d80>]}
+[0m10:32:07.870378 [info ] [MainThread]: Registered adapter: duckdb=1.10.1
+[0m10:32:08.133787 [debug] [MainThread]: checksum: 30a8cc8fdcbf66701b0944d4ccce3fa46dd04b61e5df68b9f16d57b2e0e3f0be, vars: {}, profile: , target: , version: 1.11.11
+[0m10:32:08.260783 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m10:32:08.261473 [debug] [MainThread]: Nothing changed, skipping partial parsing.
+[0m10:32:08.262015 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m10:32:08.302079 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '7a36bdc1-9b21-4544-ad4d-52c2075d0b54', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7e7cf5896210>]}
+[0m10:32:08.404641 [debug] [MainThread]: Wrote artifact WritableManifest to /workspaces/Trading_analytics-pipeline/target/manifest.json
+[0m10:32:08.407846 [debug] [MainThread]: Wrote artifact SemanticManifest to /workspaces/Trading_analytics-pipeline/target/semantic_manifest.json
+[0m10:32:08.423328 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '7a36bdc1-9b21-4544-ad4d-52c2075d0b54', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7e7cf51a1820>]}
+[0m10:32:08.424005 [info ] [MainThread]: Found 1 model, 1 source, 485 macros
+[0m10:32:08.424741 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '7a36bdc1-9b21-4544-ad4d-52c2075d0b54', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7e7cf51c2a50>]}
+[0m10:32:08.426455 [info ] [MainThread]: 
+[0m10:32:08.427081 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m10:32:08.427619 [info ] [MainThread]: 
+[0m10:32:08.428404 [debug] [MainThread]: Acquiring new duckdb connection 'master'
+[0m10:32:08.430281 [debug] [ThreadPool]: Acquiring new duckdb connection 'list_dev'
+[0m10:32:08.566509 [debug] [ThreadPool]: Using duckdb connection "list_dev"
+[0m10:32:08.567871 [debug] [ThreadPool]: On list_dev: /* {"app": "dbt", "dbt_version": "1.11.11", "profile_name": "trading_log_dbt", "target_name": "dev", "connection_name": "list_dev"} */
+
+    
+    select schema_name
+    from system.information_schema.schemata
+    
+    where lower(catalog_name) = '"dev"'
+    
+  
+  
+[0m10:32:08.568632 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m10:32:08.666730 [debug] [ThreadPool]: SQL status: OK in 0.098 seconds
+[0m10:32:08.668524 [debug] [ThreadPool]: On list_dev: Close
+[0m10:32:08.670455 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_dev, now create_dev_main)
+[0m10:32:08.671775 [debug] [ThreadPool]: Creating schema "database: "dev"
+schema: "main"
+"
+[0m10:32:08.682913 [debug] [ThreadPool]: Using duckdb connection "create_dev_main"
+[0m10:32:08.683469 [debug] [ThreadPool]: On create_dev_main: /* {"app": "dbt", "dbt_version": "1.11.11", "profile_name": "trading_log_dbt", "target_name": "dev", "connection_name": "create_dev_main"} */
+
+    
+        select type from duckdb_databases()
+        where lower(database_name)='dev'
+        and type='sqlite'
+    
+  
+[0m10:32:08.683991 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m10:32:08.687323 [debug] [ThreadPool]: SQL status: OK in 0.003 seconds
+[0m10:32:08.688987 [debug] [ThreadPool]: Using duckdb connection "create_dev_main"
+[0m10:32:08.689462 [debug] [ThreadPool]: On create_dev_main: BEGIN
+[0m10:32:08.690151 [debug] [ThreadPool]: SQL status: OK in 0.000 seconds
+[0m10:32:08.690612 [debug] [ThreadPool]: Using duckdb connection "create_dev_main"
+[0m10:32:08.691115 [debug] [ThreadPool]: On create_dev_main: /* {"app": "dbt", "dbt_version": "1.11.11", "profile_name": "trading_log_dbt", "target_name": "dev", "connection_name": "create_dev_main"} */
+
+    
+    
+        create schema if not exists "dev"."main"
+    
+[0m10:32:08.691895 [debug] [ThreadPool]: SQL status: OK in 0.000 seconds
+[0m10:32:08.693015 [debug] [ThreadPool]: On create_dev_main: COMMIT
+[0m10:32:08.693503 [debug] [ThreadPool]: Using duckdb connection "create_dev_main"
+[0m10:32:08.695180 [debug] [ThreadPool]: On create_dev_main: COMMIT
+[0m10:32:08.695985 [debug] [ThreadPool]: SQL status: OK in 0.000 seconds
+[0m10:32:08.696649 [debug] [ThreadPool]: On create_dev_main: Close
+[0m10:32:08.699352 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly create_dev_main, now list_dev_main)
+[0m10:32:08.706127 [debug] [ThreadPool]: Using duckdb connection "list_dev_main"
+[0m10:32:08.706977 [debug] [ThreadPool]: On list_dev_main: BEGIN
+[0m10:32:08.707747 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m10:32:08.708889 [debug] [ThreadPool]: SQL status: OK in 0.001 seconds
+[0m10:32:08.709736 [debug] [ThreadPool]: Using duckdb connection "list_dev_main"
+[0m10:32:08.710538 [debug] [ThreadPool]: On list_dev_main: /* {"app": "dbt", "dbt_version": "1.11.11", "profile_name": "trading_log_dbt", "target_name": "dev", "connection_name": "list_dev_main"} */
+select
+      'dev' as database,
+      table_name as name,
+      table_schema as schema,
+      CASE table_type
+        WHEN 'BASE TABLE' THEN 'table'
+        WHEN 'VIEW' THEN 'view'
+        WHEN 'LOCAL TEMPORARY' THEN 'table'
+        END as type
+    from system.information_schema.tables
+    where lower(table_schema) = 'main'
+    and lower(table_catalog) = 'dev'
+  
+[0m10:32:08.736205 [debug] [ThreadPool]: SQL status: OK in 0.025 seconds
+[0m10:32:08.738725 [debug] [ThreadPool]: On list_dev_main: ROLLBACK
+[0m10:32:08.740867 [debug] [ThreadPool]: Failed to rollback 'list_dev_main'
+[0m10:32:08.741570 [debug] [ThreadPool]: On list_dev_main: Close
+[0m10:32:08.742895 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '7a36bdc1-9b21-4544-ad4d-52c2075d0b54', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7e7cf4606f00>]}
+[0m10:32:08.743543 [debug] [MainThread]: Using duckdb connection "master"
+[0m10:32:08.744306 [debug] [MainThread]: On master: BEGIN
+[0m10:32:08.745027 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m10:32:08.746141 [debug] [MainThread]: SQL status: OK in 0.001 seconds
+[0m10:32:08.746847 [debug] [MainThread]: On master: COMMIT
+[0m10:32:08.747540 [debug] [MainThread]: Using duckdb connection "master"
+[0m10:32:08.748185 [debug] [MainThread]: On master: COMMIT
+[0m10:32:08.748873 [debug] [MainThread]: SQL status: OK in 0.000 seconds
+[0m10:32:08.749384 [debug] [MainThread]: On master: Close
+[0m10:32:08.753162 [debug] [Thread-1 (]: Began running node model.trading_log_dbt.stg_tradelog
+[0m10:32:08.753915 [info ] [Thread-1 (]: 1 of 1 START sql view model main.stg_tradelog .................................. [RUN]
+[0m10:32:08.754601 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly list_dev_main, now model.trading_log_dbt.stg_tradelog)
+[0m10:32:08.755158 [debug] [Thread-1 (]: Began compiling node model.trading_log_dbt.stg_tradelog
+[0m10:32:08.764049 [debug] [Thread-1 (]: Writing injected SQL for node "model.trading_log_dbt.stg_tradelog"
+[0m10:32:08.765142 [debug] [Thread-1 (]: Began executing node model.trading_log_dbt.stg_tradelog
+[0m10:32:08.808748 [debug] [Thread-1 (]: Writing runtime sql for node "model.trading_log_dbt.stg_tradelog"
+[0m10:32:08.809884 [debug] [Thread-1 (]: Using duckdb connection "model.trading_log_dbt.stg_tradelog"
+[0m10:32:08.810428 [debug] [Thread-1 (]: On model.trading_log_dbt.stg_tradelog: BEGIN
+[0m10:32:08.811016 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m10:32:08.811937 [debug] [Thread-1 (]: SQL status: OK in 0.001 seconds
+[0m10:32:08.812473 [debug] [Thread-1 (]: Using duckdb connection "model.trading_log_dbt.stg_tradelog"
+[0m10:32:08.813036 [debug] [Thread-1 (]: On model.trading_log_dbt.stg_tradelog: /* {"app": "dbt", "dbt_version": "1.11.11", "profile_name": "trading_log_dbt", "target_name": "dev", "node_id": "model.trading_log_dbt.stg_tradelog"} */
+
+  
+  create view "dev"."main"."stg_tradelog__dbt_tmp" as (
+    with raw_data as (
+    select * from 'text 'trading_log_dbt/data/trade_data.csv''
+),
+
+select * from raw_data;
+  );
+
+[0m10:32:08.813862 [debug] [Thread-1 (]: DuckDB adapter: duckdb error: Parser Error: syntax error at or near "/"
+
+LINE 6:     select * from 'text 'trading_log_dbt/data/trade_data.csv''
+                                                ^
+[0m10:32:08.814456 [debug] [Thread-1 (]: DuckDB adapter: Error running SQL: /* {"app": "dbt", "dbt_version": "1.11.11", "profile_name": "trading_log_dbt", "target_name": "dev", "node_id": "model.trading_log_dbt.stg_tradelog"} */
+
+  
+  create view "dev"."main"."stg_tradelog__dbt_tmp" as (
+    with raw_data as (
+    select * from 'text 'trading_log_dbt/data/trade_data.csv''
+),
+
+select * from raw_data;
+  );
+
+[0m10:32:08.815028 [debug] [Thread-1 (]: DuckDB adapter: Rolling back transaction.
+[0m10:32:08.815540 [debug] [Thread-1 (]: On model.trading_log_dbt.stg_tradelog: ROLLBACK
+[0m10:32:08.817154 [debug] [Thread-1 (]: Failed to rollback 'model.trading_log_dbt.stg_tradelog'
+[0m10:32:08.817899 [debug] [Thread-1 (]: On model.trading_log_dbt.stg_tradelog: Close
+[0m10:32:08.863275 [debug] [Thread-1 (]: Runtime Error in model stg_tradelog (trading_log_dbt/models/staging/stg_tradelog.sql)
+  Parser Error: syntax error at or near "/"
+  
+  LINE 6:     select * from 'text 'trading_log_dbt/data/trade_data.csv''
+                                                  ^
+[0m10:32:08.865397 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '7a36bdc1-9b21-4544-ad4d-52c2075d0b54', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7e7cfa5d63f0>]}
+[0m10:32:08.866273 [error] [Thread-1 (]: 1 of 1 ERROR creating sql view model main.stg_tradelog ......................... [[31mERROR[0m in 0.11s]
+[0m10:32:08.867341 [debug] [Thread-1 (]: Finished running node model.trading_log_dbt.stg_tradelog
+[0m10:32:08.868101 [debug] [Thread-4 (]: Marking all children of 'model.trading_log_dbt.stg_tradelog' to be skipped because of status 'error'.  Reason: Runtime Error in model stg_tradelog (trading_log_dbt/models/staging/stg_tradelog.sql)
+  Parser Error: syntax error at or near "/"
+  
+  LINE 6:     select * from 'text 'trading_log_dbt/data/trade_data.csv''
+                                                  ^.
+[0m10:32:08.870312 [debug] [MainThread]: Using duckdb connection "master"
+[0m10:32:08.870828 [debug] [MainThread]: On master: BEGIN
+[0m10:32:08.871270 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m10:32:08.872270 [debug] [MainThread]: SQL status: OK in 0.001 seconds
+[0m10:32:08.872860 [debug] [MainThread]: On master: COMMIT
+[0m10:32:08.873462 [debug] [MainThread]: Using duckdb connection "master"
+[0m10:32:08.874215 [debug] [MainThread]: On master: COMMIT
+[0m10:32:08.875543 [debug] [MainThread]: SQL status: OK in 0.000 seconds
+[0m10:32:08.876471 [debug] [MainThread]: On master: Close
+[0m10:32:08.877166 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m10:32:08.877654 [debug] [MainThread]: Connection 'model.trading_log_dbt.stg_tradelog' was properly closed.
+[0m10:32:08.878187 [info ] [MainThread]: 
+[0m10:32:08.878824 [info ] [MainThread]: Finished running 1 view model in 0 hours 0 minutes and 0.45 seconds (0.45s).
+[0m10:32:08.879778 [debug] [MainThread]: Command end result
+[0m10:32:08.927492 [debug] [MainThread]: Wrote artifact WritableManifest to /workspaces/Trading_analytics-pipeline/target/manifest.json
+[0m10:32:08.931179 [debug] [MainThread]: Wrote artifact SemanticManifest to /workspaces/Trading_analytics-pipeline/target/semantic_manifest.json
+[0m10:32:08.938485 [debug] [MainThread]: Wrote artifact RunExecutionResult to /workspaces/Trading_analytics-pipeline/target/run_results.json
+[0m10:32:08.939195 [info ] [MainThread]: 
+[0m10:32:08.940262 [info ] [MainThread]: [31mCompleted with 1 error, 0 partial successes, and 0 warnings:[0m
+[0m10:32:08.941174 [info ] [MainThread]: 
+[0m10:32:08.942214 [error] [MainThread]: [31mFailure in model stg_tradelog (trading_log_dbt/models/staging/stg_tradelog.sql)[0m
+[0m10:32:08.943037 [error] [MainThread]:   Runtime Error in model stg_tradelog (trading_log_dbt/models/staging/stg_tradelog.sql)
+  Parser Error: syntax error at or near "/"
+  
+  LINE 6:     select * from 'text 'trading_log_dbt/data/trade_data.csv''
+                                                  ^
+[0m10:32:08.943582 [info ] [MainThread]: 
+[0m10:32:08.944267 [info ] [MainThread]:   compiled code at target/compiled/trading_log_dbt/trading_log_dbt/models/staging/stg_tradelog.sql
+[0m10:32:08.944813 [info ] [MainThread]: 
+[0m10:32:08.945485 [info ] [MainThread]: Done. PASS=0 WARN=0 ERROR=1 SKIP=0 NO-OP=0 TOTAL=1
+[0m10:32:08.946989 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": false, "command_wall_clock_time": 1.7016362, "process_in_blocks": "6344", "process_kernel_time": 0.45024, "process_mem_max_rss": "176876", "process_out_blocks": "2184", "process_user_time": 4.43209}
+[0m10:32:08.947945 [debug] [MainThread]: Command `dbt run` failed at 10:32:08.947786 after 1.70 seconds
+[0m10:32:08.949836 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7e7cffc1fc20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7e7cf5810f20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7e7cf5811640>]}
+[0m10:32:08.950654 [debug] [MainThread]: Flushing usage events
+[0m10:32:09.983254 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m10:34:23.553783 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7a1a5a6238f0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7a1a5a9e3980>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7a1a59a73770>]}
+
+
+============================== 10:34:23.562124 | 30c237e8-ed75-4f43-8b3c-484e8801e6d2 ==============================
+[0m10:34:23.562124 [info ] [MainThread]: Running with dbt=1.11.11
+[0m10:34:23.563428 [debug] [MainThread]: running dbt with arguments {'empty': 'False', 'static_parser': 'True', 'quiet': 'False', 'fail_fast': 'False', 'no_print': 'None', 'indirect_selection': 'eager', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'introspect': 'True', 'log_format': 'default', 'invocation_command': 'dbt run --select stg_tradelog', 'log_cache_events': 'False', 'cache_selected_only': 'False', 'version_check': 'True', 'partial_parse': 'True', 'profiles_dir': '/home/codespace/.dbt', 'warn_error': 'None', 'write_json': 'True', 'target_path': 'None', 'printer_width': '80', 'log_path': '/workspaces/Trading_analytics-pipeline/logs', 'send_anonymous_usage_stats': 'True', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False'}
+[0m10:34:23.874020 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '30c237e8-ed75-4f43-8b3c-484e8801e6d2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7a1a54841820>]}
+[0m10:34:23.947144 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '30c237e8-ed75-4f43-8b3c-484e8801e6d2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7a1a596a89e0>]}
+[0m10:34:23.950134 [info ] [MainThread]: Registered adapter: duckdb=1.10.1
+[0m10:34:24.134775 [debug] [MainThread]: checksum: 30a8cc8fdcbf66701b0944d4ccce3fa46dd04b61e5df68b9f16d57b2e0e3f0be, vars: {}, profile: , target: , version: 1.11.11
+[0m10:34:24.255276 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m10:34:24.256125 [debug] [MainThread]: Nothing changed, skipping partial parsing.
+[0m10:34:24.256988 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m10:34:24.322189 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '30c237e8-ed75-4f43-8b3c-484e8801e6d2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7a1a5472a960>]}
+[0m10:34:24.422792 [debug] [MainThread]: Wrote artifact WritableManifest to /workspaces/Trading_analytics-pipeline/target/manifest.json
+[0m10:34:24.425705 [debug] [MainThread]: Wrote artifact SemanticManifest to /workspaces/Trading_analytics-pipeline/target/semantic_manifest.json
+[0m10:34:24.433579 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '30c237e8-ed75-4f43-8b3c-484e8801e6d2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7a1a54197b60>]}
+[0m10:34:24.434280 [info ] [MainThread]: Found 1 model, 1 source, 485 macros
+[0m10:34:24.434982 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '30c237e8-ed75-4f43-8b3c-484e8801e6d2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7a1a541bd310>]}
+[0m10:34:24.437068 [info ] [MainThread]: 
+[0m10:34:24.437774 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m10:34:24.438388 [info ] [MainThread]: 
+[0m10:34:24.439231 [debug] [MainThread]: Acquiring new duckdb connection 'master'
+[0m10:34:24.440501 [debug] [ThreadPool]: Acquiring new duckdb connection 'list_dev'
+[0m10:34:24.568420 [debug] [ThreadPool]: Using duckdb connection "list_dev"
+[0m10:34:24.569327 [debug] [ThreadPool]: On list_dev: /* {"app": "dbt", "dbt_version": "1.11.11", "profile_name": "trading_log_dbt", "target_name": "dev", "connection_name": "list_dev"} */
+
+    
+    select schema_name
+    from system.information_schema.schemata
+    
+    where lower(catalog_name) = '"dev"'
+    
+  
+  
+[0m10:34:24.570167 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m10:34:24.584008 [debug] [ThreadPool]: SQL status: OK in 0.014 seconds
+[0m10:34:24.585456 [debug] [ThreadPool]: On list_dev: Close
+[0m10:34:24.586408 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_dev, now create_dev_main)
+[0m10:34:24.587120 [debug] [ThreadPool]: Creating schema "database: "dev"
+schema: "main"
+"
+[0m10:34:24.594493 [debug] [ThreadPool]: Using duckdb connection "create_dev_main"
+[0m10:34:24.595039 [debug] [ThreadPool]: On create_dev_main: /* {"app": "dbt", "dbt_version": "1.11.11", "profile_name": "trading_log_dbt", "target_name": "dev", "connection_name": "create_dev_main"} */
+
+    
+        select type from duckdb_databases()
+        where lower(database_name)='dev'
+        and type='sqlite'
+    
+  
+[0m10:34:24.595515 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m10:34:24.596579 [debug] [ThreadPool]: SQL status: OK in 0.001 seconds
+[0m10:34:24.598383 [debug] [ThreadPool]: Using duckdb connection "create_dev_main"
+[0m10:34:24.599157 [debug] [ThreadPool]: On create_dev_main: BEGIN
+[0m10:34:24.600787 [debug] [ThreadPool]: SQL status: OK in 0.000 seconds
+[0m10:34:24.601574 [debug] [ThreadPool]: Using duckdb connection "create_dev_main"
+[0m10:34:24.602386 [debug] [ThreadPool]: On create_dev_main: /* {"app": "dbt", "dbt_version": "1.11.11", "profile_name": "trading_log_dbt", "target_name": "dev", "connection_name": "create_dev_main"} */
+
+    
+    
+        create schema if not exists "dev"."main"
+    
+[0m10:34:24.603465 [debug] [ThreadPool]: SQL status: OK in 0.000 seconds
+[0m10:34:24.605524 [debug] [ThreadPool]: On create_dev_main: COMMIT
+[0m10:34:24.606326 [debug] [ThreadPool]: Using duckdb connection "create_dev_main"
+[0m10:34:24.607903 [debug] [ThreadPool]: On create_dev_main: COMMIT
+[0m10:34:24.609715 [debug] [ThreadPool]: SQL status: OK in 0.001 seconds
+[0m10:34:24.611049 [debug] [ThreadPool]: On create_dev_main: Close
+[0m10:34:24.613143 [debug] [ThreadPool]: Acquiring new duckdb connection 'list_dev_main'
+[0m10:34:24.625852 [debug] [ThreadPool]: Using duckdb connection "list_dev_main"
+[0m10:34:24.626539 [debug] [ThreadPool]: On list_dev_main: BEGIN
+[0m10:34:24.627271 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m10:34:24.628397 [debug] [ThreadPool]: SQL status: OK in 0.001 seconds
+[0m10:34:24.629124 [debug] [ThreadPool]: Using duckdb connection "list_dev_main"
+[0m10:34:24.629930 [debug] [ThreadPool]: On list_dev_main: /* {"app": "dbt", "dbt_version": "1.11.11", "profile_name": "trading_log_dbt", "target_name": "dev", "connection_name": "list_dev_main"} */
+select
+      'dev' as database,
+      table_name as name,
+      table_schema as schema,
+      CASE table_type
+        WHEN 'BASE TABLE' THEN 'table'
+        WHEN 'VIEW' THEN 'view'
+        WHEN 'LOCAL TEMPORARY' THEN 'table'
+        END as type
+    from system.information_schema.tables
+    where lower(table_schema) = 'main'
+    and lower(table_catalog) = 'dev'
+  
+[0m10:34:24.636415 [debug] [ThreadPool]: SQL status: OK in 0.006 seconds
+[0m10:34:24.639684 [debug] [ThreadPool]: On list_dev_main: ROLLBACK
+[0m10:34:24.642474 [debug] [ThreadPool]: Failed to rollback 'list_dev_main'
+[0m10:34:24.643492 [debug] [ThreadPool]: On list_dev_main: Close
+[0m10:34:24.644671 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '30c237e8-ed75-4f43-8b3c-484e8801e6d2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7a1a541bd310>]}
+[0m10:34:24.645955 [debug] [MainThread]: Using duckdb connection "master"
+[0m10:34:24.647123 [debug] [MainThread]: On master: BEGIN
+[0m10:34:24.648663 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m10:34:24.650137 [debug] [MainThread]: SQL status: OK in 0.001 seconds
+[0m10:34:24.651285 [debug] [MainThread]: On master: COMMIT
+[0m10:34:24.652331 [debug] [MainThread]: Using duckdb connection "master"
+[0m10:34:24.653156 [debug] [MainThread]: On master: COMMIT
+[0m10:34:24.654214 [debug] [MainThread]: SQL status: OK in 0.000 seconds
+[0m10:34:24.655214 [debug] [MainThread]: On master: Close
+[0m10:34:24.661717 [debug] [Thread-1 (]: Began running node model.trading_log_dbt.stg_tradelog
+[0m10:34:24.663368 [info ] [Thread-1 (]: 1 of 1 START sql view model main.stg_tradelog .................................. [RUN]
+[0m10:34:24.664783 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly list_dev_main, now model.trading_log_dbt.stg_tradelog)
+[0m10:34:24.665621 [debug] [Thread-1 (]: Began compiling node model.trading_log_dbt.stg_tradelog
+[0m10:34:24.684746 [debug] [Thread-1 (]: Writing injected SQL for node "model.trading_log_dbt.stg_tradelog"
+[0m10:34:24.686019 [debug] [Thread-1 (]: Began executing node model.trading_log_dbt.stg_tradelog
+[0m10:34:24.728470 [debug] [Thread-1 (]: Writing runtime sql for node "model.trading_log_dbt.stg_tradelog"
+[0m10:34:24.729665 [debug] [Thread-1 (]: Using duckdb connection "model.trading_log_dbt.stg_tradelog"
+[0m10:34:24.730752 [debug] [Thread-1 (]: On model.trading_log_dbt.stg_tradelog: BEGIN
+[0m10:34:24.731651 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m10:34:24.733176 [debug] [Thread-1 (]: SQL status: OK in 0.002 seconds
+[0m10:34:24.734129 [debug] [Thread-1 (]: Using duckdb connection "model.trading_log_dbt.stg_tradelog"
+[0m10:34:24.735080 [debug] [Thread-1 (]: On model.trading_log_dbt.stg_tradelog: /* {"app": "dbt", "dbt_version": "1.11.11", "profile_name": "trading_log_dbt", "target_name": "dev", "node_id": "model.trading_log_dbt.stg_tradelog"} */
+
+  
+  create view "dev"."main"."stg_tradelog__dbt_tmp" as (
+    with raw_data as (
+    select * from read_csv_auto('trading_log_dbt/data/trade_data.csv')
+),
+
+select * from raw_data;
+  );
+
+[0m10:34:24.736428 [debug] [Thread-1 (]: DuckDB adapter: duckdb error: Parser Error: syntax error at or near "select"
+
+LINE 9: select * from raw_data;
+        ^
+[0m10:34:24.737408 [debug] [Thread-1 (]: DuckDB adapter: Error running SQL: /* {"app": "dbt", "dbt_version": "1.11.11", "profile_name": "trading_log_dbt", "target_name": "dev", "node_id": "model.trading_log_dbt.stg_tradelog"} */
+
+  
+  create view "dev"."main"."stg_tradelog__dbt_tmp" as (
+    with raw_data as (
+    select * from read_csv_auto('trading_log_dbt/data/trade_data.csv')
+),
+
+select * from raw_data;
+  );
+
+[0m10:34:24.738432 [debug] [Thread-1 (]: DuckDB adapter: Rolling back transaction.
+[0m10:34:24.739388 [debug] [Thread-1 (]: On model.trading_log_dbt.stg_tradelog: ROLLBACK
+[0m10:34:24.741922 [debug] [Thread-1 (]: Failed to rollback 'model.trading_log_dbt.stg_tradelog'
+[0m10:34:24.742717 [debug] [Thread-1 (]: On model.trading_log_dbt.stg_tradelog: Close
+[0m10:34:24.746196 [debug] [Thread-1 (]: Runtime Error in model stg_tradelog (trading_log_dbt/models/staging/stg_tradelog.sql)
+  Parser Error: syntax error at or near "select"
+  
+  LINE 9: select * from raw_data;
+          ^
+[0m10:34:24.747913 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '30c237e8-ed75-4f43-8b3c-484e8801e6d2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7a1a5486ac90>]}
+[0m10:34:24.748731 [error] [Thread-1 (]: 1 of 1 ERROR creating sql view model main.stg_tradelog ......................... [[31mERROR[0m in 0.08s]
+[0m10:34:24.749635 [debug] [Thread-1 (]: Finished running node model.trading_log_dbt.stg_tradelog
+[0m10:34:24.750406 [debug] [Thread-4 (]: Marking all children of 'model.trading_log_dbt.stg_tradelog' to be skipped because of status 'error'.  Reason: Runtime Error in model stg_tradelog (trading_log_dbt/models/staging/stg_tradelog.sql)
+  Parser Error: syntax error at or near "select"
+  
+  LINE 9: select * from raw_data;
+          ^.
+[0m10:34:24.752565 [debug] [MainThread]: Using duckdb connection "master"
+[0m10:34:24.753117 [debug] [MainThread]: On master: BEGIN
+[0m10:34:24.753601 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m10:34:24.754419 [debug] [MainThread]: SQL status: OK in 0.001 seconds
+[0m10:34:24.755007 [debug] [MainThread]: On master: COMMIT
+[0m10:34:24.755483 [debug] [MainThread]: Using duckdb connection "master"
+[0m10:34:24.756183 [debug] [MainThread]: On master: COMMIT
+[0m10:34:24.756873 [debug] [MainThread]: SQL status: OK in 0.000 seconds
+[0m10:34:24.757635 [debug] [MainThread]: On master: Close
+[0m10:34:24.758731 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m10:34:24.759263 [debug] [MainThread]: Connection 'create_dev_main' was properly closed.
+[0m10:34:24.759735 [debug] [MainThread]: Connection 'model.trading_log_dbt.stg_tradelog' was properly closed.
+[0m10:34:24.760222 [info ] [MainThread]: 
+[0m10:34:24.760857 [info ] [MainThread]: Finished running 1 view model in 0 hours 0 minutes and 0.32 seconds (0.32s).
+[0m10:34:24.761961 [debug] [MainThread]: Command end result
+[0m10:34:24.836821 [debug] [MainThread]: Wrote artifact WritableManifest to /workspaces/Trading_analytics-pipeline/target/manifest.json
+[0m10:34:24.840370 [debug] [MainThread]: Wrote artifact SemanticManifest to /workspaces/Trading_analytics-pipeline/target/semantic_manifest.json
+[0m10:34:24.848577 [debug] [MainThread]: Wrote artifact RunExecutionResult to /workspaces/Trading_analytics-pipeline/target/run_results.json
+[0m10:34:24.849289 [info ] [MainThread]: 
+[0m10:34:24.850277 [info ] [MainThread]: [31mCompleted with 1 error, 0 partial successes, and 0 warnings:[0m
+[0m10:34:24.851167 [info ] [MainThread]: 
+[0m10:34:24.852182 [error] [MainThread]: [31mFailure in model stg_tradelog (trading_log_dbt/models/staging/stg_tradelog.sql)[0m
+[0m10:34:24.853148 [error] [MainThread]:   Runtime Error in model stg_tradelog (trading_log_dbt/models/staging/stg_tradelog.sql)
+  Parser Error: syntax error at or near "select"
+  
+  LINE 9: select * from raw_data;
+          ^
+[0m10:34:24.853828 [info ] [MainThread]: 
+[0m10:34:24.854468 [info ] [MainThread]:   compiled code at target/compiled/trading_log_dbt/trading_log_dbt/models/staging/stg_tradelog.sql
+[0m10:34:24.855155 [info ] [MainThread]: 
+[0m10:34:24.855811 [info ] [MainThread]: Done. PASS=0 WARN=0 ERROR=1 SKIP=0 NO-OP=0 TOTAL=1
+[0m10:34:24.857338 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": false, "command_wall_clock_time": 1.3794676, "process_in_blocks": "976", "process_kernel_time": 0.425525, "process_mem_max_rss": "181956", "process_out_blocks": "2192", "process_user_time": 4.469983}
+[0m10:34:24.858384 [debug] [MainThread]: Command `dbt run` failed at 10:34:24.858230 after 1.38 seconds
+[0m10:34:24.859168 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7a1a59a01e80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7a1a59a035c0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7a1a5480e540>]}
+[0m10:34:24.859783 [debug] [MainThread]: Flushing usage events
+[0m10:34:25.854559 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m10:34:48.871203 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7727f0e7e8a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7727f147ed20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7727f31cb5c0>]}
+
+
+============================== 10:34:48.879837 | d2edce6f-4266-4ee5-8f72-83bd3b808fda ==============================
+[0m10:34:48.879837 [info ] [MainThread]: Running with dbt=1.11.11
+[0m10:34:48.882044 [debug] [MainThread]: running dbt with arguments {'no_print': 'None', 'send_anonymous_usage_stats': 'True', 'write_json': 'True', 'indirect_selection': 'eager', 'quiet': 'False', 'version_check': 'True', 'printer_width': '80', 'log_format': 'default', 'debug': 'False', 'partial_parse': 'True', 'log_path': '/workspaces/Trading_analytics-pipeline/logs', 'invocation_command': 'dbt run --select stg_tradelog', 'warn_error': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'fail_fast': 'False', 'empty': 'False', 'introspect': 'True', 'log_cache_events': 'False', 'use_experimental_parser': 'False', 'target_path': 'None', 'static_parser': 'True', 'profiles_dir': '/home/codespace/.dbt', 'use_colors': 'True', 'cache_selected_only': 'False'}
+[0m10:34:49.201238 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'd2edce6f-4266-4ee5-8f72-83bd3b808fda', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7727eb7e6ab0>]}
+[0m10:34:49.285343 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'd2edce6f-4266-4ee5-8f72-83bd3b808fda', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7727f04816a0>]}
+[0m10:34:49.287292 [info ] [MainThread]: Registered adapter: duckdb=1.10.1
+[0m10:34:49.451153 [debug] [MainThread]: checksum: 30a8cc8fdcbf66701b0944d4ccce3fa46dd04b61e5df68b9f16d57b2e0e3f0be, vars: {}, profile: , target: , version: 1.11.11
+[0m10:34:49.588691 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m10:34:49.589264 [debug] [MainThread]: Nothing changed, skipping partial parsing.
+[0m10:34:49.589754 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m10:34:49.637446 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'd2edce6f-4266-4ee5-8f72-83bd3b808fda', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7727f0556ea0>]}
+[0m10:34:49.743290 [debug] [MainThread]: Wrote artifact WritableManifest to /workspaces/Trading_analytics-pipeline/target/manifest.json
+[0m10:34:49.746395 [debug] [MainThread]: Wrote artifact SemanticManifest to /workspaces/Trading_analytics-pipeline/target/semantic_manifest.json
+[0m10:34:49.754823 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'd2edce6f-4266-4ee5-8f72-83bd3b808fda', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7727eaf7d940>]}
+[0m10:34:49.755414 [info ] [MainThread]: Found 1 model, 1 source, 485 macros
+[0m10:34:49.756059 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'd2edce6f-4266-4ee5-8f72-83bd3b808fda', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7727eafc2ab0>]}
+[0m10:34:49.757802 [info ] [MainThread]: 
+[0m10:34:49.758396 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m10:34:49.758971 [info ] [MainThread]: 
+[0m10:34:49.759744 [debug] [MainThread]: Acquiring new duckdb connection 'master'
+[0m10:34:49.760967 [debug] [ThreadPool]: Acquiring new duckdb connection 'list_dev'
+[0m10:34:50.085403 [debug] [ThreadPool]: Using duckdb connection "list_dev"
+[0m10:34:50.086402 [debug] [ThreadPool]: On list_dev: /* {"app": "dbt", "dbt_version": "1.11.11", "profile_name": "trading_log_dbt", "target_name": "dev", "connection_name": "list_dev"} */
+
+    
+    select schema_name
+    from system.information_schema.schemata
+    
+    where lower(catalog_name) = '"dev"'
+    
+  
+  
+[0m10:34:50.087333 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m10:34:50.111213 [debug] [ThreadPool]: SQL status: OK in 0.024 seconds
+[0m10:34:50.113563 [debug] [ThreadPool]: On list_dev: Close
+[0m10:34:50.114848 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_dev, now create_dev_main)
+[0m10:34:50.115941 [debug] [ThreadPool]: Creating schema "database: "dev"
+schema: "main"
+"
+[0m10:34:50.130362 [debug] [ThreadPool]: Using duckdb connection "create_dev_main"
+[0m10:34:50.131260 [debug] [ThreadPool]: On create_dev_main: /* {"app": "dbt", "dbt_version": "1.11.11", "profile_name": "trading_log_dbt", "target_name": "dev", "connection_name": "create_dev_main"} */
+
+    
+        select type from duckdb_databases()
+        where lower(database_name)='dev'
+        and type='sqlite'
+    
+  
+[0m10:34:50.132195 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m10:34:50.134126 [debug] [ThreadPool]: SQL status: OK in 0.002 seconds
+[0m10:34:50.137399 [debug] [ThreadPool]: Using duckdb connection "create_dev_main"
+[0m10:34:50.138194 [debug] [ThreadPool]: On create_dev_main: BEGIN
+[0m10:34:50.139237 [debug] [ThreadPool]: SQL status: OK in 0.000 seconds
+[0m10:34:50.140042 [debug] [ThreadPool]: Using duckdb connection "create_dev_main"
+[0m10:34:50.140811 [debug] [ThreadPool]: On create_dev_main: /* {"app": "dbt", "dbt_version": "1.11.11", "profile_name": "trading_log_dbt", "target_name": "dev", "connection_name": "create_dev_main"} */
+
+    
+    
+        create schema if not exists "dev"."main"
+    
+[0m10:34:50.141884 [debug] [ThreadPool]: SQL status: OK in 0.000 seconds
+[0m10:34:50.143858 [debug] [ThreadPool]: On create_dev_main: COMMIT
+[0m10:34:50.144707 [debug] [ThreadPool]: Using duckdb connection "create_dev_main"
+[0m10:34:50.145460 [debug] [ThreadPool]: On create_dev_main: COMMIT
+[0m10:34:50.146464 [debug] [ThreadPool]: SQL status: OK in 0.000 seconds
+[0m10:34:50.147322 [debug] [ThreadPool]: On create_dev_main: Close
+[0m10:34:50.149945 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly create_dev_main, now list_dev_main)
+[0m10:34:50.161517 [debug] [ThreadPool]: Using duckdb connection "list_dev_main"
+[0m10:34:50.162474 [debug] [ThreadPool]: On list_dev_main: BEGIN
+[0m10:34:50.163365 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m10:34:50.165435 [debug] [ThreadPool]: SQL status: OK in 0.002 seconds
+[0m10:34:50.165993 [debug] [ThreadPool]: Using duckdb connection "list_dev_main"
+[0m10:34:50.166493 [debug] [ThreadPool]: On list_dev_main: /* {"app": "dbt", "dbt_version": "1.11.11", "profile_name": "trading_log_dbt", "target_name": "dev", "connection_name": "list_dev_main"} */
+select
+      'dev' as database,
+      table_name as name,
+      table_schema as schema,
+      CASE table_type
+        WHEN 'BASE TABLE' THEN 'table'
+        WHEN 'VIEW' THEN 'view'
+        WHEN 'LOCAL TEMPORARY' THEN 'table'
+        END as type
+    from system.information_schema.tables
+    where lower(table_schema) = 'main'
+    and lower(table_catalog) = 'dev'
+  
+[0m10:34:50.169596 [debug] [ThreadPool]: SQL status: OK in 0.003 seconds
+[0m10:34:50.171081 [debug] [ThreadPool]: On list_dev_main: ROLLBACK
+[0m10:34:50.172448 [debug] [ThreadPool]: Failed to rollback 'list_dev_main'
+[0m10:34:50.172978 [debug] [ThreadPool]: On list_dev_main: Close
+[0m10:34:50.173864 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'd2edce6f-4266-4ee5-8f72-83bd3b808fda', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7727f0556ea0>]}
+[0m10:34:50.174728 [debug] [MainThread]: Using duckdb connection "master"
+[0m10:34:50.175219 [debug] [MainThread]: On master: BEGIN
+[0m10:34:50.175719 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m10:34:50.177640 [debug] [MainThread]: SQL status: OK in 0.002 seconds
+[0m10:34:50.178410 [debug] [MainThread]: On master: COMMIT
+[0m10:34:50.179363 [debug] [MainThread]: Using duckdb connection "master"
+[0m10:34:50.179950 [debug] [MainThread]: On master: COMMIT
+[0m10:34:50.180878 [debug] [MainThread]: SQL status: OK in 0.000 seconds
+[0m10:34:50.181659 [debug] [MainThread]: On master: Close
+[0m10:34:50.184388 [debug] [Thread-1 (]: Began running node model.trading_log_dbt.stg_tradelog
+[0m10:34:50.185122 [info ] [Thread-1 (]: 1 of 1 START sql view model main.stg_tradelog .................................. [RUN]
+[0m10:34:50.185885 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly list_dev_main, now model.trading_log_dbt.stg_tradelog)
+[0m10:34:50.186466 [debug] [Thread-1 (]: Began compiling node model.trading_log_dbt.stg_tradelog
+[0m10:34:50.194822 [debug] [Thread-1 (]: Writing injected SQL for node "model.trading_log_dbt.stg_tradelog"
+[0m10:34:50.195634 [debug] [Thread-1 (]: Began executing node model.trading_log_dbt.stg_tradelog
+[0m10:34:50.260104 [debug] [Thread-1 (]: Writing runtime sql for node "model.trading_log_dbt.stg_tradelog"
+[0m10:34:50.261487 [debug] [Thread-1 (]: Using duckdb connection "model.trading_log_dbt.stg_tradelog"
+[0m10:34:50.262389 [debug] [Thread-1 (]: On model.trading_log_dbt.stg_tradelog: BEGIN
+[0m10:34:50.263274 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m10:34:50.264791 [debug] [Thread-1 (]: SQL status: OK in 0.001 seconds
+[0m10:34:50.265627 [debug] [Thread-1 (]: Using duckdb connection "model.trading_log_dbt.stg_tradelog"
+[0m10:34:50.266557 [debug] [Thread-1 (]: On model.trading_log_dbt.stg_tradelog: /* {"app": "dbt", "dbt_version": "1.11.11", "profile_name": "trading_log_dbt", "target_name": "dev", "node_id": "model.trading_log_dbt.stg_tradelog"} */
+
+  
+  create view "dev"."main"."stg_tradelog__dbt_tmp" as (
+    with raw_data as (
+    select * from read_csv_auto('trading_log_dbt/data/trade_data.csv')
+)
+
+select * from raw_data;
+  );
+
+[0m10:34:50.267923 [debug] [Thread-1 (]: DuckDB adapter: duckdb error: Parser Error: syntax error at or near ";"
+
+LINE 9: select * from raw_data;
+                              ^
+[0m10:34:50.268880 [debug] [Thread-1 (]: DuckDB adapter: Error running SQL: /* {"app": "dbt", "dbt_version": "1.11.11", "profile_name": "trading_log_dbt", "target_name": "dev", "node_id": "model.trading_log_dbt.stg_tradelog"} */
+
+  
+  create view "dev"."main"."stg_tradelog__dbt_tmp" as (
+    with raw_data as (
+    select * from read_csv_auto('trading_log_dbt/data/trade_data.csv')
+)
+
+select * from raw_data;
+  );
+
+[0m10:34:50.269796 [debug] [Thread-1 (]: DuckDB adapter: Rolling back transaction.
+[0m10:34:50.270627 [debug] [Thread-1 (]: On model.trading_log_dbt.stg_tradelog: ROLLBACK
+[0m10:34:50.273354 [debug] [Thread-1 (]: Failed to rollback 'model.trading_log_dbt.stg_tradelog'
+[0m10:34:50.274494 [debug] [Thread-1 (]: On model.trading_log_dbt.stg_tradelog: Close
+[0m10:34:50.284107 [debug] [Thread-1 (]: Runtime Error in model stg_tradelog (trading_log_dbt/models/staging/stg_tradelog.sql)
+  Parser Error: syntax error at or near ";"
+  
+  LINE 9: select * from raw_data;
+                                ^
+[0m10:34:50.290965 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'd2edce6f-4266-4ee5-8f72-83bd3b808fda', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7727eb7e49e0>]}
+[0m10:34:50.292337 [error] [Thread-1 (]: 1 of 1 ERROR creating sql view model main.stg_tradelog ......................... [[31mERROR[0m in 0.10s]
+[0m10:34:50.295762 [debug] [Thread-1 (]: Finished running node model.trading_log_dbt.stg_tradelog
+[0m10:34:50.299261 [debug] [Thread-4 (]: Marking all children of 'model.trading_log_dbt.stg_tradelog' to be skipped because of status 'error'.  Reason: Runtime Error in model stg_tradelog (trading_log_dbt/models/staging/stg_tradelog.sql)
+  Parser Error: syntax error at or near ";"
+  
+  LINE 9: select * from raw_data;
+                                ^.
+[0m10:34:50.305638 [debug] [MainThread]: Using duckdb connection "master"
+[0m10:34:50.307829 [debug] [MainThread]: On master: BEGIN
+[0m10:34:50.308661 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m10:34:50.314769 [debug] [MainThread]: SQL status: OK in 0.006 seconds
+[0m10:34:50.315335 [debug] [MainThread]: On master: COMMIT
+[0m10:34:50.315945 [debug] [MainThread]: Using duckdb connection "master"
+[0m10:34:50.316591 [debug] [MainThread]: On master: COMMIT
+[0m10:34:50.317278 [debug] [MainThread]: SQL status: OK in 0.000 seconds
+[0m10:34:50.317990 [debug] [MainThread]: On master: Close
+[0m10:34:50.319647 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m10:34:50.321035 [debug] [MainThread]: Connection 'model.trading_log_dbt.stg_tradelog' was properly closed.
+[0m10:34:50.322263 [info ] [MainThread]: 
+[0m10:34:50.323980 [info ] [MainThread]: Finished running 1 view model in 0 hours 0 minutes and 0.56 seconds (0.56s).
+[0m10:34:50.325654 [debug] [MainThread]: Command end result
+[0m10:34:50.410492 [debug] [MainThread]: Wrote artifact WritableManifest to /workspaces/Trading_analytics-pipeline/target/manifest.json
+[0m10:34:50.413205 [debug] [MainThread]: Wrote artifact SemanticManifest to /workspaces/Trading_analytics-pipeline/target/semantic_manifest.json
+[0m10:34:50.419960 [debug] [MainThread]: Wrote artifact RunExecutionResult to /workspaces/Trading_analytics-pipeline/target/run_results.json
+[0m10:34:50.420697 [info ] [MainThread]: 
+[0m10:34:50.421551 [info ] [MainThread]: [31mCompleted with 1 error, 0 partial successes, and 0 warnings:[0m
+[0m10:34:50.422374 [info ] [MainThread]: 
+[0m10:34:50.423350 [error] [MainThread]: [31mFailure in model stg_tradelog (trading_log_dbt/models/staging/stg_tradelog.sql)[0m
+[0m10:34:50.424242 [error] [MainThread]:   Runtime Error in model stg_tradelog (trading_log_dbt/models/staging/stg_tradelog.sql)
+  Parser Error: syntax error at or near ";"
+  
+  LINE 9: select * from raw_data;
+                                ^
+[0m10:34:50.425100 [info ] [MainThread]: 
+[0m10:34:50.426119 [info ] [MainThread]:   compiled code at target/compiled/trading_log_dbt/trading_log_dbt/models/staging/stg_tradelog.sql
+[0m10:34:50.427467 [info ] [MainThread]: 
+[0m10:34:50.429900 [info ] [MainThread]: Done. PASS=0 WARN=0 ERROR=1 SKIP=0 NO-OP=0 TOTAL=1
+[0m10:34:50.431880 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": false, "command_wall_clock_time": 1.635073, "process_in_blocks": "0", "process_kernel_time": 0.423816, "process_mem_max_rss": "178068", "process_out_blocks": "2184", "process_user_time": 4.52558}
+[0m10:34:50.434204 [debug] [MainThread]: Command `dbt run` failed at 10:34:50.434043 after 1.64 seconds
+[0m10:34:50.436152 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7727f0e45b80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7727f5854500>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7727eb7e7ce0>]}
+[0m10:34:50.436984 [debug] [MainThread]: Flushing usage events
+[0m10:34:51.331763 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m10:35:35.402190 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x771c463f7740>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x771c47598a40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x771c4748c410>]}
+
+
+============================== 10:35:35.410761 | d9aca66d-2e57-4197-b752-108b5d5f055d ==============================
+[0m10:35:35.410761 [info ] [MainThread]: Running with dbt=1.11.11
+[0m10:35:35.412054 [debug] [MainThread]: running dbt with arguments {'indirect_selection': 'eager', 'invocation_command': 'dbt compile --select stg_tradelog', 'write_json': 'True', 'log_cache_events': 'False', 'use_colors': 'True', 'introspect': 'True', 'use_experimental_parser': 'False', 'cache_selected_only': 'False', 'log_format': 'default', 'warn_error': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'log_path': '/workspaces/Trading_analytics-pipeline/logs', 'static_parser': 'True', 'no_print': 'None', 'quiet': 'False', 'send_anonymous_usage_stats': 'True', 'empty': 'False', 'profiles_dir': '/home/codespace/.dbt', 'target_path': 'None', 'version_check': 'True', 'partial_parse': 'True', 'fail_fast': 'False', 'printer_width': '80', 'debug': 'False'}
+[0m10:35:35.728396 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'd9aca66d-2e57-4197-b752-108b5d5f055d', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x771c47359a60>]}
+[0m10:35:35.816358 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'd9aca66d-2e57-4197-b752-108b5d5f055d', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x771c44a0f9b0>]}
+[0m10:35:35.818341 [info ] [MainThread]: Registered adapter: duckdb=1.10.1
+[0m10:35:35.998086 [debug] [MainThread]: checksum: 30a8cc8fdcbf66701b0944d4ccce3fa46dd04b61e5df68b9f16d57b2e0e3f0be, vars: {}, profile: , target: , version: 1.11.11
+[0m10:35:36.148650 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m10:35:36.149246 [debug] [MainThread]: Nothing changed, skipping partial parsing.
+[0m10:35:36.149739 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m10:35:36.188819 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'd9aca66d-2e57-4197-b752-108b5d5f055d', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x771c3f90b560>]}
+[0m10:35:36.300795 [debug] [MainThread]: Wrote artifact WritableManifest to /workspaces/Trading_analytics-pipeline/target/manifest.json
+[0m10:35:36.304373 [debug] [MainThread]: Wrote artifact SemanticManifest to /workspaces/Trading_analytics-pipeline/target/semantic_manifest.json
+[0m10:35:36.314502 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'd9aca66d-2e57-4197-b752-108b5d5f055d', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x771c3f172ab0>]}
+[0m10:35:36.315754 [info ] [MainThread]: Found 1 model, 1 source, 485 macros
+[0m10:35:36.316537 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'd9aca66d-2e57-4197-b752-108b5d5f055d', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x771c449b2210>]}
+[0m10:35:36.319307 [info ] [MainThread]: 
+[0m10:35:36.320110 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m10:35:36.320899 [info ] [MainThread]: 
+[0m10:35:36.321908 [debug] [MainThread]: Acquiring new duckdb connection 'master'
+[0m10:35:36.323290 [debug] [ThreadPool]: Acquiring new duckdb connection 'list_dev_main'
+[0m10:35:36.459669 [debug] [ThreadPool]: Using duckdb connection "list_dev_main"
+[0m10:35:36.460299 [debug] [ThreadPool]: On list_dev_main: BEGIN
+[0m10:35:36.460843 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m10:35:36.472962 [debug] [ThreadPool]: SQL status: OK in 0.012 seconds
+[0m10:35:36.473482 [debug] [ThreadPool]: Using duckdb connection "list_dev_main"
+[0m10:35:36.474030 [debug] [ThreadPool]: On list_dev_main: /* {"app": "dbt", "dbt_version": "1.11.11", "profile_name": "trading_log_dbt", "target_name": "dev", "connection_name": "list_dev_main"} */
+select
+      'dev' as database,
+      table_name as name,
+      table_schema as schema,
+      CASE table_type
+        WHEN 'BASE TABLE' THEN 'table'
+        WHEN 'VIEW' THEN 'view'
+        WHEN 'LOCAL TEMPORARY' THEN 'table'
+        END as type
+    from system.information_schema.tables
+    where lower(table_schema) = 'main'
+    and lower(table_catalog) = 'dev'
+  
+[0m10:35:36.477966 [debug] [ThreadPool]: SQL status: OK in 0.003 seconds
+[0m10:35:36.479471 [debug] [ThreadPool]: On list_dev_main: ROLLBACK
+[0m10:35:36.480889 [debug] [ThreadPool]: Failed to rollback 'list_dev_main'
+[0m10:35:36.481389 [debug] [ThreadPool]: On list_dev_main: Close
+[0m10:35:36.482335 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'd9aca66d-2e57-4197-b752-108b5d5f055d', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x771c3f1f6c00>]}
+[0m10:35:36.484839 [debug] [Thread-1 (]: Began running node model.trading_log_dbt.stg_tradelog
+[0m10:35:36.485433 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly list_dev_main, now model.trading_log_dbt.stg_tradelog)
+[0m10:35:36.486017 [debug] [Thread-1 (]: Began compiling node model.trading_log_dbt.stg_tradelog
+[0m10:35:36.496990 [debug] [Thread-1 (]: Writing injected SQL for node "model.trading_log_dbt.stg_tradelog"
+[0m10:35:36.498108 [debug] [Thread-1 (]: Began executing node model.trading_log_dbt.stg_tradelog
+[0m10:35:36.501486 [debug] [Thread-1 (]: Finished running node model.trading_log_dbt.stg_tradelog
+[0m10:35:36.505320 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m10:35:36.507821 [debug] [MainThread]: Connection 'model.trading_log_dbt.stg_tradelog' was properly closed.
+[0m10:35:36.508635 [debug] [MainThread]: Command end result
+[0m10:35:36.562405 [debug] [MainThread]: Wrote artifact WritableManifest to /workspaces/Trading_analytics-pipeline/target/manifest.json
+[0m10:35:36.565709 [debug] [MainThread]: Wrote artifact SemanticManifest to /workspaces/Trading_analytics-pipeline/target/semantic_manifest.json
+[0m10:35:36.575170 [debug] [MainThread]: Wrote artifact RunExecutionResult to /workspaces/Trading_analytics-pipeline/target/run_results.json
+[0m10:35:36.575750 [info ] [MainThread]: Compiled node 'stg_tradelog' is:
+with raw_data as (
+    select * from read_csv_auto('trading_log_dbt/data/trade_data.csv')
+)
+
+select * from raw_data;
+[0m10:35:36.579432 [debug] [MainThread]: Resource report: {"command_name": "compile", "command_success": true, "command_wall_clock_time": 1.2530774, "process_in_blocks": "0", "process_kernel_time": 0.400168, "process_mem_max_rss": "181284", "process_out_blocks": "2168", "process_user_time": 4.181511}
+[0m10:35:36.580269 [debug] [MainThread]: Command `dbt compile` succeeded at 10:35:36.580151 after 1.25 seconds
+[0m10:35:36.580829 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x771c44a78fe0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x771c49c5fd10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x771c3e52acc0>]}
+[0m10:35:36.581372 [debug] [MainThread]: Flushing usage events
+[0m10:35:37.440169 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m10:35:54.005210 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7b5e91192000>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7b5e929cce60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7b5e90a032c0>]}
+
+
+============================== 10:35:54.010224 | 95709212-cb81-4e48-957e-718e69c9845d ==============================
+[0m10:35:54.010224 [info ] [MainThread]: Running with dbt=1.11.11
+[0m10:35:54.011289 [debug] [MainThread]: running dbt with arguments {'no_print': 'None', 'cache_selected_only': 'False', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'profiles_dir': '/home/codespace/.dbt', 'log_format': 'default', 'version_check': 'True', 'target_path': 'None', 'quiet': 'False', 'use_experimental_parser': 'False', 'log_path': '/workspaces/Trading_analytics-pipeline/logs', 'introspect': 'True', 'static_parser': 'True', 'invocation_command': 'dbt run --select stg_tradelog', 'warn_error': 'None', 'log_cache_events': 'False', 'partial_parse': 'True', 'fail_fast': 'False', 'write_json': 'True', 'empty': 'False', 'printer_width': '80', 'use_colors': 'True', 'send_anonymous_usage_stats': 'True', 'debug': 'False', 'indirect_selection': 'eager'}
+[0m10:35:54.330849 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '95709212-cb81-4e48-957e-718e69c9845d', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7b5e90a78da0>]}
+[0m10:35:54.407614 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '95709212-cb81-4e48-957e-718e69c9845d', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7b5e90047110>]}
+[0m10:35:54.409539 [info ] [MainThread]: Registered adapter: duckdb=1.10.1
+[0m10:35:54.588287 [debug] [MainThread]: checksum: 30a8cc8fdcbf66701b0944d4ccce3fa46dd04b61e5df68b9f16d57b2e0e3f0be, vars: {}, profile: , target: , version: 1.11.11
+[0m10:35:54.696604 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m10:35:54.697157 [debug] [MainThread]: Nothing changed, skipping partial parsing.
+[0m10:35:54.697647 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m10:35:54.735749 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '95709212-cb81-4e48-957e-718e69c9845d', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7b5e8acf9220>]}
+[0m10:35:54.830877 [debug] [MainThread]: Wrote artifact WritableManifest to /workspaces/Trading_analytics-pipeline/target/manifest.json
+[0m10:35:54.833538 [debug] [MainThread]: Wrote artifact SemanticManifest to /workspaces/Trading_analytics-pipeline/target/semantic_manifest.json
+[0m10:35:54.844119 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '95709212-cb81-4e48-957e-718e69c9845d', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7b5e8a5a5a00>]}
+[0m10:35:54.845020 [info ] [MainThread]: Found 1 model, 1 source, 485 macros
+[0m10:35:54.845847 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '95709212-cb81-4e48-957e-718e69c9845d', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7b5e8ff26630>]}
+[0m10:35:54.848380 [info ] [MainThread]: 
+[0m10:35:54.849211 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m10:35:54.849976 [info ] [MainThread]: 
+[0m10:35:54.851010 [debug] [MainThread]: Acquiring new duckdb connection 'master'
+[0m10:35:54.852707 [debug] [ThreadPool]: Acquiring new duckdb connection 'list_dev'
+[0m10:35:54.983148 [debug] [ThreadPool]: Using duckdb connection "list_dev"
+[0m10:35:54.983847 [debug] [ThreadPool]: On list_dev: /* {"app": "dbt", "dbt_version": "1.11.11", "profile_name": "trading_log_dbt", "target_name": "dev", "connection_name": "list_dev"} */
+
+    
+    select schema_name
+    from system.information_schema.schemata
+    
+    where lower(catalog_name) = '"dev"'
+    
+  
+  
+[0m10:35:54.984361 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m10:35:55.000426 [debug] [ThreadPool]: SQL status: OK in 0.016 seconds
+[0m10:35:55.001940 [debug] [ThreadPool]: On list_dev: Close
+[0m10:35:55.002882 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_dev, now create_dev_main)
+[0m10:35:55.003777 [debug] [ThreadPool]: Creating schema "database: "dev"
+schema: "main"
+"
+[0m10:35:55.018260 [debug] [ThreadPool]: Using duckdb connection "create_dev_main"
+[0m10:35:55.019090 [debug] [ThreadPool]: On create_dev_main: /* {"app": "dbt", "dbt_version": "1.11.11", "profile_name": "trading_log_dbt", "target_name": "dev", "connection_name": "create_dev_main"} */
+
+    
+        select type from duckdb_databases()
+        where lower(database_name)='dev'
+        and type='sqlite'
+    
+  
+[0m10:35:55.020363 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m10:35:55.022071 [debug] [ThreadPool]: SQL status: OK in 0.002 seconds
+[0m10:35:55.024429 [debug] [ThreadPool]: Using duckdb connection "create_dev_main"
+[0m10:35:55.025301 [debug] [ThreadPool]: On create_dev_main: BEGIN
+[0m10:35:55.026290 [debug] [ThreadPool]: SQL status: OK in 0.000 seconds
+[0m10:35:55.027297 [debug] [ThreadPool]: Using duckdb connection "create_dev_main"
+[0m10:35:55.028194 [debug] [ThreadPool]: On create_dev_main: /* {"app": "dbt", "dbt_version": "1.11.11", "profile_name": "trading_log_dbt", "target_name": "dev", "connection_name": "create_dev_main"} */
+
+    
+    
+        create schema if not exists "dev"."main"
+    
+[0m10:35:55.029323 [debug] [ThreadPool]: SQL status: OK in 0.000 seconds
+[0m10:35:55.031380 [debug] [ThreadPool]: On create_dev_main: COMMIT
+[0m10:35:55.032166 [debug] [ThreadPool]: Using duckdb connection "create_dev_main"
+[0m10:35:55.033170 [debug] [ThreadPool]: On create_dev_main: COMMIT
+[0m10:35:55.034733 [debug] [ThreadPool]: SQL status: OK in 0.000 seconds
+[0m10:35:55.035546 [debug] [ThreadPool]: On create_dev_main: Close
+[0m10:35:55.037604 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly create_dev_main, now list_dev_main)
+[0m10:35:55.049986 [debug] [ThreadPool]: Using duckdb connection "list_dev_main"
+[0m10:35:55.051250 [debug] [ThreadPool]: On list_dev_main: BEGIN
+[0m10:35:55.052457 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m10:35:55.053506 [debug] [ThreadPool]: SQL status: OK in 0.001 seconds
+[0m10:35:55.054039 [debug] [ThreadPool]: Using duckdb connection "list_dev_main"
+[0m10:35:55.054553 [debug] [ThreadPool]: On list_dev_main: /* {"app": "dbt", "dbt_version": "1.11.11", "profile_name": "trading_log_dbt", "target_name": "dev", "connection_name": "list_dev_main"} */
+select
+      'dev' as database,
+      table_name as name,
+      table_schema as schema,
+      CASE table_type
+        WHEN 'BASE TABLE' THEN 'table'
+        WHEN 'VIEW' THEN 'view'
+        WHEN 'LOCAL TEMPORARY' THEN 'table'
+        END as type
+    from system.information_schema.tables
+    where lower(table_schema) = 'main'
+    and lower(table_catalog) = 'dev'
+  
+[0m10:35:55.057589 [debug] [ThreadPool]: SQL status: OK in 0.003 seconds
+[0m10:35:55.058992 [debug] [ThreadPool]: On list_dev_main: ROLLBACK
+[0m10:35:55.060363 [debug] [ThreadPool]: Failed to rollback 'list_dev_main'
+[0m10:35:55.060923 [debug] [ThreadPool]: On list_dev_main: Close
+[0m10:35:55.061785 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '95709212-cb81-4e48-957e-718e69c9845d', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7b5e8ff26630>]}
+[0m10:35:55.062595 [debug] [MainThread]: Using duckdb connection "master"
+[0m10:35:55.063151 [debug] [MainThread]: On master: BEGIN
+[0m10:35:55.063628 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m10:35:55.064398 [debug] [MainThread]: SQL status: OK in 0.001 seconds
+[0m10:35:55.064915 [debug] [MainThread]: On master: COMMIT
+[0m10:35:55.065377 [debug] [MainThread]: Using duckdb connection "master"
+[0m10:35:55.065928 [debug] [MainThread]: On master: COMMIT
+[0m10:35:55.066558 [debug] [MainThread]: SQL status: OK in 0.000 seconds
+[0m10:35:55.067083 [debug] [MainThread]: On master: Close
+[0m10:35:55.069524 [debug] [Thread-1 (]: Began running node model.trading_log_dbt.stg_tradelog
+[0m10:35:55.070270 [info ] [Thread-1 (]: 1 of 1 START sql view model main.stg_tradelog .................................. [RUN]
+[0m10:35:55.071053 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly list_dev_main, now model.trading_log_dbt.stg_tradelog)
+[0m10:35:55.071609 [debug] [Thread-1 (]: Began compiling node model.trading_log_dbt.stg_tradelog
+[0m10:35:55.079660 [debug] [Thread-1 (]: Writing injected SQL for node "model.trading_log_dbt.stg_tradelog"
+[0m10:35:55.080583 [debug] [Thread-1 (]: Began executing node model.trading_log_dbt.stg_tradelog
+[0m10:35:55.123882 [debug] [Thread-1 (]: Writing runtime sql for node "model.trading_log_dbt.stg_tradelog"
+[0m10:35:55.124788 [debug] [Thread-1 (]: Using duckdb connection "model.trading_log_dbt.stg_tradelog"
+[0m10:35:55.125342 [debug] [Thread-1 (]: On model.trading_log_dbt.stg_tradelog: BEGIN
+[0m10:35:55.125910 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m10:35:55.126909 [debug] [Thread-1 (]: SQL status: OK in 0.001 seconds
+[0m10:35:55.127452 [debug] [Thread-1 (]: Using duckdb connection "model.trading_log_dbt.stg_tradelog"
+[0m10:35:55.128014 [debug] [Thread-1 (]: On model.trading_log_dbt.stg_tradelog: /* {"app": "dbt", "dbt_version": "1.11.11", "profile_name": "trading_log_dbt", "target_name": "dev", "node_id": "model.trading_log_dbt.stg_tradelog"} */
+
+  
+  create view "dev"."main"."stg_tradelog__dbt_tmp" as (
+    with raw_data as (
+    select * from read_csv_auto('trading_log_dbt/data/trade_data.csv')
+)
+
+select * from raw_data;
+  );
+
+[0m10:35:55.128873 [debug] [Thread-1 (]: DuckDB adapter: duckdb error: Parser Error: syntax error at or near ";"
+
+LINE 9: select * from raw_data;
+                              ^
+[0m10:35:55.129445 [debug] [Thread-1 (]: DuckDB adapter: Error running SQL: /* {"app": "dbt", "dbt_version": "1.11.11", "profile_name": "trading_log_dbt", "target_name": "dev", "node_id": "model.trading_log_dbt.stg_tradelog"} */
+
+  
+  create view "dev"."main"."stg_tradelog__dbt_tmp" as (
+    with raw_data as (
+    select * from read_csv_auto('trading_log_dbt/data/trade_data.csv')
+)
+
+select * from raw_data;
+  );
+
+[0m10:35:55.130026 [debug] [Thread-1 (]: DuckDB adapter: Rolling back transaction.
+[0m10:35:55.130543 [debug] [Thread-1 (]: On model.trading_log_dbt.stg_tradelog: ROLLBACK
+[0m10:35:55.132387 [debug] [Thread-1 (]: Failed to rollback 'model.trading_log_dbt.stg_tradelog'
+[0m10:35:55.133441 [debug] [Thread-1 (]: On model.trading_log_dbt.stg_tradelog: Close
+[0m10:35:55.139157 [debug] [Thread-1 (]: Runtime Error in model stg_tradelog (trading_log_dbt/models/staging/stg_tradelog.sql)
+  Parser Error: syntax error at or near ";"
+  
+  LINE 9: select * from raw_data;
+                                ^
+[0m10:35:55.141730 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '95709212-cb81-4e48-957e-718e69c9845d', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7b5e8ac6d8e0>]}
+[0m10:35:55.142600 [error] [Thread-1 (]: 1 of 1 ERROR creating sql view model main.stg_tradelog ......................... [[31mERROR[0m in 0.07s]
+[0m10:35:55.144081 [debug] [Thread-1 (]: Finished running node model.trading_log_dbt.stg_tradelog
+[0m10:35:55.145225 [debug] [Thread-4 (]: Marking all children of 'model.trading_log_dbt.stg_tradelog' to be skipped because of status 'error'.  Reason: Runtime Error in model stg_tradelog (trading_log_dbt/models/staging/stg_tradelog.sql)
+  Parser Error: syntax error at or near ";"
+  
+  LINE 9: select * from raw_data;
+                                ^.
+[0m10:35:55.147314 [debug] [MainThread]: Using duckdb connection "master"
+[0m10:35:55.147842 [debug] [MainThread]: On master: BEGIN
+[0m10:35:55.148289 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m10:35:55.149170 [debug] [MainThread]: SQL status: OK in 0.001 seconds
+[0m10:35:55.151055 [debug] [MainThread]: On master: COMMIT
+[0m10:35:55.153446 [debug] [MainThread]: Using duckdb connection "master"
+[0m10:35:55.154271 [debug] [MainThread]: On master: COMMIT
+[0m10:35:55.156963 [debug] [MainThread]: SQL status: OK in 0.002 seconds
+[0m10:35:55.158196 [debug] [MainThread]: On master: Close
+[0m10:35:55.159213 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m10:35:55.160017 [debug] [MainThread]: Connection 'model.trading_log_dbt.stg_tradelog' was properly closed.
+[0m10:35:55.160877 [info ] [MainThread]: 
+[0m10:35:55.161914 [info ] [MainThread]: Finished running 1 view model in 0 hours 0 minutes and 0.31 seconds (0.31s).
+[0m10:35:55.163548 [debug] [MainThread]: Command end result
+[0m10:35:55.230094 [debug] [MainThread]: Wrote artifact WritableManifest to /workspaces/Trading_analytics-pipeline/target/manifest.json
+[0m10:35:55.233033 [debug] [MainThread]: Wrote artifact SemanticManifest to /workspaces/Trading_analytics-pipeline/target/semantic_manifest.json
+[0m10:35:55.242728 [debug] [MainThread]: Wrote artifact RunExecutionResult to /workspaces/Trading_analytics-pipeline/target/run_results.json
+[0m10:35:55.243537 [info ] [MainThread]: 
+[0m10:35:55.244716 [info ] [MainThread]: [31mCompleted with 1 error, 0 partial successes, and 0 warnings:[0m
+[0m10:35:55.245525 [info ] [MainThread]: 
+[0m10:35:55.246479 [error] [MainThread]: [31mFailure in model stg_tradelog (trading_log_dbt/models/staging/stg_tradelog.sql)[0m
+[0m10:35:55.247402 [error] [MainThread]:   Runtime Error in model stg_tradelog (trading_log_dbt/models/staging/stg_tradelog.sql)
+  Parser Error: syntax error at or near ";"
+  
+  LINE 9: select * from raw_data;
+                                ^
+[0m10:35:55.248161 [info ] [MainThread]: 
+[0m10:35:55.248872 [info ] [MainThread]:   compiled code at target/compiled/trading_log_dbt/trading_log_dbt/models/staging/stg_tradelog.sql
+[0m10:35:55.249662 [info ] [MainThread]: 
+[0m10:35:55.250560 [info ] [MainThread]: Done. PASS=0 WARN=0 ERROR=1 SKIP=0 NO-OP=0 TOTAL=1
+[0m10:35:55.252259 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": false, "command_wall_clock_time": 1.3234471, "process_in_blocks": "0", "process_kernel_time": 0.418524, "process_mem_max_rss": "181968", "process_out_blocks": "2184", "process_user_time": 4.490342}
+[0m10:35:55.253124 [debug] [MainThread]: Command `dbt run` failed at 10:35:55.252960 after 1.32 seconds
+[0m10:35:55.254013 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7b5e8ac09040>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7b5e8ac0bd10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7b5e8ac0a270>]}
+[0m10:35:55.254896 [debug] [MainThread]: Flushing usage events
+[0m10:35:56.206494 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m10:36:33.978588 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x72c9abc1f320>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x72c9ad36bad0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x72c9abc1e330>]}
+
+
+============================== 10:36:33.984244 | d9fa7831-fb76-41e7-9134-3eae049fda73 ==============================
+[0m10:36:33.984244 [info ] [MainThread]: Running with dbt=1.11.11
+[0m10:36:33.985570 [debug] [MainThread]: running dbt with arguments {'debug': 'False', 'log_path': '/workspaces/Trading_analytics-pipeline/logs', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'version_check': 'True', 'send_anonymous_usage_stats': 'True', 'warn_error': 'None', 'cache_selected_only': 'False', 'profiles_dir': '/home/codespace/.dbt', 'introspect': 'True', 'fail_fast': 'False', 'write_json': 'True', 'printer_width': '80', 'static_parser': 'True', 'target_path': 'None', 'use_experimental_parser': 'False', 'log_format': 'default', 'invocation_command': 'dbt run --select stg_tradelog', 'no_print': 'None', 'log_cache_events': 'False', 'empty': 'False', 'partial_parse': 'True', 'indirect_selection': 'eager', 'use_colors': 'True', 'quiet': 'False'}
+[0m10:36:34.319387 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'd9fa7831-fb76-41e7-9134-3eae049fda73', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x72c9a6be0d70>]}
+[0m10:36:34.398321 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'd9fa7831-fb76-41e7-9134-3eae049fda73', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x72c9ac1dd760>]}
+[0m10:36:34.400286 [info ] [MainThread]: Registered adapter: duckdb=1.10.1
+[0m10:36:34.562196 [debug] [MainThread]: checksum: 30a8cc8fdcbf66701b0944d4ccce3fa46dd04b61e5df68b9f16d57b2e0e3f0be, vars: {}, profile: , target: , version: 1.11.11
+[0m10:36:34.709853 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m10:36:34.710792 [debug] [MainThread]: Nothing changed, skipping partial parsing.
+[0m10:36:34.711635 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m10:36:34.778873 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'd9fa7831-fb76-41e7-9134-3eae049fda73', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x72c9a6a6a570>]}
+[0m10:36:34.900028 [debug] [MainThread]: Wrote artifact WritableManifest to /workspaces/Trading_analytics-pipeline/target/manifest.json
+[0m10:36:34.902992 [debug] [MainThread]: Wrote artifact SemanticManifest to /workspaces/Trading_analytics-pipeline/target/semantic_manifest.json
+[0m10:36:34.910968 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'd9fa7831-fb76-41e7-9134-3eae049fda73', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x72c9a63bc320>]}
+[0m10:36:34.911597 [info ] [MainThread]: Found 1 model, 1 source, 485 macros
+[0m10:36:34.912248 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'd9fa7831-fb76-41e7-9134-3eae049fda73', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x72c9a63d5520>]}
+[0m10:36:34.913990 [info ] [MainThread]: 
+[0m10:36:34.914580 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m10:36:34.915159 [info ] [MainThread]: 
+[0m10:36:34.915936 [debug] [MainThread]: Acquiring new duckdb connection 'master'
+[0m10:36:34.917135 [debug] [ThreadPool]: Acquiring new duckdb connection 'list_dev'
+[0m10:36:35.062561 [debug] [ThreadPool]: Using duckdb connection "list_dev"
+[0m10:36:35.063234 [debug] [ThreadPool]: On list_dev: /* {"app": "dbt", "dbt_version": "1.11.11", "profile_name": "trading_log_dbt", "target_name": "dev", "connection_name": "list_dev"} */
+
+    
+    select schema_name
+    from system.information_schema.schemata
+    
+    where lower(catalog_name) = '"dev"'
+    
+  
+  
+[0m10:36:35.063775 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m10:36:35.084212 [debug] [ThreadPool]: SQL status: OK in 0.020 seconds
+[0m10:36:35.085818 [debug] [ThreadPool]: On list_dev: Close
+[0m10:36:35.086809 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_dev, now create_dev_main)
+[0m10:36:35.087472 [debug] [ThreadPool]: Creating schema "database: "dev"
+schema: "main"
+"
+[0m10:36:35.095960 [debug] [ThreadPool]: Using duckdb connection "create_dev_main"
+[0m10:36:35.096666 [debug] [ThreadPool]: On create_dev_main: /* {"app": "dbt", "dbt_version": "1.11.11", "profile_name": "trading_log_dbt", "target_name": "dev", "connection_name": "create_dev_main"} */
+
+    
+        select type from duckdb_databases()
+        where lower(database_name)='dev'
+        and type='sqlite'
+    
+  
+[0m10:36:35.097389 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m10:36:35.098759 [debug] [ThreadPool]: SQL status: OK in 0.001 seconds
+[0m10:36:35.100440 [debug] [ThreadPool]: Using duckdb connection "create_dev_main"
+[0m10:36:35.101215 [debug] [ThreadPool]: On create_dev_main: BEGIN
+[0m10:36:35.102222 [debug] [ThreadPool]: SQL status: OK in 0.000 seconds
+[0m10:36:35.102965 [debug] [ThreadPool]: Using duckdb connection "create_dev_main"
+[0m10:36:35.103518 [debug] [ThreadPool]: On create_dev_main: /* {"app": "dbt", "dbt_version": "1.11.11", "profile_name": "trading_log_dbt", "target_name": "dev", "connection_name": "create_dev_main"} */
+
+    
+    
+        create schema if not exists "dev"."main"
+    
+[0m10:36:35.104253 [debug] [ThreadPool]: SQL status: OK in 0.000 seconds
+[0m10:36:35.105386 [debug] [ThreadPool]: On create_dev_main: COMMIT
+[0m10:36:35.105922 [debug] [ThreadPool]: Using duckdb connection "create_dev_main"
+[0m10:36:35.106437 [debug] [ThreadPool]: On create_dev_main: COMMIT
+[0m10:36:35.107127 [debug] [ThreadPool]: SQL status: OK in 0.000 seconds
+[0m10:36:35.107745 [debug] [ThreadPool]: On create_dev_main: Close
+[0m10:36:35.109089 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly create_dev_main, now list_dev_main)
+[0m10:36:35.114976 [debug] [ThreadPool]: Using duckdb connection "list_dev_main"
+[0m10:36:35.115473 [debug] [ThreadPool]: On list_dev_main: BEGIN
+[0m10:36:35.115967 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m10:36:35.116723 [debug] [ThreadPool]: SQL status: OK in 0.001 seconds
+[0m10:36:35.117230 [debug] [ThreadPool]: Using duckdb connection "list_dev_main"
+[0m10:36:35.117752 [debug] [ThreadPool]: On list_dev_main: /* {"app": "dbt", "dbt_version": "1.11.11", "profile_name": "trading_log_dbt", "target_name": "dev", "connection_name": "list_dev_main"} */
+select
+      'dev' as database,
+      table_name as name,
+      table_schema as schema,
+      CASE table_type
+        WHEN 'BASE TABLE' THEN 'table'
+        WHEN 'VIEW' THEN 'view'
+        WHEN 'LOCAL TEMPORARY' THEN 'table'
+        END as type
+    from system.information_schema.tables
+    where lower(table_schema) = 'main'
+    and lower(table_catalog) = 'dev'
+  
+[0m10:36:35.120932 [debug] [ThreadPool]: SQL status: OK in 0.003 seconds
+[0m10:36:35.122303 [debug] [ThreadPool]: On list_dev_main: ROLLBACK
+[0m10:36:35.123663 [debug] [ThreadPool]: Failed to rollback 'list_dev_main'
+[0m10:36:35.124190 [debug] [ThreadPool]: On list_dev_main: Close
+[0m10:36:35.125009 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'd9fa7831-fb76-41e7-9134-3eae049fda73', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x72c9a6a1b2f0>]}
+[0m10:36:35.125855 [debug] [MainThread]: Using duckdb connection "master"
+[0m10:36:35.126335 [debug] [MainThread]: On master: BEGIN
+[0m10:36:35.126842 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m10:36:35.127546 [debug] [MainThread]: SQL status: OK in 0.001 seconds
+[0m10:36:35.128074 [debug] [MainThread]: On master: COMMIT
+[0m10:36:35.128590 [debug] [MainThread]: Using duckdb connection "master"
+[0m10:36:35.129098 [debug] [MainThread]: On master: COMMIT
+[0m10:36:35.129747 [debug] [MainThread]: SQL status: OK in 0.000 seconds
+[0m10:36:35.130239 [debug] [MainThread]: On master: Close
+[0m10:36:35.136368 [debug] [Thread-1 (]: Began running node model.trading_log_dbt.stg_tradelog
+[0m10:36:35.138450 [info ] [Thread-1 (]: 1 of 1 START sql view model main.stg_tradelog .................................. [RUN]
+[0m10:36:35.139581 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly list_dev_main, now model.trading_log_dbt.stg_tradelog)
+[0m10:36:35.141270 [debug] [Thread-1 (]: Began compiling node model.trading_log_dbt.stg_tradelog
+[0m10:36:35.154901 [debug] [Thread-1 (]: Writing injected SQL for node "model.trading_log_dbt.stg_tradelog"
+[0m10:36:35.158867 [debug] [Thread-1 (]: Began executing node model.trading_log_dbt.stg_tradelog
+[0m10:36:35.215854 [debug] [Thread-1 (]: Writing runtime sql for node "model.trading_log_dbt.stg_tradelog"
+[0m10:36:35.216901 [debug] [Thread-1 (]: Using duckdb connection "model.trading_log_dbt.stg_tradelog"
+[0m10:36:35.217440 [debug] [Thread-1 (]: On model.trading_log_dbt.stg_tradelog: BEGIN
+[0m10:36:35.217988 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m10:36:35.219095 [debug] [Thread-1 (]: SQL status: OK in 0.001 seconds
+[0m10:36:35.219656 [debug] [Thread-1 (]: Using duckdb connection "model.trading_log_dbt.stg_tradelog"
+[0m10:36:35.220235 [debug] [Thread-1 (]: On model.trading_log_dbt.stg_tradelog: /* {"app": "dbt", "dbt_version": "1.11.11", "profile_name": "trading_log_dbt", "target_name": "dev", "node_id": "model.trading_log_dbt.stg_tradelog"} */
+
+  
+  create view "dev"."main"."stg_tradelog__dbt_tmp" as (
+    with raw_data as (
+    select * from read_csv_auto('trading_log_dbt/data/trade_data.csv')
+)
+
+select * from raw_data
+  );
+
+[0m10:36:35.242383 [debug] [Thread-1 (]: SQL status: OK in 0.021 seconds
+[0m10:36:35.249623 [debug] [Thread-1 (]: Using duckdb connection "model.trading_log_dbt.stg_tradelog"
+[0m10:36:35.250238 [debug] [Thread-1 (]: On model.trading_log_dbt.stg_tradelog: /* {"app": "dbt", "dbt_version": "1.11.11", "profile_name": "trading_log_dbt", "target_name": "dev", "node_id": "model.trading_log_dbt.stg_tradelog"} */
+alter view "dev"."main"."stg_tradelog__dbt_tmp" rename to "stg_tradelog"
+[0m10:36:35.251218 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m10:36:35.264027 [debug] [Thread-1 (]: On model.trading_log_dbt.stg_tradelog: COMMIT
+[0m10:36:35.264610 [debug] [Thread-1 (]: Using duckdb connection "model.trading_log_dbt.stg_tradelog"
+[0m10:36:35.265205 [debug] [Thread-1 (]: On model.trading_log_dbt.stg_tradelog: COMMIT
+[0m10:36:35.275766 [debug] [Thread-1 (]: SQL status: OK in 0.010 seconds
+[0m10:36:35.282720 [debug] [Thread-1 (]: Using duckdb connection "model.trading_log_dbt.stg_tradelog"
+[0m10:36:35.283282 [debug] [Thread-1 (]: On model.trading_log_dbt.stg_tradelog: /* {"app": "dbt", "dbt_version": "1.11.11", "profile_name": "trading_log_dbt", "target_name": "dev", "node_id": "model.trading_log_dbt.stg_tradelog"} */
+
+      drop view if exists "dev"."main"."stg_tradelog__dbt_backup" cascade
+    
+[0m10:36:35.284049 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m10:36:35.286824 [debug] [Thread-1 (]: On model.trading_log_dbt.stg_tradelog: Close
+[0m10:36:35.289440 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'd9fa7831-fb76-41e7-9134-3eae049fda73', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x72c9a5765c10>]}
+[0m10:36:35.290285 [info ] [Thread-1 (]: 1 of 1 OK created sql view model main.stg_tradelog ............................. [[32mOK[0m in 0.15s]
+[0m10:36:35.291196 [debug] [Thread-1 (]: Finished running node model.trading_log_dbt.stg_tradelog
+[0m10:36:35.292823 [debug] [MainThread]: Using duckdb connection "master"
+[0m10:36:35.293302 [debug] [MainThread]: On master: BEGIN
+[0m10:36:35.293765 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m10:36:35.294443 [debug] [MainThread]: SQL status: OK in 0.001 seconds
+[0m10:36:35.295120 [debug] [MainThread]: On master: COMMIT
+[0m10:36:35.295623 [debug] [MainThread]: Using duckdb connection "master"
+[0m10:36:35.296242 [debug] [MainThread]: On master: COMMIT
+[0m10:36:35.297233 [debug] [MainThread]: SQL status: OK in 0.000 seconds
+[0m10:36:35.298079 [debug] [MainThread]: On master: Close
+[0m10:36:35.298964 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m10:36:35.299627 [debug] [MainThread]: Connection 'model.trading_log_dbt.stg_tradelog' was properly closed.
+[0m10:36:35.300176 [info ] [MainThread]: 
+[0m10:36:35.300803 [info ] [MainThread]: Finished running 1 view model in 0 hours 0 minutes and 0.38 seconds (0.38s).
+[0m10:36:35.301757 [debug] [MainThread]: Command end result
+[0m10:36:35.352038 [debug] [MainThread]: Wrote artifact WritableManifest to /workspaces/Trading_analytics-pipeline/target/manifest.json
+[0m10:36:35.355805 [debug] [MainThread]: Wrote artifact SemanticManifest to /workspaces/Trading_analytics-pipeline/target/semantic_manifest.json
+[0m10:36:35.361997 [debug] [MainThread]: Wrote artifact RunExecutionResult to /workspaces/Trading_analytics-pipeline/target/run_results.json
+[0m10:36:35.362736 [info ] [MainThread]: 
+[0m10:36:35.363459 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m10:36:35.364266 [info ] [MainThread]: 
+[0m10:36:35.365154 [info ] [MainThread]: Done. PASS=1 WARN=0 ERROR=0 SKIP=0 NO-OP=0 TOTAL=1
+[0m10:36:35.367335 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": true, "command_wall_clock_time": 1.5226717, "process_in_blocks": "1144", "process_kernel_time": 0.414884, "process_mem_max_rss": "187732", "process_out_blocks": "2192", "process_user_time": 4.64943}
+[0m10:36:35.368015 [debug] [MainThread]: Command `dbt run` succeeded at 10:36:35.367902 after 1.52 seconds
+[0m10:36:35.368552 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x72c9ad6f2f60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x72c9a58653a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x72c9a586fef0>]}
+[0m10:36:35.369248 [debug] [MainThread]: Flushing usage events
+[0m10:36:36.240501 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m10:43:55.008907 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x70a53b9f2ed0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x70a53aecac00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x70a53a9ebec0>]}
+
+
+============================== 10:43:55.015709 | e1a234a8-ceb3-4c29-b2ee-f6eb18879f17 ==============================
+[0m10:43:55.015709 [info ] [MainThread]: Running with dbt=1.11.11
+[0m10:43:55.016859 [debug] [MainThread]: running dbt with arguments {'write_json': 'True', 'version_check': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'log_cache_events': 'False', 'debug': 'False', 'cache_selected_only': 'False', 'use_colors': 'True', 'quiet': 'False', 'log_path': '/workspaces/Trading_analytics-pipeline/logs', 'use_experimental_parser': 'False', 'introspect': 'True', 'indirect_selection': 'eager', 'warn_error': 'None', 'no_print': 'None', 'profiles_dir': '/home/codespace/.dbt', 'send_anonymous_usage_stats': 'True', 'invocation_command': 'dbt compile --select stg_tradelog', 'static_parser': 'True', 'target_path': 'None', 'partial_parse': 'True', 'log_format': 'default', 'fail_fast': 'False', 'printer_width': '80', 'empty': 'False'}
+[0m10:43:55.323143 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'e1a234a8-ceb3-4c29-b2ee-f6eb18879f17', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x70a53d7895e0>]}
+[0m10:43:55.403989 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'e1a234a8-ceb3-4c29-b2ee-f6eb18879f17', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x70a53b3c7980>]}
+[0m10:43:55.405791 [info ] [MainThread]: Registered adapter: duckdb=1.10.1
+[0m10:43:55.639358 [debug] [MainThread]: checksum: 30a8cc8fdcbf66701b0944d4ccce3fa46dd04b61e5df68b9f16d57b2e0e3f0be, vars: {}, profile: , target: , version: 1.11.11
+[0m10:43:55.745958 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m10:43:55.746483 [debug] [MainThread]: Nothing changed, skipping partial parsing.
+[0m10:43:55.746982 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m10:43:55.793408 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'e1a234a8-ceb3-4c29-b2ee-f6eb18879f17', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x70a53aa90320>]}
+[0m10:43:55.926918 [debug] [MainThread]: Wrote artifact WritableManifest to /workspaces/Trading_analytics-pipeline/target/manifest.json
+[0m10:43:55.933844 [debug] [MainThread]: Wrote artifact SemanticManifest to /workspaces/Trading_analytics-pipeline/target/semantic_manifest.json
+[0m10:43:55.966765 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'e1a234a8-ceb3-4c29-b2ee-f6eb18879f17', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x70a53559e900>]}
+[0m10:43:55.970841 [info ] [MainThread]: Found 1 model, 1 source, 485 macros
+[0m10:43:55.971636 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'e1a234a8-ceb3-4c29-b2ee-f6eb18879f17', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x70a5355e86b0>]}
+[0m10:43:55.976495 [info ] [MainThread]: 
+[0m10:43:55.981348 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m10:43:55.984286 [info ] [MainThread]: 
+[0m10:43:55.986485 [debug] [MainThread]: Acquiring new duckdb connection 'master'
+[0m10:43:55.989797 [debug] [ThreadPool]: Acquiring new duckdb connection 'list_dev_main'
+[0m10:43:56.138712 [debug] [ThreadPool]: Using duckdb connection "list_dev_main"
+[0m10:43:56.139327 [debug] [ThreadPool]: On list_dev_main: BEGIN
+[0m10:43:56.139872 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m10:43:56.153904 [debug] [ThreadPool]: SQL status: OK in 0.014 seconds
+[0m10:43:56.154446 [debug] [ThreadPool]: Using duckdb connection "list_dev_main"
+[0m10:43:56.154999 [debug] [ThreadPool]: On list_dev_main: /* {"app": "dbt", "dbt_version": "1.11.11", "profile_name": "trading_log_dbt", "target_name": "dev", "connection_name": "list_dev_main"} */
+select
+      'dev' as database,
+      table_name as name,
+      table_schema as schema,
+      CASE table_type
+        WHEN 'BASE TABLE' THEN 'table'
+        WHEN 'VIEW' THEN 'view'
+        WHEN 'LOCAL TEMPORARY' THEN 'table'
+        END as type
+    from system.information_schema.tables
+    where lower(table_schema) = 'main'
+    and lower(table_catalog) = 'dev'
+  
+[0m10:43:56.158785 [debug] [ThreadPool]: SQL status: OK in 0.003 seconds
+[0m10:43:56.160371 [debug] [ThreadPool]: On list_dev_main: ROLLBACK
+[0m10:43:56.161810 [debug] [ThreadPool]: Failed to rollback 'list_dev_main'
+[0m10:43:56.162309 [debug] [ThreadPool]: On list_dev_main: Close
+[0m10:43:56.163519 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'e1a234a8-ceb3-4c29-b2ee-f6eb18879f17', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x70a53559da00>]}
+[0m10:43:56.166074 [debug] [Thread-1 (]: Began running node model.trading_log_dbt.stg_tradelog
+[0m10:43:56.166711 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly list_dev_main, now model.trading_log_dbt.stg_tradelog)
+[0m10:43:56.167258 [debug] [Thread-1 (]: Began compiling node model.trading_log_dbt.stg_tradelog
+[0m10:43:56.175342 [debug] [Thread-1 (]: Writing injected SQL for node "model.trading_log_dbt.stg_tradelog"
+[0m10:43:56.176207 [debug] [Thread-1 (]: Began executing node model.trading_log_dbt.stg_tradelog
+[0m10:43:56.177114 [debug] [Thread-1 (]: Finished running node model.trading_log_dbt.stg_tradelog
+[0m10:43:56.178337 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m10:43:56.178849 [debug] [MainThread]: Connection 'model.trading_log_dbt.stg_tradelog' was properly closed.
+[0m10:43:56.179645 [debug] [MainThread]: Command end result
+[0m10:43:56.226985 [debug] [MainThread]: Wrote artifact WritableManifest to /workspaces/Trading_analytics-pipeline/target/manifest.json
+[0m10:43:56.230028 [debug] [MainThread]: Wrote artifact SemanticManifest to /workspaces/Trading_analytics-pipeline/target/semantic_manifest.json
+[0m10:43:56.242195 [debug] [MainThread]: Wrote artifact RunExecutionResult to /workspaces/Trading_analytics-pipeline/target/run_results.json
+[0m10:43:56.243109 [info ] [MainThread]: Compiled node 'stg_tradelog' is:
+with raw_data as (
+    select * from read_csv_auto('trading_log_dbt/data/trade_data.csv')
+)
+
+select * from raw_data
+[0m10:43:56.245214 [debug] [MainThread]: Resource report: {"command_name": "compile", "command_success": true, "command_wall_clock_time": 1.3148421, "process_in_blocks": "0", "process_kernel_time": 0.455728, "process_mem_max_rss": "179212", "process_out_blocks": "2168", "process_user_time": 4.399491}
+[0m10:43:56.246294 [debug] [MainThread]: Command `dbt compile` succeeded at 10:43:56.246150 after 1.32 seconds
+[0m10:43:56.247192 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x70a53c3e02c0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x70a53495ac00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x70a53495be30>]}
+[0m10:43:56.248085 [debug] [MainThread]: Flushing usage events
+[0m10:43:57.096371 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m10:44:16.200123 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7066608e1400>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x70665fb0d1c0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x70666203b6b0>]}
+
+
+============================== 10:44:16.205557 | a842af9a-2585-4ce9-a97c-2f5f46b3be03 ==============================
+[0m10:44:16.205557 [info ] [MainThread]: Running with dbt=1.11.11
+[0m10:44:16.207311 [debug] [MainThread]: running dbt with arguments {'fail_fast': 'False', 'static_parser': 'True', 'log_cache_events': 'False', 'use_experimental_parser': 'False', 'write_json': 'True', 'log_format': 'default', 'warn_error': 'None', 'cache_selected_only': 'False', 'use_colors': 'True', 'log_path': '/workspaces/Trading_analytics-pipeline/logs', 'send_anonymous_usage_stats': 'True', 'invocation_command': 'dbt run --select stg_tradelog', 'introspect': 'True', 'debug': 'False', 'target_path': 'None', 'version_check': 'True', 'quiet': 'False', 'printer_width': '80', 'partial_parse': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'no_print': 'None', 'profiles_dir': '/home/codespace/.dbt', 'indirect_selection': 'eager', 'empty': 'False'}
+[0m10:44:16.631293 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'a842af9a-2585-4ce9-a97c-2f5f46b3be03', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x70665a91de80>]}
+[0m10:44:16.705816 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'a842af9a-2585-4ce9-a97c-2f5f46b3be03', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x70665f913a70>]}
+[0m10:44:16.707643 [info ] [MainThread]: Registered adapter: duckdb=1.10.1
+[0m10:44:16.877141 [debug] [MainThread]: checksum: 30a8cc8fdcbf66701b0944d4ccce3fa46dd04b61e5df68b9f16d57b2e0e3f0be, vars: {}, profile: , target: , version: 1.11.11
+[0m10:44:16.995515 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m10:44:16.996178 [debug] [MainThread]: Nothing changed, skipping partial parsing.
+[0m10:44:16.996659 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m10:44:17.039081 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'a842af9a-2585-4ce9-a97c-2f5f46b3be03', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x70665a9f4f80>]}
+[0m10:44:17.141635 [debug] [MainThread]: Wrote artifact WritableManifest to /workspaces/Trading_analytics-pipeline/target/manifest.json
+[0m10:44:17.143997 [debug] [MainThread]: Wrote artifact SemanticManifest to /workspaces/Trading_analytics-pipeline/target/semantic_manifest.json
+[0m10:44:17.153121 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'a842af9a-2585-4ce9-a97c-2f5f46b3be03', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x70665a299850>]}
+[0m10:44:17.153751 [info ] [MainThread]: Found 1 model, 1 source, 485 macros
+[0m10:44:17.154367 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'a842af9a-2585-4ce9-a97c-2f5f46b3be03', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x70665a2e2f00>]}
+[0m10:44:17.156134 [info ] [MainThread]: 
+[0m10:44:17.156752 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m10:44:17.157314 [info ] [MainThread]: 
+[0m10:44:17.158095 [debug] [MainThread]: Acquiring new duckdb connection 'master'
+[0m10:44:17.159289 [debug] [ThreadPool]: Acquiring new duckdb connection 'list_dev'
+[0m10:44:17.286640 [debug] [ThreadPool]: Using duckdb connection "list_dev"
+[0m10:44:17.287326 [debug] [ThreadPool]: On list_dev: /* {"app": "dbt", "dbt_version": "1.11.11", "profile_name": "trading_log_dbt", "target_name": "dev", "connection_name": "list_dev"} */
+
+    
+    select schema_name
+    from system.information_schema.schemata
+    
+    where lower(catalog_name) = '"dev"'
+    
+  
+  
+[0m10:44:17.288052 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m10:44:17.305794 [debug] [ThreadPool]: SQL status: OK in 0.018 seconds
+[0m10:44:17.307239 [debug] [ThreadPool]: On list_dev: Close
+[0m10:44:17.308211 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_dev, now create_dev_main)
+[0m10:44:17.308898 [debug] [ThreadPool]: Creating schema "database: "dev"
+schema: "main"
+"
+[0m10:44:17.316461 [debug] [ThreadPool]: Using duckdb connection "create_dev_main"
+[0m10:44:17.317013 [debug] [ThreadPool]: On create_dev_main: /* {"app": "dbt", "dbt_version": "1.11.11", "profile_name": "trading_log_dbt", "target_name": "dev", "connection_name": "create_dev_main"} */
+
+    
+        select type from duckdb_databases()
+        where lower(database_name)='dev'
+        and type='sqlite'
+    
+  
+[0m10:44:17.317496 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m10:44:17.318549 [debug] [ThreadPool]: SQL status: OK in 0.001 seconds
+[0m10:44:17.319949 [debug] [ThreadPool]: Using duckdb connection "create_dev_main"
+[0m10:44:17.320438 [debug] [ThreadPool]: On create_dev_main: BEGIN
+[0m10:44:17.321124 [debug] [ThreadPool]: SQL status: OK in 0.000 seconds
+[0m10:44:17.321610 [debug] [ThreadPool]: Using duckdb connection "create_dev_main"
+[0m10:44:17.322126 [debug] [ThreadPool]: On create_dev_main: /* {"app": "dbt", "dbt_version": "1.11.11", "profile_name": "trading_log_dbt", "target_name": "dev", "connection_name": "create_dev_main"} */
+
+    
+    
+        create schema if not exists "dev"."main"
+    
+[0m10:44:17.322840 [debug] [ThreadPool]: SQL status: OK in 0.000 seconds
+[0m10:44:17.323961 [debug] [ThreadPool]: On create_dev_main: COMMIT
+[0m10:44:17.324468 [debug] [ThreadPool]: Using duckdb connection "create_dev_main"
+[0m10:44:17.324990 [debug] [ThreadPool]: On create_dev_main: COMMIT
+[0m10:44:17.325641 [debug] [ThreadPool]: SQL status: OK in 0.000 seconds
+[0m10:44:17.326172 [debug] [ThreadPool]: On create_dev_main: Close
+[0m10:44:17.327457 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly create_dev_main, now list_dev_main)
+[0m10:44:17.333220 [debug] [ThreadPool]: Using duckdb connection "list_dev_main"
+[0m10:44:17.333748 [debug] [ThreadPool]: On list_dev_main: BEGIN
+[0m10:44:17.334235 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m10:44:17.334970 [debug] [ThreadPool]: SQL status: OK in 0.001 seconds
+[0m10:44:17.335459 [debug] [ThreadPool]: Using duckdb connection "list_dev_main"
+[0m10:44:17.336010 [debug] [ThreadPool]: On list_dev_main: /* {"app": "dbt", "dbt_version": "1.11.11", "profile_name": "trading_log_dbt", "target_name": "dev", "connection_name": "list_dev_main"} */
+select
+      'dev' as database,
+      table_name as name,
+      table_schema as schema,
+      CASE table_type
+        WHEN 'BASE TABLE' THEN 'table'
+        WHEN 'VIEW' THEN 'view'
+        WHEN 'LOCAL TEMPORARY' THEN 'table'
+        END as type
+    from system.information_schema.tables
+    where lower(table_schema) = 'main'
+    and lower(table_catalog) = 'dev'
+  
+[0m10:44:17.338956 [debug] [ThreadPool]: SQL status: OK in 0.002 seconds
+[0m10:44:17.340415 [debug] [ThreadPool]: On list_dev_main: ROLLBACK
+[0m10:44:17.341821 [debug] [ThreadPool]: Failed to rollback 'list_dev_main'
+[0m10:44:17.342484 [debug] [ThreadPool]: On list_dev_main: Close
+[0m10:44:17.343935 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'a842af9a-2585-4ce9-a97c-2f5f46b3be03', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x70665a145400>]}
+[0m10:44:17.344811 [debug] [MainThread]: Using duckdb connection "master"
+[0m10:44:17.345624 [debug] [MainThread]: On master: BEGIN
+[0m10:44:17.346314 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m10:44:17.347281 [debug] [MainThread]: SQL status: OK in 0.001 seconds
+[0m10:44:17.347986 [debug] [MainThread]: On master: COMMIT
+[0m10:44:17.348635 [debug] [MainThread]: Using duckdb connection "master"
+[0m10:44:17.349344 [debug] [MainThread]: On master: COMMIT
+[0m10:44:17.350321 [debug] [MainThread]: SQL status: OK in 0.000 seconds
+[0m10:44:17.351027 [debug] [MainThread]: On master: Close
+[0m10:44:17.353858 [debug] [Thread-1 (]: Began running node model.trading_log_dbt.stg_tradelog
+[0m10:44:17.354833 [info ] [Thread-1 (]: 1 of 1 START sql view model main.stg_tradelog .................................. [RUN]
+[0m10:44:17.355886 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly list_dev_main, now model.trading_log_dbt.stg_tradelog)
+[0m10:44:17.356652 [debug] [Thread-1 (]: Began compiling node model.trading_log_dbt.stg_tradelog
+[0m10:44:17.373006 [debug] [Thread-1 (]: Writing injected SQL for node "model.trading_log_dbt.stg_tradelog"
+[0m10:44:17.374214 [debug] [Thread-1 (]: Began executing node model.trading_log_dbt.stg_tradelog
+[0m10:44:17.413127 [debug] [Thread-1 (]: Writing runtime sql for node "model.trading_log_dbt.stg_tradelog"
+[0m10:44:17.414148 [debug] [Thread-1 (]: Using duckdb connection "model.trading_log_dbt.stg_tradelog"
+[0m10:44:17.415135 [debug] [Thread-1 (]: On model.trading_log_dbt.stg_tradelog: BEGIN
+[0m10:44:17.416089 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m10:44:17.417408 [debug] [Thread-1 (]: SQL status: OK in 0.001 seconds
+[0m10:44:17.418385 [debug] [Thread-1 (]: Using duckdb connection "model.trading_log_dbt.stg_tradelog"
+[0m10:44:17.419337 [debug] [Thread-1 (]: On model.trading_log_dbt.stg_tradelog: /* {"app": "dbt", "dbt_version": "1.11.11", "profile_name": "trading_log_dbt", "target_name": "dev", "node_id": "model.trading_log_dbt.stg_tradelog"} */
+
+  
+  create view "dev"."main"."stg_tradelog__dbt_tmp" as (
+    with raw_data as (
+    select * from read_csv_auto('trading_log_dbt/data/trade_data.csv')
+)
+
+select * from raw_data
+  );
+
+[0m10:44:17.433701 [debug] [Thread-1 (]: SQL status: OK in 0.013 seconds
+[0m10:44:17.440356 [debug] [Thread-1 (]: Using duckdb connection "model.trading_log_dbt.stg_tradelog"
+[0m10:44:17.441080 [debug] [Thread-1 (]: On model.trading_log_dbt.stg_tradelog: /* {"app": "dbt", "dbt_version": "1.11.11", "profile_name": "trading_log_dbt", "target_name": "dev", "node_id": "model.trading_log_dbt.stg_tradelog"} */
+alter view "dev"."main"."stg_tradelog" rename to "stg_tradelog__dbt_backup"
+[0m10:44:17.442268 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m10:44:17.453308 [debug] [Thread-1 (]: Using duckdb connection "model.trading_log_dbt.stg_tradelog"
+[0m10:44:17.454194 [debug] [Thread-1 (]: On model.trading_log_dbt.stg_tradelog: /* {"app": "dbt", "dbt_version": "1.11.11", "profile_name": "trading_log_dbt", "target_name": "dev", "node_id": "model.trading_log_dbt.stg_tradelog"} */
+alter view "dev"."main"."stg_tradelog__dbt_tmp" rename to "stg_tradelog"
+[0m10:44:17.455447 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m10:44:17.471801 [debug] [Thread-1 (]: On model.trading_log_dbt.stg_tradelog: COMMIT
+[0m10:44:17.472410 [debug] [Thread-1 (]: Using duckdb connection "model.trading_log_dbt.stg_tradelog"
+[0m10:44:17.472991 [debug] [Thread-1 (]: On model.trading_log_dbt.stg_tradelog: COMMIT
+[0m10:44:17.476445 [debug] [Thread-1 (]: SQL status: OK in 0.003 seconds
+[0m10:44:17.482319 [debug] [Thread-1 (]: Using duckdb connection "model.trading_log_dbt.stg_tradelog"
+[0m10:44:17.482919 [debug] [Thread-1 (]: On model.trading_log_dbt.stg_tradelog: /* {"app": "dbt", "dbt_version": "1.11.11", "profile_name": "trading_log_dbt", "target_name": "dev", "node_id": "model.trading_log_dbt.stg_tradelog"} */
+
+      drop view if exists "dev"."main"."stg_tradelog__dbt_backup" cascade
+    
+[0m10:44:17.485005 [debug] [Thread-1 (]: SQL status: OK in 0.002 seconds
+[0m10:44:17.487477 [debug] [Thread-1 (]: On model.trading_log_dbt.stg_tradelog: Close
+[0m10:44:17.489257 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'a842af9a-2585-4ce9-a97c-2f5f46b3be03', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x706659626ed0>]}
+[0m10:44:17.490063 [info ] [Thread-1 (]: 1 of 1 OK created sql view model main.stg_tradelog ............................. [[32mOK[0m in 0.13s]
+[0m10:44:17.490948 [debug] [Thread-1 (]: Finished running node model.trading_log_dbt.stg_tradelog
+[0m10:44:17.492405 [debug] [MainThread]: Using duckdb connection "master"
+[0m10:44:17.492947 [debug] [MainThread]: On master: BEGIN
+[0m10:44:17.493397 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m10:44:17.494228 [debug] [MainThread]: SQL status: OK in 0.001 seconds
+[0m10:44:17.494764 [debug] [MainThread]: On master: COMMIT
+[0m10:44:17.495269 [debug] [MainThread]: Using duckdb connection "master"
+[0m10:44:17.496034 [debug] [MainThread]: On master: COMMIT
+[0m10:44:17.496748 [debug] [MainThread]: SQL status: OK in 0.000 seconds
+[0m10:44:17.497516 [debug] [MainThread]: On master: Close
+[0m10:44:17.498455 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m10:44:17.499262 [debug] [MainThread]: Connection 'model.trading_log_dbt.stg_tradelog' was properly closed.
+[0m10:44:17.500090 [info ] [MainThread]: 
+[0m10:44:17.500929 [info ] [MainThread]: Finished running 1 view model in 0 hours 0 minutes and 0.34 seconds (0.34s).
+[0m10:44:17.502016 [debug] [MainThread]: Command end result
+[0m10:44:17.546267 [debug] [MainThread]: Wrote artifact WritableManifest to /workspaces/Trading_analytics-pipeline/target/manifest.json
+[0m10:44:17.549249 [debug] [MainThread]: Wrote artifact SemanticManifest to /workspaces/Trading_analytics-pipeline/target/semantic_manifest.json
+[0m10:44:17.558177 [debug] [MainThread]: Wrote artifact RunExecutionResult to /workspaces/Trading_analytics-pipeline/target/run_results.json
+[0m10:44:17.558921 [info ] [MainThread]: 
+[0m10:44:17.559901 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m10:44:17.560696 [info ] [MainThread]: 
+[0m10:44:17.561551 [info ] [MainThread]: Done. PASS=1 WARN=0 ERROR=0 SKIP=0 NO-OP=0 TOTAL=1
+[0m10:44:17.563152 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": true, "command_wall_clock_time": 1.4848492, "process_in_blocks": "0", "process_kernel_time": 0.418807, "process_mem_max_rss": "190532", "process_out_blocks": "2208", "process_user_time": 4.372901}
+[0m10:44:17.563829 [debug] [MainThread]: Command `dbt run` succeeded at 10:44:17.563716 after 1.49 seconds
+[0m10:44:17.564378 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x70666203b6b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x706659613c80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x706659611340>]}
+[0m10:44:17.564958 [debug] [MainThread]: Flushing usage events
+[0m10:44:18.415900 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m20:04:58.410151 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x795560f70830>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x79555f6408f0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x79555f2d5580>]}
+
+
+============================== 20:04:58.416295 | 39e3ba08-e996-4791-b7ef-cf78aeeb4c57 ==============================
+[0m20:04:58.416295 [info ] [MainThread]: Running with dbt=1.11.11
+[0m20:04:58.419727 [debug] [MainThread]: running dbt with arguments {'introspect': 'True', 'use_colors': 'True', 'partial_parse': 'True', 'log_path': '/workspaces/Trading_analytics-pipeline/logs', 'empty': 'None', 'target_path': 'None', 'use_experimental_parser': 'False', 'send_anonymous_usage_stats': 'True', 'cache_selected_only': 'False', 'write_json': 'True', 'log_cache_events': 'False', 'invocation_command': 'dbt ', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'profiles_dir': '/home/codespace/.dbt', 'warn_error': 'None', 'version_check': 'True', 'fail_fast': 'False', 'no_print': 'None', 'static_parser': 'True', 'indirect_selection': 'eager', 'log_format': 'default', 'printer_width': '80', 'debug': 'False', 'quiet': 'False'}
+[0m20:04:58.625091 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '39e3ba08-e996-4791-b7ef-cf78aeeb4c57', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x79555e46e600>]}
+[0m20:04:58.640847 [info ] [MainThread]: Warning: No packages were found in packages.yml
+[0m20:04:58.642256 [info ] [MainThread]: Warning: No packages were found in packages.yml
+[0m20:04:58.646819 [debug] [MainThread]: Resource report: {"command_name": "deps", "command_success": true, "command_wall_clock_time": 0.3138595, "process_in_blocks": "512", "process_kernel_time": 0.331209, "process_mem_max_rss": "121004", "process_out_blocks": "16", "process_user_time": 3.084017}
+[0m20:04:58.647988 [debug] [MainThread]: Command `cli deps` succeeded at 20:04:58.647814 after 0.32 seconds
+[0m20:04:58.648977 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x79556351fe00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x79555f4a5a30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x79555f4a7830>]}
+[0m20:04:58.649869 [debug] [MainThread]: Flushing usage events
+[0m20:04:59.731221 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m21:50:48.012336 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x72920bd71be0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x72920dc33ef0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x72920e414fb0>]}
+
+
+============================== 21:50:48.030564 | de82bdff-dfdf-439d-aa30-067e354cca37 ==============================
+[0m21:50:48.030564 [info ] [MainThread]: Running with dbt=1.11.11
+[0m21:50:48.034828 [debug] [MainThread]: running dbt with arguments {'target_path': 'None', 'debug': 'False', 'partial_parse': 'True', 'static_parser': 'True', 'cache_selected_only': 'False', 'fail_fast': 'False', 'log_format': 'default', 'no_print': 'None', 'use_colors': 'True', 'send_anonymous_usage_stats': 'True', 'empty': 'None', 'write_json': 'True', 'profiles_dir': '/home/codespace/.dbt', 'printer_width': '80', 'version_check': 'True', 'log_path': '/workspaces/Trading_analytics-pipeline/logs', 'log_cache_events': 'False', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'introspect': 'True', 'quiet': 'False', 'warn_error': 'None', 'use_experimental_parser': 'False', 'indirect_selection': 'eager', 'invocation_command': 'dbt '}
+[0m21:50:48.533660 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'de82bdff-dfdf-439d-aa30-067e354cca37', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x72920c4d6900>]}
+[0m21:50:48.560832 [info ] [MainThread]: Warning: No packages were found in packages.yml
+[0m21:50:48.564368 [info ] [MainThread]: Warning: No packages were found in packages.yml
+[0m21:50:48.566721 [debug] [MainThread]: Resource report: {"command_name": "deps", "command_success": true, "command_wall_clock_time": 0.6907722, "process_in_blocks": "3920", "process_kernel_time": 0.339395, "process_mem_max_rss": "121044", "process_out_blocks": "8", "process_user_time": 3.978851}
+[0m21:50:48.567784 [debug] [MainThread]: Command `cli deps` succeeded at 21:50:48.567620 after 0.69 seconds
+[0m21:50:48.568629 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x72920bd95f70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x72920bd97500>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x72920bd95340>]}
+[0m21:50:48.569495 [debug] [MainThread]: Flushing usage events
+[0m21:50:49.596037 [debug] [MainThread]: An error was encountered while trying to flush usage events

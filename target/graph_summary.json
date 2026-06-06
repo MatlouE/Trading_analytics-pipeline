@@ -1,1 +1,1 @@
-{"_invocation_id": "7786f66c-484c-4ea8-9d45-271db992aedd", "linked": {}}
+{"_invocation_id": "a842af9a-2585-4ce9-a97c-2f5f46b3be03", "linked": {"0": {"name": "source.trading_log_dbt.raw_data.raw_trading_log", "type": "source", "succ": [1]}, "1": {"name": "model.trading_log_dbt.stg_tradelog", "type": "model"}}}
