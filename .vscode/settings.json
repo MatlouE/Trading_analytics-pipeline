@@ -6,5 +6,8 @@
         "*.tsv": "duckdb.dataFileViewer",
         "*.xlsx": "duckdb.dataFileViewer"
     },
-    "dbt.perspectiveTheme": "Vintage"
+    "dbt.perspectiveTheme": "Vintage",
+    "dbt.pythonPath": "${workspaceFolder}/venv/bin/python",
+    "dbt.profilesDir": "/home/codespace/.dbt",
+    "dbt.projectDir": "${workspaceFolder}/trading_log_dbt"
 }

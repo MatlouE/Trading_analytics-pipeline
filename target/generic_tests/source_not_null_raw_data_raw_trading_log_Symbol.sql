@@ -1,0 +1,1 @@
+{{ test_not_null(column_name="Symbol", model=get_where_subquery(source('raw_data', 'raw_trading_log'))) }}

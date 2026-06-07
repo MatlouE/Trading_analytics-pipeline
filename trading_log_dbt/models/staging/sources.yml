@@ -6,8 +6,6 @@ sources:
     tables:
       - name: raw_trading_log
         description: "trade data csv"
-        meta:
-          external_location: "read_csv_auto('trading_log_dbt/data/trade_data.csv')"
         columns:
           - name: Symbol
             description: "The ticker symbol of the traded security."

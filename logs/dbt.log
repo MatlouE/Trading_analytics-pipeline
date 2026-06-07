@@ -1578,3 +1578,1567 @@ alter view "dev"."main"."stg_tradelog__dbt_tmp" rename to "stg_tradelog"
 [0m21:50:48.568629 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x72920bd95f70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x72920bd97500>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x72920bd95340>]}
 [0m21:50:48.569495 [debug] [MainThread]: Flushing usage events
 [0m21:50:49.596037 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m18:14:58.122209 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9275024620>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9274bc8c20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f927785d820>]}
+
+
+============================== 18:14:58.128733 | cfc282c6-54ba-4f98-ae7b-90499e29ea3f ==============================
+[0m18:14:58.128733 [info ] [MainThread]: Running with dbt=1.11.11
+[0m18:14:58.130676 [debug] [MainThread]: running dbt with arguments {'fail_fast': 'False', 'cache_selected_only': 'False', 'use_colors': 'True', 'log_path': '/workspaces/Trading_analytics-pipeline/logs', 'log_cache_events': 'False', 'write_json': 'True', 'warn_error': 'None', 'quiet': 'False', 'static_parser': 'True', 'empty': 'None', 'target_path': 'None', 'printer_width': '80', 'partial_parse': 'True', 'profiles_dir': '/home/codespace/.dbt', 'version_check': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'invocation_command': 'dbt ', 'log_format': 'default', 'no_print': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'debug': 'False'}
+[0m18:14:58.461787 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'cfc282c6-54ba-4f98-ae7b-90499e29ea3f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9275ea7530>]}
+[0m18:14:58.479908 [info ] [MainThread]: Warning: No packages were found in packages.yml
+[0m18:14:58.481263 [info ] [MainThread]: Warning: No packages were found in packages.yml
+[0m18:14:58.483068 [debug] [MainThread]: Resource report: {"command_name": "deps", "command_success": true, "command_wall_clock_time": 0.46370563, "process_in_blocks": "1216", "process_kernel_time": 0.343762, "process_mem_max_rss": "121124", "process_out_blocks": "8", "process_user_time": 3.606574}
+[0m18:14:58.484052 [debug] [MainThread]: Command `cli deps` succeeded at 18:14:58.483890 after 0.46 seconds
+[0m18:14:58.484895 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9275377c50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f92748ad850>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9274a7c080>]}
+[0m18:14:58.485646 [debug] [MainThread]: Flushing usage events
+[0m18:14:59.456513 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m18:17:56.662242 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7e9c178f0bc0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7e9c16ff7050>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7e9c16f518e0>]}
+
+
+============================== 18:17:56.668036 | 3792d3f6-885f-4c78-8418-aa74a923621b ==============================
+[0m18:17:56.668036 [info ] [MainThread]: Running with dbt=1.11.11
+[0m18:17:56.669262 [debug] [MainThread]: running dbt with arguments {'warn_error': 'None', 'partial_parse': 'True', 'profiles_dir': '/home/codespace/.dbt', 'log_path': '/workspaces/Trading_analytics-pipeline/logs', 'printer_width': '80', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'cache_selected_only': 'False', 'use_experimental_parser': 'False', 'static_parser': 'True', 'quiet': 'False', 'send_anonymous_usage_stats': 'True', 'indirect_selection': 'eager', 'log_format': 'default', 'use_colors': 'True', 'write_json': 'True', 'fail_fast': 'False', 'invocation_command': 'dbt ', 'no_print': 'None', 'debug': 'False', 'target_path': 'None', 'version_check': 'True', 'empty': 'None', 'log_cache_events': 'False'}
+[0m18:17:56.895125 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '3792d3f6-885f-4c78-8418-aa74a923621b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7e9c17198ec0>]}
+[0m18:17:56.912371 [info ] [MainThread]: Warning: No packages were found in packages.yml
+[0m18:17:56.915684 [info ] [MainThread]: Warning: No packages were found in packages.yml
+[0m18:17:56.926732 [debug] [MainThread]: Resource report: {"command_name": "deps", "command_success": true, "command_wall_clock_time": 0.34566355, "process_in_blocks": "1240", "process_kernel_time": 0.292759, "process_mem_max_rss": "121164", "process_out_blocks": "16", "process_user_time": 3.148656}
+[0m18:17:56.927745 [debug] [MainThread]: Command `cli deps` succeeded at 18:17:56.927613 after 0.35 seconds
+[0m18:17:56.928328 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7e9c18ba4dd0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7e9c18ba4f20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7e9c16c2b7d0>]}
+[0m18:17:56.928889 [debug] [MainThread]: Flushing usage events
+[0m18:17:57.771979 [debug] [MainThread]: An error was encountered while trying to flush usage events
+==================== 2026-06-07T18:17:57.863213Z | 019ea34e-4b62-7502-87e5-807dbbda49dc ====================
+18:17:57.863502 [info ]: dbt-fusion 2.0.0-preview.183
+18:17:57.864286 [info ]: Started loading project
+18:17:57.868700 [info ]: Loading ~/.dbt/profiles.yml
+18:17:57.902128 [debug]:    Started loading packages
+18:17:57.903315 [debug]:     Loaded [  0.00s] packages
+18:17:57.904107 [info ]: Finished loading project [  0.04s]
+18:17:57.905123 [info ]: Started parsing
+18:17:57.967773 [error]: [SerializationError (dbt1013)]: YAML error: did not find expected key at line 9 column 17, while parsing a block mapping at line 7 column 9
+  --> trading_log_dbt/models/staging/sources.yml:9:17
+18:17:57.968003 [debug]: Finished parsing trading_log_dbt/models/staging/sources.yml [  0.00s]
+18:17:57.969775 [debug]: Finished parsing trading_log_dbt/models/marts/int_filtering.sql [  0.00s]
+18:17:57.972076 [debug]: Finished parsing trading_log_dbt/models/staging/stg_tradelog.sql [  0.00s]
+18:17:57.986528 [error]: [DependencyNotFound (dbt1048)]: Source 'raw_data.raw_trading_log' not found in project. Searched for 'raw_trading_log'
+  --> trading_log_dbt/models/staging/stg_tradelog.sql:2:19
+18:17:57.987702 [info ]: Finished parsing [  0.08s]
+18:17:58.891588 [info ]: New version available 2.0.0-preview.186 (run `dbt system update`)
+18:17:59.035415 [info ]: suggestion: Run 'dbt deps' to see the latest fusion compatible packages. For compatibility errors, try the autofix script: https://github.com/dbt-labs/dbt-autofix
+18:17:59.035415 [info ]: 
+==================== Execution Summary =====================
+Finished 'run' with 2 errors for target 'dev' [1.2s]
+==================== 2026-06-07T18:20:14.089756Z | 019ea350-5f88-7991-81f6-40403932647c ====================
+18:20:14.092355 [info ]: dbt-fusion 2.0.0-preview.183
+18:20:14.092683 [info ]: Started loading project
+18:20:14.094634 [info ]: Loading ~/.dbt/profiles.yml
+18:20:14.113071 [debug]:    Started loading packages
+18:20:14.114316 [debug]:     Loaded [  0.00s] packages
+18:20:14.115452 [info ]: Finished loading project [  0.02s]
+18:20:14.130613 [info ]: Started parsing
+18:20:14.205867 [debug]: Finished parsing trading_log_dbt/models/staging/sources.yml [  0.00s]
+18:20:14.206912 [error]: [UnusedConfigKey (dbt1060)]: Ignored unexpected key `"external_location"`. YAML path: `external_location`.
+  --> trading_log_dbt/models/staging/sources.yml:9:9
+18:20:14.217129 [debug]: Finished parsing trading_log_dbt/models/marts/int_filtering.sql [  0.01s]
+18:20:14.226483 [debug]: Finished parsing trading_log_dbt/models/staging/stg_tradelog.sql [  0.01s]
+18:20:14.232790 [debug]: Finished parsing target/generic_tests/source_not_null_raw_data_raw_trading_log_Position.sql [  0.00s]
+18:20:14.233338 [debug]: Finished parsing target/generic_tests/source_not_null_raw_data_raw_trading_log_Symbol.sql [  0.00s]
+18:20:14.240240 [info ]: Finished parsing [  0.11s]
+18:20:14.973376 [info ]: New version available 2.0.0-preview.186 (run `dbt system update`)
+18:20:15.139199 [info ]: suggestion: Run 'dbt deps' to see the latest fusion compatible packages. For compatibility errors, try the autofix script: https://github.com/dbt-labs/dbt-autofix
+18:20:15.139199 [info ]: 
+==================== Execution Summary =====================
+Finished 'run' with 1 error for target 'dev' [1.0s]
+==================== 2026-06-07T18:20:47.570055Z | 019ea350-e250-7593-bfec-b93f12ca360e ====================
+18:20:47.570232 [info ]: dbt-fusion 2.0.0-preview.183
+18:20:47.570644 [info ]: Started loading project
+18:20:47.571453 [info ]: Loading ~/.dbt/profiles.yml
+18:20:47.585196 [debug]:    Started loading packages
+18:20:47.585903 [debug]:     Loaded [  0.00s] packages
+18:20:47.586595 [info ]: Finished loading project [  0.02s]
+18:20:47.586918 [info ]: Started parsing
+18:20:47.618927 [debug]: Finished parsing trading_log_dbt/models/staging/sources.yml [  0.00s]
+18:20:47.623191 [debug]: Finished parsing trading_log_dbt/models/marts/int_filtering.sql [  0.00s]
+18:20:47.623611 [debug]: Finished parsing trading_log_dbt/models/staging/stg_tradelog.sql [  0.00s]
+18:20:47.625988 [debug]: Finished parsing target/generic_tests/source_not_null_raw_data_raw_trading_log_Position.sql [  0.00s]
+18:20:47.626656 [debug]: Finished parsing target/generic_tests/source_not_null_raw_data_raw_trading_log_Symbol.sql [  0.00s]
+18:20:47.628804 [info ]: Finished parsing [  0.04s]
+18:20:47.629506 [info ]: Started scheduling
+18:20:47.629756 [info ]: Finished scheduling [  0.00s]
+18:20:47.649178 [debug]: No platform credentials found, skipping remote license
+18:20:47.649349 [debug]: License check failed: Feature not licensed: 'lineage'
+18:20:47.650191 [info ]: Started building task graph
+18:20:47.653191 [info ]: Finished building task graph [  0.00s]
+18:20:52.172418 [debug]: Query executed on node unknown:
+/* {"app": "dbt", "connection_name": "", "dbt_version": "2.0.0", "profile_name": "trading_log_dbt", "target_name": "dev"} */
+
+    
+    select schema_name
+    from system.information_schema.schemata
+    
+    where lower(catalog_name) = '"dev"'
+    
+  
+  
+18:20:52.217766 [debug]: Query executed on node unknown:
+/* {"app": "dbt", "connection_name": "", "dbt_version": "2.0.0", "profile_name": "trading_log_dbt", "target_name": "dev"} */
+
+    
+        select type from duckdb_databases()
+        where lower(database_name)='dev'
+        and type='sqlite'
+    
+  
+18:20:52.218718 [debug]: Query executed on node unknown:
+/* {"app": "dbt", "connection_name": "", "dbt_version": "2.0.0", "profile_name": "trading_log_dbt", "target_name": "dev"} */
+
+    
+    
+        create schema if not exists "dev"."main"
+    
+18:20:52.218853 [info ]: Started rendering (1 nodes)
+18:20:52.218908 [info ]: Started model main.stg_tradelog
+18:20:52.218922 [debug]: Started rendering model main.stg_tradelog
+18:20:52.219747 [debug]: Compiled SQL for node model.trading_log_dbt.stg_tradelog at target/compiled/trading_log_dbt/trading_log_dbt/models/staging/stg_tradelog.sql
+18:20:52.219936 [debug]: Finished rendering [  0.00s] model main.stg_tradelog [success]
+18:20:52.220202 [info ]: Finished rendering [  0.00s] (1 nodes, 0 skipped, 0 errors)
+18:20:52.220270 [info ]: Started analyzing (1 nodes)
+18:20:52.220312 [debug]: Started analyzing model main.stg_tradelog
+18:20:52.237370 [debug]: Finished analyzing [  0.02s] model main.stg_tradelog [success]
+18:20:52.237459 [info ]: Finished analyzing [  0.02s] (1 nodes, 0 skipped, 0 errors)
+18:20:52.237553 [info ]: Started running (1 nodes)
+18:20:52.237596 [info ]: Started running model main.stg_tradelog
+18:20:52.314802 [debug]: Query executed on node model.trading_log_dbt.stg_tradelog:
+SELECT table_catalog, table_schema, table_name, table_type FROM information_schema.tables WHERE table_schema = 'main'
+18:20:52.319723 [debug]: Writing runtime sql for node "model.trading_log_dbt.stg_tradelog"
+18:20:52.622996 [debug]: Query executed on node model.trading_log_dbt.stg_tradelog:
+/* {"app": "dbt", "dbt_version": "2.0.0", "node_id": "model.trading_log_dbt.stg_tradelog", "profile_name": "trading_log_dbt", "target_name": "dev"} */
+
+  
+  create view "dev"."main"."stg_tradelog__dbt_tmp" as (
+    with raw_data as (
+    select * from read_csv_auto('trading_log_dbt/data/trade_data.csv')
+),
+
+-- apply timezone conversion to timestamp columns
+timezoned as (
+    select
+        *,
+        
+    --interprets column as johburg time and converts to ny
+    timezone(
+        'America/New_York',
+        timezone('Africa/Johannesburg', Time)
+    )
+ as entryTime_NY,
+        
+    --interprets column as johburg time and converts to ny
+    timezone(
+        'America/New_York',
+        timezone('Africa/Johannesburg', Time1)
+    )
+ as exitTime_NY
+    from raw_data
+),
+
+-- data cleaning
+staged as (
+    select
+        cast('Time' as timestamp) as entryTime,
+        entryTime_NY,
+        cast('Position' as varchar) as tradeid,
+        cast('Symbol' as varchar) as symbol,
+        cast('Type' as varchar) as type,
+        cast('Volume' as float) as lotsize,
+
+        -- Financial calculations
+        cast('Price' as float) as entry_price,
+        cast('S / L' as float) as stop_loss,
+        cast('T / P' as float) as take_profit,
+        cast('Time1' as timestamp) as exitTime,
+        exitTime_NY,
+        cast('Price1' as float) as exit_price,
+        cast('Profit' as float) as profit,
+    from timezoned
+)
+
+select * from staged
+        
+
+
+  );
+
+18:20:53.636193 [error]: [DbDriverFailed (dbt1308)]: Database Error in model stg_tradelog (target/run/trading_log_dbt/trading_log_dbt/models/staging/stg_tradelog.sql)
+  Binder Error: Referenced column "Time1" not found in FROM clause!
+  Candidate bindings: "Time_1", "Time", "Price_1", "Type", "Price"
+  
+  LINE 24:         timezone('Africa/Johannesburg', Time1)
+                                                   ^
+  (in compiled/trading_log_dbt/trading_log_dbt/models/staging/stg_tradelog.sql:1:4)
+18:20:53.636348 [info ]: Finished running [  1.40s] model main.stg_tradelog [error]
+18:20:53.636440 [info ]: Finished running [  1.40s] (1 nodes, 0 skipped, 1 errors)
+18:20:53.636496 [info ]:     Failed [  1.42s] model main.stg_tradelog (view)
+18:20:53.792821 [info ]: New version available 2.0.0-preview.186 (run `dbt system update`)
+18:20:53.954445 [info ]: 
+==================== Execution Summary =====================
+Finished 'run' with 1 error for target 'dev' [6.4s]
+Processed: 1 model
+Summary: 1 total | 1 error
+==================== 2026-06-07T18:21:40.051572Z | 019ea351-af52-7f31-b914-56d2df1f98a5 ====================
+18:21:40.051713 [info ]: dbt-fusion 2.0.0-preview.183
+18:21:40.052101 [info ]: Started loading project
+18:21:40.052932 [info ]: Loading ~/.dbt/profiles.yml
+18:21:40.073322 [debug]:    Started loading packages
+18:21:40.074128 [debug]:     Loaded [  0.00s] packages
+18:21:40.074820 [info ]: Finished loading project [  0.02s]
+18:21:40.075193 [info ]: Started parsing
+18:21:40.118905 [debug]: Finished parsing trading_log_dbt/models/staging/sources.yml [  0.00s]
+18:21:40.134138 [debug]: Finished parsing trading_log_dbt/models/marts/int_filtering.sql [  0.01s]
+18:21:40.135786 [debug]: Finished parsing trading_log_dbt/models/staging/stg_tradelog.sql [  0.00s]
+18:21:40.138946 [debug]: Finished parsing target/generic_tests/source_not_null_raw_data_raw_trading_log_Position.sql [  0.00s]
+18:21:40.139635 [debug]: Finished parsing target/generic_tests/source_not_null_raw_data_raw_trading_log_Symbol.sql [  0.00s]
+18:21:40.142882 [info ]: Finished parsing [  0.07s]
+18:21:40.143532 [info ]: Started scheduling
+18:21:40.143672 [info ]: Finished scheduling [  0.00s]
+18:21:40.160424 [debug]: No platform credentials found, skipping remote license
+18:21:40.160485 [debug]: License check failed: Feature not licensed: 'lineage'
+18:21:40.161406 [info ]: Started building task graph
+18:21:40.161559 [info ]: Finished building task graph [  0.00s]
+18:21:40.214027 [debug]: Query executed on node unknown:
+/* {"app": "dbt", "connection_name": "", "dbt_version": "2.0.0", "profile_name": "trading_log_dbt", "target_name": "dev"} */
+
+    
+    select schema_name
+    from system.information_schema.schemata
+    
+    where lower(catalog_name) = '"dev"'
+    
+  
+  
+18:21:40.216641 [debug]: Query executed on node unknown:
+/* {"app": "dbt", "connection_name": "", "dbt_version": "2.0.0", "profile_name": "trading_log_dbt", "target_name": "dev"} */
+
+    
+        select type from duckdb_databases()
+        where lower(database_name)='dev'
+        and type='sqlite'
+    
+  
+18:21:40.217610 [debug]: Query executed on node unknown:
+/* {"app": "dbt", "connection_name": "", "dbt_version": "2.0.0", "profile_name": "trading_log_dbt", "target_name": "dev"} */
+
+    
+    
+        create schema if not exists "dev"."main"
+    
+18:21:40.217913 [info ]: Started rendering (1 nodes)
+18:21:40.218144 [info ]: Started model main.stg_tradelog
+18:21:40.218343 [debug]: Started rendering model main.stg_tradelog
+18:21:40.220600 [debug]: Compiled SQL for node model.trading_log_dbt.stg_tradelog at target/compiled/trading_log_dbt/trading_log_dbt/models/staging/stg_tradelog.sql
+18:21:40.220855 [debug]: Finished rendering [  0.00s] model main.stg_tradelog [success]
+18:21:40.221069 [info ]: Finished rendering [  0.00s] (1 nodes, 0 skipped, 0 errors)
+18:21:40.221298 [info ]: Started analyzing (1 nodes)
+18:21:40.221411 [debug]: Started analyzing model main.stg_tradelog
+18:21:40.237604 [debug]: Finished analyzing [  0.02s] model main.stg_tradelog [success]
+18:21:40.237690 [info ]: Finished analyzing [  0.02s] (1 nodes, 0 skipped, 0 errors)
+18:21:40.237739 [info ]: Started running (1 nodes)
+18:21:40.237780 [info ]: Started running model main.stg_tradelog
+18:21:40.243318 [debug]: Query executed on node model.trading_log_dbt.stg_tradelog:
+SELECT table_catalog, table_schema, table_name, table_type FROM information_schema.tables WHERE table_schema = 'main'
+18:21:40.246236 [debug]: Writing runtime sql for node "model.trading_log_dbt.stg_tradelog"
+18:21:40.266521 [debug]: Query executed on node model.trading_log_dbt.stg_tradelog:
+/* {"app": "dbt", "dbt_version": "2.0.0", "node_id": "model.trading_log_dbt.stg_tradelog", "profile_name": "trading_log_dbt", "target_name": "dev"} */
+
+  
+  create view "dev"."main"."stg_tradelog__dbt_tmp" as (
+    with raw_data as (
+    select * from read_csv_auto('trading_log_dbt/data/trade_data.csv')
+),
+
+-- apply timezone conversion to timestamp columns
+timezoned as (
+    select
+        *,
+        
+    --interprets column as johburg time and converts to ny
+    timezone(
+        'America/New_York',
+        timezone('Africa/Johannesburg', Time)
+    )
+ as entryTime_NY,
+        
+    --interprets column as johburg time and converts to ny
+    timezone(
+        'America/New_York',
+        timezone('Africa/Johannesburg', Time_1)
+    )
+ as exitTime_NY
+    from raw_data
+),
+
+-- data cleaning
+staged as (
+    select
+        cast(Time as timestamp) as entryTime,
+        entryTime_NY,
+        cast(Position as varchar) as tradeid,
+        cast(Symbol as varchar) as symbol,
+        cast(Type as varchar) as type,
+        cast(Volume as float) as lotsize,
+
+        -- Financial calculations
+        cast(Price as float) as entry_price,
+        cast("S / L" as float) as stop_loss,
+        cast("T / P" as float) as take_profit,
+        cast(Time_1 as timestamp) as exitTime,
+        exitTime_NY,
+        cast(Price_1 as float) as exit_price,
+        cast(Profit as float) as profit,
+    from timezoned
+)
+
+select * from staged
+        
+
+
+  );
+
+18:21:40.269992 [debug]: Query executed on node model.trading_log_dbt.stg_tradelog:
+/* {"app": "dbt", "dbt_version": "2.0.0", "node_id": "model.trading_log_dbt.stg_tradelog", "profile_name": "trading_log_dbt", "target_name": "dev"} */
+
+      alter view "dev"."main"."stg_tradelog" rename to "stg_tradelog__dbt_backup"
+    
+18:21:40.275416 [debug]: Query executed on node model.trading_log_dbt.stg_tradelog:
+/* {"app": "dbt", "dbt_version": "2.0.0", "node_id": "model.trading_log_dbt.stg_tradelog", "profile_name": "trading_log_dbt", "target_name": "dev"} */
+
+      alter view "dev"."main"."stg_tradelog__dbt_tmp" rename to "stg_tradelog"
+    
+18:21:40.279981 [debug]: Query executed on node model.trading_log_dbt.stg_tradelog:
+/* {"app": "dbt", "dbt_version": "2.0.0", "node_id": "model.trading_log_dbt.stg_tradelog", "profile_name": "trading_log_dbt", "target_name": "dev"} */
+
+      drop view if exists "dev"."main"."stg_tradelog__dbt_backup" cascade
+    
+18:21:40.280673 [info ]: Finished running [  0.04s] model main.stg_tradelog [success]
+18:21:40.280745 [info ]: Finished running [  0.04s] (1 nodes, 0 skipped, 0 errors)
+18:21:40.280780 [info ]:  Succeeded [  0.06s] model main.stg_tradelog (view)
+18:21:40.842589 [info ]: New version available 2.0.0-preview.186 (run `dbt system update`)
+18:21:40.980083 [info ]: 
+==================== Execution Summary =====================
+Finished 'run' successfully for target 'dev' [928ms]
+Processed: 1 model
+Summary: 1 total | 1 success
+==================== 2026-06-07T18:22:23.090140Z | 019ea352-5770-7f73-861f-28fc01a93563 ====================
+18:22:23.090336 [info ]: dbt-fusion 2.0.0-preview.183
+18:22:23.090737 [info ]: Started loading project
+18:22:23.091688 [info ]: Loading ~/.dbt/profiles.yml
+18:22:23.105448 [debug]:    Started loading packages
+18:22:23.106187 [debug]:     Loaded [  0.00s] packages
+18:22:23.106807 [info ]: Finished loading project [  0.02s]
+18:22:23.107108 [info ]: Started parsing
+18:22:23.141294 [debug]: Finished parsing trading_log_dbt/models/staging/sources.yml [  0.00s]
+18:22:23.143749 [debug]: Finished parsing trading_log_dbt/models/marts/int_filtering.sql [  0.00s]
+18:22:23.144311 [debug]: Finished parsing trading_log_dbt/models/staging/stg_tradelog.sql [  0.00s]
+18:22:23.147602 [debug]: Finished parsing target/generic_tests/source_not_null_raw_data_raw_trading_log_Position.sql [  0.00s]
+18:22:23.148246 [debug]: Finished parsing target/generic_tests/source_not_null_raw_data_raw_trading_log_Symbol.sql [  0.00s]
+18:22:23.150425 [info ]: Finished parsing [  0.04s]
+18:22:23.151189 [info ]: Started scheduling
+18:22:23.151454 [info ]: Finished scheduling [  0.00s]
+18:22:23.172929 [debug]: No platform credentials found, skipping remote license
+18:22:23.173187 [debug]: License check failed: Feature not licensed: 'lineage'
+18:22:23.173867 [info ]: Started building task graph
+18:22:23.174008 [info ]: Finished building task graph [  0.00s]
+18:22:23.252971 [debug]: Query executed on node unknown:
+/* {"app": "dbt", "connection_name": "", "dbt_version": "2.0.0", "profile_name": "trading_log_dbt", "target_name": "dev"} */
+
+    
+    select schema_name
+    from system.information_schema.schemata
+    
+    where lower(catalog_name) = '"dev"'
+    
+  
+  
+18:22:23.254215 [debug]: Query executed on node unknown:
+/* {"app": "dbt", "connection_name": "", "dbt_version": "2.0.0", "profile_name": "trading_log_dbt", "target_name": "dev"} */
+
+    
+        select type from duckdb_databases()
+        where lower(database_name)='dev'
+        and type='sqlite'
+    
+  
+18:22:23.254805 [debug]: Query executed on node unknown:
+/* {"app": "dbt", "connection_name": "", "dbt_version": "2.0.0", "profile_name": "trading_log_dbt", "target_name": "dev"} */
+
+    
+    
+        create schema if not exists "dev"."main"
+    
+18:22:23.254990 [info ]: Started rendering (1 nodes)
+18:22:23.255067 [info ]: Started model main.stg_tradelog
+18:22:23.255109 [debug]: Started rendering model main.stg_tradelog
+18:22:23.256223 [debug]: Compiled SQL for node model.trading_log_dbt.stg_tradelog at target/compiled/trading_log_dbt/trading_log_dbt/models/staging/stg_tradelog.sql
+18:22:23.256369 [debug]: Finished rendering [  0.00s] model main.stg_tradelog [success]
+18:22:23.256436 [info ]: Finished rendering [  0.00s] (1 nodes, 0 skipped, 0 errors)
+18:22:23.256498 [info ]: Started analyzing (1 nodes)
+18:22:23.256541 [debug]: Started analyzing model main.stg_tradelog
+18:22:23.271827 [debug]: Finished analyzing [  0.02s] model main.stg_tradelog [success]
+18:22:23.272137 [info ]: Finished analyzing [  0.02s] (1 nodes, 0 skipped, 0 errors)
+18:22:23.272248 [info ]: Started running (1 nodes)
+18:22:23.272293 [info ]: Started running model main.stg_tradelog
+18:22:23.278105 [debug]: Query executed on node model.trading_log_dbt.stg_tradelog:
+SELECT table_catalog, table_schema, table_name, table_type FROM information_schema.tables WHERE table_schema = 'main'
+18:22:23.281133 [debug]: Writing runtime sql for node "model.trading_log_dbt.stg_tradelog"
+18:22:23.304559 [debug]: Query executed on node model.trading_log_dbt.stg_tradelog:
+/* {"app": "dbt", "dbt_version": "2.0.0", "node_id": "model.trading_log_dbt.stg_tradelog", "profile_name": "trading_log_dbt", "target_name": "dev"} */
+
+  
+  create view "dev"."main"."stg_tradelog__dbt_tmp" as (
+    with raw_data as (
+    select * from read_csv_auto('trading_log_dbt/data/trade_data.csv')
+),
+
+-- apply timezone conversion to timestamp columns
+timezoned as (
+    select
+        *,
+        
+    --interprets column as johburg time and converts to ny
+    timezone(
+        'America/New_York',
+        timezone('Africa/Johannesburg', Time)
+    )
+ as entryTime_NY,
+        
+    --interprets column as johburg time and converts to ny
+    timezone(
+        'America/New_York',
+        timezone('Africa/Johannesburg', Time_1)
+    )
+ as exitTime_NY
+    from raw_data
+),
+
+-- data cleaning
+staged as (
+    select
+        cast(Time as timestamp) as entryTime,
+        entryTime_NY,
+        cast(Position as varchar) as tradeid,
+        cast(Symbol as varchar) as symbol,
+        cast(Type as varchar) as type,
+        cast(Volume as float) as lotsize,
+
+        -- Financial calculations
+        cast(Price as float) as entry_price,
+        cast("S / L" as float) as stop_loss,
+        cast("T / P" as float) as take_profit,
+        cast(Time_1 as timestamp) as exitTime,
+        exitTime_NY,
+        cast(Price_1 as float) as exit_price,
+        cast(Profit as float) as profit,
+    from timezoned
+)
+
+select * from staged
+        
+
+
+  );
+
+18:22:23.308501 [debug]: Query executed on node model.trading_log_dbt.stg_tradelog:
+/* {"app": "dbt", "dbt_version": "2.0.0", "node_id": "model.trading_log_dbt.stg_tradelog", "profile_name": "trading_log_dbt", "target_name": "dev"} */
+
+      alter view "dev"."main"."stg_tradelog" rename to "stg_tradelog__dbt_backup"
+    
+18:22:23.311756 [debug]: Query executed on node model.trading_log_dbt.stg_tradelog:
+/* {"app": "dbt", "dbt_version": "2.0.0", "node_id": "model.trading_log_dbt.stg_tradelog", "profile_name": "trading_log_dbt", "target_name": "dev"} */
+
+      alter view "dev"."main"."stg_tradelog__dbt_tmp" rename to "stg_tradelog"
+    
+18:22:23.315449 [debug]: Query executed on node model.trading_log_dbt.stg_tradelog:
+/* {"app": "dbt", "dbt_version": "2.0.0", "node_id": "model.trading_log_dbt.stg_tradelog", "profile_name": "trading_log_dbt", "target_name": "dev"} */
+
+      drop view if exists "dev"."main"."stg_tradelog__dbt_backup" cascade
+    
+18:22:23.315952 [info ]: Finished running [  0.04s] model main.stg_tradelog [success]
+18:22:23.316029 [info ]: Finished running [  0.04s] (1 nodes, 0 skipped, 0 errors)
+18:22:23.316064 [info ]:  Succeeded [  0.06s] model main.stg_tradelog (view)
+18:22:23.845178 [info ]: New version available 2.0.0-preview.186 (run `dbt system update`)
+18:22:23.984130 [info ]: 
+==================== Execution Summary =====================
+Finished 'run' successfully for target 'dev' [893ms]
+Processed: 1 model
+Summary: 1 total | 1 success
+==================== 2026-06-07T18:25:38.518723Z | 019ea355-52d5-7642-a4a0-d4da9f603a57 ====================
+18:25:38.518863 [info ]: dbt-fusion 2.0.0-preview.183
+18:25:38.519207 [info ]: Started loading project
+18:25:38.519901 [info ]: Loading ~/.dbt/profiles.yml
+18:25:38.533924 [debug]:    Started loading packages
+18:25:38.534724 [debug]:     Loaded [  0.00s] packages
+18:25:38.535556 [info ]: Finished loading project [  0.02s]
+18:25:38.535867 [info ]: Started parsing
+18:25:38.570466 [debug]: Finished parsing trading_log_dbt/models/staging/sources.yml [  0.00s]
+18:25:38.574898 [debug]: Finished parsing trading_log_dbt/models/marts/int_filtering.sql [  0.00s]
+18:25:38.575480 [debug]: Finished parsing trading_log_dbt/models/staging/stg_tradelog.sql [  0.00s]
+18:25:38.577755 [debug]: Finished parsing target/generic_tests/source_not_null_raw_data_raw_trading_log_Position.sql [  0.00s]
+18:25:38.578292 [debug]: Finished parsing target/generic_tests/source_not_null_raw_data_raw_trading_log_Symbol.sql [  0.00s]
+18:25:38.580654 [info ]: Finished parsing [  0.04s]
+18:25:38.581192 [info ]: Started scheduling
+18:25:38.581382 [info ]: Finished scheduling [  0.00s]
+18:25:38.583243 [debug]: Initializing schema store with entry: Frontier(CanonicalFqn { catalog: "dev", schema: "raw_data", table: "raw_trading_log" }) and interval: None
+18:25:38.604814 [debug]: No platform credentials found, skipping remote license
+18:25:38.605190 [debug]: License check failed: Feature not licensed: 'lineage'
+18:25:38.605981 [info ]: Started building task graph
+18:25:38.606145 [info ]: Finished building task graph [  0.00s]
+18:25:38.607500 [info ]: Started rendering (2 nodes)
+18:25:38.607536 [info ]: Started test main_dbt_test__audit.source_not_null_raw_data_raw_trading_log_Symbol
+18:25:38.607573 [debug]: Started rendering test main_dbt_test__audit.source_not_null_raw_data_raw_trading_log_Symbol
+18:25:38.607629 [info ]: Started test main_dbt_test__audit.source_not_null_raw_data_raw_trading_log_Position
+18:25:38.607645 [debug]: Started rendering test main_dbt_test__audit.source_not_null_raw_data_raw_trading_log_Position
+18:25:38.610639 [debug]: Compiled SQL for node test.trading_log_dbt.source_not_null_raw_data_raw_trading_log_Symbol.9c305870bf at target/compiled/trading_log_dbt/target/generic_tests/source_not_null_raw_data_raw_trading_log_Symbol.sql
+18:25:38.610852 [debug]: Compiled SQL for node test.trading_log_dbt.source_not_null_raw_data_raw_trading_log_Position.94979f795b at target/compiled/trading_log_dbt/target/generic_tests/source_not_null_raw_data_raw_trading_log_Position.sql
+18:25:38.611075 [debug]: Finished rendering [  0.00s] test main_dbt_test__audit.source_not_null_raw_data_raw_trading_log_Symbol [success]
+18:25:38.611280 [info ]: Started analyzing (2 nodes)
+18:25:38.611415 [debug]: Started analyzing test main_dbt_test__audit.source_not_null_raw_data_raw_trading_log_Symbol
+18:25:38.611572 [debug]: Finished rendering [  0.00s] test main_dbt_test__audit.source_not_null_raw_data_raw_trading_log_Position [success]
+18:25:38.613182 [info ]: Finished rendering [  0.01s] (2 nodes, 0 skipped, 0 errors)
+18:25:38.613399 [debug]: Started analyzing test main_dbt_test__audit.source_not_null_raw_data_raw_trading_log_Position
+18:25:38.625908 [debug]: Finished analyzing [  0.01s] test main_dbt_test__audit.source_not_null_raw_data_raw_trading_log_Position [success]
+18:25:38.626265 [info ]: Started running (2 nodes)
+18:25:38.626393 [info ]: Started running test main_dbt_test__audit.source_not_null_raw_data_raw_trading_log_Position
+18:25:38.626616 [debug]: Finished analyzing [  0.02s] test main_dbt_test__audit.source_not_null_raw_data_raw_trading_log_Symbol [success]
+18:25:38.626764 [info ]: Finished analyzing [  0.02s] (2 nodes, 0 skipped, 0 errors)
+18:25:38.626922 [info ]: Started running test main_dbt_test__audit.source_not_null_raw_data_raw_trading_log_Symbol
+18:25:38.629759 [debug]: Writing runtime sql for node "test.trading_log_dbt.source_not_null_raw_data_raw_trading_log_Position.94979f795b"
+18:25:38.631781 [debug]: Writing runtime sql for node "test.trading_log_dbt.source_not_null_raw_data_raw_trading_log_Symbol.9c305870bf"
+18:25:38.680720 [debug]: Query executed on node test.trading_log_dbt.source_not_null_raw_data_raw_trading_log_Position.94979f795b:
+/* {"app": "dbt", "dbt_version": "2.0.0", "node_id": "test.trading_log_dbt.source_not_null_raw_data_raw_trading_log_Position.94979f795b", "profile_name": "trading_log_dbt", "target_name": "dev"} */
+
+    
+    select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+    
+    
+
+
+
+select Position
+from "dev"."raw_data"."raw_trading_log"
+where Position is null
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+18:25:38.680920 [debug]: Query executed on node test.trading_log_dbt.source_not_null_raw_data_raw_trading_log_Symbol.9c305870bf:
+/* {"app": "dbt", "dbt_version": "2.0.0", "node_id": "test.trading_log_dbt.source_not_null_raw_data_raw_trading_log_Symbol.9c305870bf", "profile_name": "trading_log_dbt", "target_name": "dev"} */
+
+    
+    select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+    
+    
+
+
+
+select Symbol
+from "dev"."raw_data"."raw_trading_log"
+where Symbol is null
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+18:25:39.681659 [error]: Error materializing test test.trading_log_dbt.source_not_null_raw_data_raw_trading_log_Symbol.9c305870bf (target/run/trading_log_dbt/target/generic_tests/source_not_null_raw_data_raw_trading_log_Symbol.sql)
+  Catalog Error: Table with name "raw_data.raw_trading_log" does not exist because schema "raw_data" does not exist.
+  
+  LINE 18: from "dev"."raw_data"."raw_trading_log"
+                ^
+  (in compiled/trading_log_dbt/target/generic_tests/source_not_null_raw_data_raw_trading_log_Symbol.sql:1:1). Treating as failing test.
+18:25:39.681666 [error]: Error materializing test test.trading_log_dbt.source_not_null_raw_data_raw_trading_log_Position.94979f795b (target/run/trading_log_dbt/target/generic_tests/source_not_null_raw_data_raw_trading_log_Position.sql)
+  Catalog Error: Table with name "raw_data.raw_trading_log" does not exist because schema "raw_data" does not exist.
+  
+  LINE 18: from "dev"."raw_data"."raw_trading_log"
+                ^
+  (in compiled/trading_log_dbt/target/generic_tests/source_not_null_raw_data_raw_trading_log_Position.sql:1:1). Treating as failing test.
+18:25:39.681972 [info ]: Finished running [  1.06s] test main_dbt_test__audit.source_not_null_raw_data_raw_trading_log_Symbol [fail]
+18:25:39.682232 [info ]:     Failed [  1.07s] test  source_not_null_raw_data_raw_trading_log_Symbol (trading_log_dbt/models/staging/sources.yml:13:17)
+18:25:39.682374 [info ]: Finished running [  1.06s] test main_dbt_test__audit.source_not_null_raw_data_raw_trading_log_Position [fail]
+18:25:39.682516 [info ]: Finished running [  1.06s] (2 nodes, 0 skipped, 2 errors)
+18:25:39.682525 [info ]:     Failed [  1.07s] test  source_not_null_raw_data_raw_trading_log_Position (trading_log_dbt/models/staging/sources.yml:18:17)
+18:25:39.700483 [info ]: New version available 2.0.0-preview.186 (run `dbt system update`)
+18:25:39.839711 [info ]: 
+==================== Execution Summary =====================
+Finished 'test' with 4 errors for target 'dev' [1.3s]
+Processed: 2 tests
+Summary: 2 total | 2 error
+==================== 2026-06-07T18:26:03.513965Z | 019ea355-b478-7081-9179-8eb55be32bab ====================
+18:26:03.514125 [warn ]: [DocsGenerateWarning (dbt1705)]: `dbt docs generate` is not supported. Use `dbt compile --write-catalog` to write catalog.json. To host docs locally, use the dbt Core index.html with catalog.json and manifest.json in the same directory: https://github.com/dbt-labs/dbt-core/blob/main/core/dbt/task/docs/index.html
+18:26:03.960216 [info ]: 
+==================== Execution Summary =====================
+Finished 'docs' with 1 warning [446ms]
+==================== 2026-06-07T18:26:13.754636Z | 019ea355-dc78-7291-bce4-b8d507ff9417 ====================
+18:26:13.754778 [info ]: dbt-fusion 2.0.0-preview.183
+18:26:13.755223 [info ]: Started loading project
+18:26:13.756338 [info ]: Loading ~/.dbt/profiles.yml
+18:26:13.776578 [debug]:    Started loading packages
+18:26:13.780856 [debug]:     Loaded [  0.00s] packages
+18:26:13.782462 [info ]: Finished loading project [  0.03s]
+18:26:13.783064 [info ]: Started parsing
+18:26:13.911268 [debug]: Finished parsing trading_log_dbt/models/staging/sources.yml [  0.00s]
+18:26:13.926172 [debug]: Finished parsing trading_log_dbt/models/marts/int_filtering.sql [  0.00s]
+18:26:13.927042 [debug]: Finished parsing trading_log_dbt/models/staging/stg_tradelog.sql [  0.00s]
+18:26:13.931859 [debug]: Finished parsing target/generic_tests/source_not_null_raw_data_raw_trading_log_Position.sql [  0.00s]
+18:26:13.932359 [debug]: Finished parsing target/generic_tests/source_not_null_raw_data_raw_trading_log_Symbol.sql [  0.00s]
+18:26:13.936769 [info ]: Finished parsing [  0.15s]
+18:26:14.676721 [info ]: New version available 2.0.0-preview.186 (run `dbt system update`)
+18:26:14.818944 [info ]: 
+==================== Execution Summary =====================
+Finished 'parse' successfully for target 'dev' [1.1s]
+==================== 2026-06-07T18:26:38.871608Z | 019ea356-3e95-74a2-819e-ba09bedfbc87 ====================
+18:26:38.871749 [info ]: dbt-fusion 2.0.0-preview.183
+18:26:38.872769 [info ]: Started loading project
+18:26:38.873959 [info ]: Loading ~/.dbt/profiles.yml
+18:26:38.889815 [debug]:    Started loading packages
+18:26:38.890619 [debug]:     Loaded [  0.00s] packages
+18:26:38.891290 [info ]: Finished loading project [  0.02s]
+18:26:38.891615 [info ]: Started parsing
+18:26:38.935596 [debug]: Finished parsing trading_log_dbt/models/staging/sources.yml [  0.00s]
+18:26:38.938934 [debug]: Finished parsing trading_log_dbt/models/marts/int_filtering.sql [  0.00s]
+18:26:38.939451 [debug]: Finished parsing trading_log_dbt/models/staging/stg_tradelog.sql [  0.00s]
+18:26:38.941698 [debug]: Finished parsing target/generic_tests/source_not_null_raw_data_raw_trading_log_Position.sql [  0.00s]
+18:26:38.942193 [debug]: Finished parsing target/generic_tests/source_not_null_raw_data_raw_trading_log_Symbol.sql [  0.00s]
+18:26:38.944308 [info ]: Finished parsing [  0.05s]
+18:26:38.944763 [info ]: Started scheduling
+18:26:38.944932 [info ]: Finished scheduling [  0.00s]
+18:26:38.946096 [debug]: Initializing schema store with entry: Frontier(CanonicalFqn { catalog: "dev", schema: "raw_data", table: "raw_trading_log" }) and interval: None
+18:26:38.965336 [debug]: No platform credentials found, skipping remote license
+18:26:38.965398 [debug]: License check failed: Feature not licensed: 'lineage'
+18:26:38.966229 [info ]: Started building task graph
+18:26:38.966395 [info ]: Finished building task graph [  0.00s]
+18:26:38.968018 [info ]: Started rendering (3 nodes)
+18:26:38.968136 [info ]: Started test main_dbt_test__audit.source_not_null_raw_data_raw_trading_log_Symbol
+18:26:38.968185 [debug]: Started rendering test main_dbt_test__audit.source_not_null_raw_data_raw_trading_log_Symbol
+18:26:38.968230 [info ]: Started test main_dbt_test__audit.source_not_null_raw_data_raw_trading_log_Position
+18:26:38.968239 [debug]: Started rendering test main_dbt_test__audit.source_not_null_raw_data_raw_trading_log_Position
+18:26:38.968260 [info ]: Started model main.stg_tradelog
+18:26:38.968275 [debug]: Started rendering model main.stg_tradelog
+18:26:38.970337 [debug]: Compiled SQL for node test.trading_log_dbt.source_not_null_raw_data_raw_trading_log_Symbol.9c305870bf at target/compiled/trading_log_dbt/target/generic_tests/source_not_null_raw_data_raw_trading_log_Symbol.sql
+18:26:38.970421 [debug]: Finished rendering [  0.00s] test main_dbt_test__audit.source_not_null_raw_data_raw_trading_log_Symbol [success]
+18:26:38.970535 [info ]: Started analyzing (3 nodes)
+18:26:38.970605 [debug]: Started analyzing test main_dbt_test__audit.source_not_null_raw_data_raw_trading_log_Symbol
+18:26:38.973944 [debug]: Compiled SQL for node model.trading_log_dbt.stg_tradelog at target/compiled/trading_log_dbt/trading_log_dbt/models/staging/stg_tradelog.sql
+18:26:38.974330 [debug]: Compiled SQL for node test.trading_log_dbt.source_not_null_raw_data_raw_trading_log_Position.94979f795b at target/compiled/trading_log_dbt/target/generic_tests/source_not_null_raw_data_raw_trading_log_Position.sql
+18:26:38.980172 [debug]: Finished analyzing [  0.01s] test main_dbt_test__audit.source_not_null_raw_data_raw_trading_log_Symbol [success]
+18:26:38.980481 [info ]:  Succeeded [  0.01s] test  source_not_null_raw_data_raw_trading_log_Symbol (trading_log_dbt/models/staging/sources.yml:13:17)
+18:26:38.980549 [debug]: Finished rendering [  0.01s] test main_dbt_test__audit.source_not_null_raw_data_raw_trading_log_Position [success]
+18:26:38.980818 [debug]: Started analyzing test main_dbt_test__audit.source_not_null_raw_data_raw_trading_log_Position
+18:26:38.980849 [debug]: Finished rendering [  0.01s] model main.stg_tradelog [success]
+18:26:38.981063 [info ]: Finished rendering [  0.01s] (3 nodes, 0 skipped, 0 errors)
+18:26:38.981240 [debug]: Started analyzing model main.stg_tradelog
+18:26:38.981809 [debug]: Finished analyzing [  0.00s] test main_dbt_test__audit.source_not_null_raw_data_raw_trading_log_Position [success]
+18:26:38.982008 [info ]:  Succeeded [  0.01s] test  source_not_null_raw_data_raw_trading_log_Position (trading_log_dbt/models/staging/sources.yml:18:17)
+18:26:39.000934 [debug]: Finished analyzing [  0.02s] model main.stg_tradelog [success]
+18:26:39.001239 [info ]: Finished analyzing [  0.03s] (3 nodes, 0 skipped, 0 errors)
+18:26:39.001379 [info ]:  Succeeded [  0.03s] model main.stg_tradelog (view)
+18:26:39.665560 [info ]: New version available 2.0.0-preview.186 (run `dbt system update`)
+18:26:39.909065 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' successfully for target 'dev' [1.0s]
+Processed: 1 model | 2 tests
+Summary: 3 total | 3 success
+==================== 2026-06-07T18:28:28.464031Z | 019ea357-eaae-7192-86db-93cae1a3721b ====================
+18:28:28.464194 [info ]: dbt-fusion 2.0.0-preview.183
+18:28:28.464379 [info ]: Started cleaning
+18:28:28.464503 [info ]: Started loading project
+18:28:28.465410 [info ]: Loading ~/.dbt/profiles.yml
+18:28:28.465858 [info ]: Finished loading project [  0.00s]
+18:28:28.466731 [info ]: Removing target
+18:28:28.476893 [info ]: Removing dbt_packages
+18:28:28.477367 [info ]: Finished cleaning [  0.01s]
+18:28:29.107520 [info ]: 
+==================== Execution Summary =====================
+Finished 'clean' successfully [643ms]
+==================== 2026-06-07T18:28:29.128878Z | 019ea357-ed47-7893-a2ad-d689209f3bad ====================
+18:28:29.129000 [info ]: dbt-fusion 2.0.0-preview.183
+18:28:29.611702 [info ]: 
+==================== Execution Summary =====================
+Finished 'deps' successfully [482ms]
+==================== 2026-06-07T18:28:29.634282Z | 019ea357-ef40-7093-90b1-854dd337a9bc ====================
+18:28:29.634425 [info ]: dbt-fusion 2.0.0-preview.183
+18:28:29.634794 [info ]: Started loading project
+18:28:29.635629 [info ]: Loading ~/.dbt/profiles.yml
+18:28:29.649988 [debug]:    Started loading packages
+18:28:29.650835 [debug]:     Loaded [  0.00s] packages
+18:28:29.651803 [info ]: Finished loading project [  0.02s]
+18:28:29.652130 [info ]: Started parsing
+18:28:29.685707 [debug]: Finished parsing trading_log_dbt/models/staging/sources.yml [  0.00s]
+18:28:29.689188 [debug]: Finished parsing trading_log_dbt/models/marts/int_filtering.sql [  0.00s]
+18:28:29.689766 [debug]: Finished parsing trading_log_dbt/models/staging/stg_tradelog.sql [  0.00s]
+18:28:29.692419 [debug]: Finished parsing target/generic_tests/source_not_null_raw_data_raw_trading_log_Position.sql [  0.00s]
+18:28:29.693094 [debug]: Finished parsing target/generic_tests/source_not_null_raw_data_raw_trading_log_Symbol.sql [  0.00s]
+18:28:29.695714 [info ]: Finished parsing [  0.04s]
+18:28:30.507272 [info ]: New version available 2.0.0-preview.186 (run `dbt system update`)
+18:28:30.684294 [info ]: 
+==================== Execution Summary =====================
+Finished 'parse' successfully for target 'dev' [1.1s]
+[0m18:36:10.883115 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x730b6a092f60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x730b67a9dd00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x730b67b00500>]}
+
+
+============================== 18:36:10.889916 | c885ccef-6f84-4586-a4fd-5de531bcc3ce ==============================
+[0m18:36:10.889916 [info ] [MainThread]: Running with dbt=1.11.11
+[0m18:36:10.891079 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'use_experimental_parser': 'False', 'debug': 'False', 'partial_parse': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'version_check': 'True', 'target_path': 'None', 'fail_fast': 'False', 'use_colors': 'True', 'cache_selected_only': 'False', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'indirect_selection': 'eager', 'warn_error': 'None', 'invocation_command': 'dbt ', 'profiles_dir': '/home/codespace/.dbt', 'log_format': 'default', 'write_json': 'True', 'log_path': '/workspaces/Trading_analytics-pipeline/logs', 'empty': 'None', 'no_print': 'None', 'printer_width': '80'}
+[0m18:36:11.102807 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'c885ccef-6f84-4586-a4fd-5de531bcc3ce', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x730b677e48f0>]}
+[0m18:36:11.118596 [info ] [MainThread]: Warning: No packages were found in packages.yml
+[0m18:36:11.121513 [info ] [MainThread]: Warning: No packages were found in packages.yml
+[0m18:36:11.123998 [debug] [MainThread]: Resource report: {"command_name": "deps", "command_success": true, "command_wall_clock_time": 0.31740397, "process_in_blocks": "512", "process_kernel_time": 0.288111, "process_mem_max_rss": "120876", "process_out_blocks": "16", "process_user_time": 3.179165}
+[0m18:36:11.125194 [debug] [MainThread]: Command `cli deps` succeeded at 18:36:11.125037 after 0.32 seconds
+[0m18:36:11.125816 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x730b684b9040>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x730b6ca7fdd0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x730b67791280>]}
+[0m18:36:11.126687 [debug] [MainThread]: Flushing usage events
+[0m18:36:12.127105 [debug] [MainThread]: An error was encountered while trying to flush usage events
+==================== 2026-06-07T18:40:07.075283Z | 019ea362-93a0-7dc2-80a7-61dc30848315 ====================
+18:40:07.075430 [info ]: dbt-fusion 2.0.0-preview.183
+18:40:07.076139 [info ]: Started loading project
+18:40:07.077286 [info ]: Loading ~/.dbt/profiles.yml
+18:40:07.103095 [debug]:    Started loading packages
+18:40:07.104245 [debug]:     Loaded [  0.00s] packages
+18:40:07.105884 [info ]: Finished loading project [  0.03s]
+18:40:07.106396 [info ]: Started parsing
+18:40:07.169500 [debug]: Finished parsing trading_log_dbt/models/staging/sources.yml [  0.00s]
+18:40:07.175370 [debug]: Finished parsing trading_log_dbt/models/marts/int_filtering.sql [  0.00s]
+18:40:07.175858 [debug]: Finished parsing trading_log_dbt/models/staging/stg_tradelog.sql [  0.00s]
+18:40:07.178568 [debug]: Finished parsing target/generic_tests/source_not_null_raw_data_raw_trading_log_Position.sql [  0.00s]
+18:40:07.179129 [debug]: Finished parsing target/generic_tests/source_not_null_raw_data_raw_trading_log_Symbol.sql [  0.00s]
+18:40:07.182497 [info ]: Finished parsing [  0.08s]
+18:40:07.183226 [info ]: Started scheduling
+18:40:07.183395 [info ]: Finished scheduling [  0.00s]
+18:40:07.206002 [debug]: No platform credentials found, skipping remote license
+18:40:07.206801 [debug]: License check failed: Feature not licensed: 'lineage'
+18:40:07.207788 [info ]: Started building task graph
+18:40:07.207993 [info ]: Finished building task graph [  0.00s]
+18:40:07.410605 [debug]: Query executed on node unknown:
+/* {"app": "dbt", "connection_name": "", "dbt_version": "2.0.0", "profile_name": "trading_log_dbt", "target_name": "dev"} */
+
+    
+    select schema_name
+    from system.information_schema.schemata
+    
+    where lower(catalog_name) = '"dev"'
+    
+  
+  
+18:40:07.425627 [debug]: Query executed on node unknown:
+/* {"app": "dbt", "connection_name": "", "dbt_version": "2.0.0", "profile_name": "trading_log_dbt", "target_name": "dev"} */
+
+    
+        select type from duckdb_databases()
+        where lower(database_name)='dev'
+        and type='sqlite'
+    
+  
+18:40:07.428082 [debug]: Query executed on node unknown:
+/* {"app": "dbt", "connection_name": "", "dbt_version": "2.0.0", "profile_name": "trading_log_dbt", "target_name": "dev"} */
+
+    
+    
+        create schema if not exists "dev"."main"
+    
+18:40:07.428386 [info ]: Started rendering (1 nodes)
+18:40:07.428508 [info ]: Started model main.stg_tradelog
+18:40:07.428566 [debug]: Started rendering model main.stg_tradelog
+18:40:07.430007 [debug]: Compiled SQL for node model.trading_log_dbt.stg_tradelog at target/compiled/trading_log_dbt/trading_log_dbt/models/staging/stg_tradelog.sql
+18:40:07.430181 [debug]: Finished rendering [  0.00s] model main.stg_tradelog [success]
+18:40:07.430308 [info ]: Finished rendering [  0.00s] (1 nodes, 0 skipped, 0 errors)
+18:40:07.430572 [info ]: Started analyzing (1 nodes)
+18:40:07.430669 [debug]: Started analyzing model main.stg_tradelog
+18:40:07.456329 [debug]: Finished analyzing [  0.03s] model main.stg_tradelog [success]
+18:40:07.456413 [info ]: Finished analyzing [  0.03s] (1 nodes, 0 skipped, 0 errors)
+18:40:07.456466 [info ]: Started running (1 nodes)
+18:40:07.456509 [info ]: Started running model main.stg_tradelog
+18:40:07.482950 [debug]: Query executed on node model.trading_log_dbt.stg_tradelog:
+SELECT table_catalog, table_schema, table_name, table_type FROM information_schema.tables WHERE table_schema = 'main'
+18:40:07.486959 [debug]: Writing runtime sql for node "model.trading_log_dbt.stg_tradelog"
+18:40:07.548131 [debug]: Query executed on node model.trading_log_dbt.stg_tradelog:
+/* {"app": "dbt", "dbt_version": "2.0.0", "node_id": "model.trading_log_dbt.stg_tradelog", "profile_name": "trading_log_dbt", "target_name": "dev"} */
+
+  
+  create view "dev"."main"."stg_tradelog__dbt_tmp" as (
+    with raw_data as (
+    select * from read_csv_auto('trading_log_dbt/data/trade_data.csv')
+),
+
+-- apply timezone conversion to timestamp columns
+timezoned as (
+    select
+        *,
+        
+    --interprets column as johburg time and converts to ny
+    timezone(
+        'America/New_York',
+        timezone('Africa/Johannesburg', Time)
+    )
+ as entryTime_NY,
+        
+    --interprets column as johburg time and converts to ny
+    timezone(
+        'America/New_York',
+        timezone('Africa/Johannesburg', Time_1)
+    )
+ as exitTime_NY
+    from raw_data
+),
+
+-- data cleaning
+staged as (
+    select
+        cast(Time as timestamp) as entryTime,
+        entryTime_NY,
+        cast(Position as varchar) as tradeid,
+        cast(Symbol as varchar) as symbol,
+        cast(Type as varchar) as type,
+        ROUND(cast(replace(Volume, ' ', '') as float), 2) as lotsize,
+
+        -- Financial calculations
+        ROUND(cast(replace(Price, ' ', '') as float), 2) as entry_price,
+        ROUND(cast(replace("S / L", ' ', '') as float), 2) as stop_loss,
+        ROUND(cast(replace("T / P", ' ', '') as float), 2) as take_profit,
+        cast(Time_1 as timestamp) as exitTime,
+        exitTime_NY,
+        ROUND(cast(replace(Price_1, ' ', '') as float), 2) as exit_price,
+        ROUND(cast(replace(Profit, ' ', '') as float), 2) as profit,
+    from timezoned
+)
+
+select * from staged
+        
+
+
+  );
+
+18:40:08.551641 [error]: [DbDriverFailed (dbt1308)]: Database Error in model stg_tradelog (target/run/trading_log_dbt/trading_log_dbt/models/staging/stg_tradelog.sql)
+  Binder Error: No function matches the given name and argument types 'replace(DOUBLE, STRING_LITERAL, STRING_LITERAL)'. You might need to add explicit type casts.
+  	Candidate functions:
+  	replace(VARCHAR, VARCHAR, VARCHAR) -> VARCHAR
+  
+  
+  LINE 38:         ROUND(cast(replace(Volume, ' ', '') as float), 2) as lotsize,
+                              ^
+  (in compiled/trading_log_dbt/trading_log_dbt/models/staging/stg_tradelog.sql:1:4)
+18:40:08.551885 [info ]: Finished running [  1.10s] model main.stg_tradelog [error]
+18:40:08.551964 [info ]: Finished running [  1.10s] (1 nodes, 0 skipped, 1 errors)
+18:40:08.552023 [info ]:     Failed [  1.12s] model main.stg_tradelog (view)
+18:40:08.578635 [info ]: New version available 2.0.0-preview.186 (run `dbt system update`)
+18:40:08.714176 [info ]: 
+==================== Execution Summary =====================
+Finished 'run' with 1 error for target 'dev' [1.6s]
+Processed: 1 model
+Summary: 1 total | 1 error
+==================== 2026-06-07T18:40:43.218093Z | 019ea363-20d0-76b2-8a57-1acef3c04c5d ====================
+18:40:43.218373 [info ]: dbt-fusion 2.0.0-preview.183
+18:40:43.218803 [info ]: Started loading project
+18:40:43.220088 [info ]: Loading ~/.dbt/profiles.yml
+18:40:43.253532 [debug]:    Started loading packages
+18:40:43.254689 [debug]:     Loaded [  0.00s] packages
+18:40:43.256302 [info ]: Finished loading project [  0.04s]
+18:40:43.256866 [info ]: Started parsing
+18:40:43.328999 [debug]: Finished parsing trading_log_dbt/models/staging/sources.yml [  0.00s]
+18:40:43.336755 [debug]: Finished parsing trading_log_dbt/models/marts/int_filtering.sql [  0.00s]
+18:40:43.338725 [debug]: Finished parsing trading_log_dbt/models/staging/stg_tradelog.sql [  0.00s]
+18:40:43.343984 [debug]: Finished parsing target/generic_tests/source_not_null_raw_data_raw_trading_log_Position.sql [  0.00s]
+18:40:43.346699 [debug]: Finished parsing target/generic_tests/source_not_null_raw_data_raw_trading_log_Symbol.sql [  0.00s]
+18:40:43.349459 [info ]: Finished parsing [  0.09s]
+18:40:43.352521 [info ]: Started scheduling
+18:40:43.352637 [info ]: Finished scheduling [  0.00s]
+18:40:43.406291 [debug]: No platform credentials found, skipping remote license
+18:40:43.406370 [debug]: License check failed: Feature not licensed: 'lineage'
+18:40:43.408238 [info ]: Started building task graph
+18:40:43.408396 [info ]: Finished building task graph [  0.00s]
+18:40:43.591904 [debug]: Query executed on node unknown:
+/* {"app": "dbt", "connection_name": "", "dbt_version": "2.0.0", "profile_name": "trading_log_dbt", "target_name": "dev"} */
+
+    
+    select schema_name
+    from system.information_schema.schemata
+    
+    where lower(catalog_name) = '"dev"'
+    
+  
+  
+18:40:43.597417 [debug]: Query executed on node unknown:
+/* {"app": "dbt", "connection_name": "", "dbt_version": "2.0.0", "profile_name": "trading_log_dbt", "target_name": "dev"} */
+
+    
+        select type from duckdb_databases()
+        where lower(database_name)='dev'
+        and type='sqlite'
+    
+  
+18:40:43.598195 [debug]: Query executed on node unknown:
+/* {"app": "dbt", "connection_name": "", "dbt_version": "2.0.0", "profile_name": "trading_log_dbt", "target_name": "dev"} */
+
+    
+    
+        create schema if not exists "dev"."main"
+    
+18:40:43.598418 [info ]: Started rendering (1 nodes)
+18:40:43.598546 [info ]: Started model main.stg_tradelog
+18:40:43.598616 [debug]: Started rendering model main.stg_tradelog
+18:40:43.599704 [debug]: Compiled SQL for node model.trading_log_dbt.stg_tradelog at target/compiled/trading_log_dbt/trading_log_dbt/models/staging/stg_tradelog.sql
+18:40:43.599921 [debug]: Finished rendering [  0.00s] model main.stg_tradelog [success]
+18:40:43.600139 [info ]: Finished rendering [  0.00s] (1 nodes, 0 skipped, 0 errors)
+18:40:43.600233 [info ]: Started analyzing (1 nodes)
+18:40:43.600275 [debug]: Started analyzing model main.stg_tradelog
+18:40:43.642742 [debug]: Finished analyzing [  0.04s] model main.stg_tradelog [success]
+18:40:43.642998 [info ]: Finished analyzing [  0.04s] (1 nodes, 0 skipped, 0 errors)
+18:40:43.643202 [info ]: Started running (1 nodes)
+18:40:43.643348 [info ]: Started running model main.stg_tradelog
+18:40:43.651702 [debug]: Query executed on node model.trading_log_dbt.stg_tradelog:
+SELECT table_catalog, table_schema, table_name, table_type FROM information_schema.tables WHERE table_schema = 'main'
+18:40:43.654678 [debug]: Writing runtime sql for node "model.trading_log_dbt.stg_tradelog"
+18:40:43.690627 [debug]: Query executed on node model.trading_log_dbt.stg_tradelog:
+/* {"app": "dbt", "dbt_version": "2.0.0", "node_id": "model.trading_log_dbt.stg_tradelog", "profile_name": "trading_log_dbt", "target_name": "dev"} */
+
+  
+  create view "dev"."main"."stg_tradelog__dbt_tmp" as (
+    with raw_data as (
+    select * from read_csv_auto('trading_log_dbt/data/trade_data.csv')
+),
+
+-- apply timezone conversion to timestamp columns
+timezoned as (
+    select
+        *,
+        
+    --interprets column as johburg time and converts to ny
+    timezone(
+        'America/New_York',
+        timezone('Africa/Johannesburg', Time)
+    )
+ as entryTime_NY,
+        
+    --interprets column as johburg time and converts to ny
+    timezone(
+        'America/New_York',
+        timezone('Africa/Johannesburg', Time_1)
+    )
+ as exitTime_NY
+    from raw_data
+),
+
+-- data cleaning
+staged as (
+    select
+        cast(Time as timestamp) as entryTime,
+        entryTime_NY,
+        cast(Position as varchar) as tradeid,
+        cast(Symbol as varchar) as symbol,
+        cast(Type as varchar) as type,
+        ROUND(cast(replace(cast(Volume as varchar), ' ', '') as float), 2) as lotsize,
+
+        -- Financial calculations
+        ROUND(cast(replace(cast(Price as varchar), ' ', '') as float), 2) as entry_price,
+        ROUND(cast(replace(cast("S / L" as varchar), ' ', '') as float), 2) as stop_loss,
+        ROUND(cast(replace(cast("T / P" as varchar), ' ', '') as float), 2) as take_profit,
+        cast(Time_1 as timestamp) as exitTime,
+        exitTime_NY,
+        ROUND(cast(replace(cast(Price_1 as varchar), ' ', '') as float), 2) as exit_price,
+        ROUND(cast(replace(cast(Profit as varchar), ' ', '') as float), 2) as profit,
+    from timezoned
+)
+
+select * from staged
+        
+
+
+  );
+
+18:40:43.699887 [debug]: Query executed on node model.trading_log_dbt.stg_tradelog:
+/* {"app": "dbt", "dbt_version": "2.0.0", "node_id": "model.trading_log_dbt.stg_tradelog", "profile_name": "trading_log_dbt", "target_name": "dev"} */
+
+      alter view "dev"."main"."stg_tradelog" rename to "stg_tradelog__dbt_backup"
+    
+18:40:43.704293 [debug]: Query executed on node model.trading_log_dbt.stg_tradelog:
+/* {"app": "dbt", "dbt_version": "2.0.0", "node_id": "model.trading_log_dbt.stg_tradelog", "profile_name": "trading_log_dbt", "target_name": "dev"} */
+
+      alter view "dev"."main"."stg_tradelog__dbt_tmp" rename to "stg_tradelog"
+    
+18:40:43.712608 [debug]: Query executed on node model.trading_log_dbt.stg_tradelog:
+/* {"app": "dbt", "dbt_version": "2.0.0", "node_id": "model.trading_log_dbt.stg_tradelog", "profile_name": "trading_log_dbt", "target_name": "dev"} */
+
+      drop view if exists "dev"."main"."stg_tradelog__dbt_backup" cascade
+    
+18:40:43.713253 [info ]: Finished running [  0.07s] model main.stg_tradelog [success]
+18:40:43.713960 [info ]: Finished running [  0.07s] (1 nodes, 0 skipped, 0 errors)
+18:40:43.714138 [info ]:  Succeeded [  0.11s] model main.stg_tradelog (view)
+18:40:44.176423 [info ]: New version available 2.0.0-preview.186 (run `dbt system update`)
+18:40:44.511456 [info ]: 
+==================== Execution Summary =====================
+Finished 'run' successfully for target 'dev' [1.3s]
+Processed: 1 model
+Summary: 1 total | 1 success
+==================== 2026-06-07T18:43:36.978450Z | 019ea365-c791-70d2-9649-03745a440775 ====================
+18:43:36.978585 [info ]: dbt-fusion 2.0.0-preview.183
+18:43:36.978983 [info ]: Started loading project
+18:43:36.979779 [info ]: Loading ~/.dbt/profiles.yml
+18:43:36.993582 [debug]:    Started loading packages
+18:43:36.994318 [debug]:     Loaded [  0.00s] packages
+18:43:36.994932 [info ]: Finished loading project [  0.02s]
+18:43:36.995245 [info ]: Started parsing
+18:43:37.027273 [debug]: Finished parsing trading_log_dbt/models/staging/sources.yml [  0.00s]
+18:43:37.029608 [debug]: Finished parsing trading_log_dbt/models/marts/int_filtering.sql [  0.00s]
+18:43:37.029999 [debug]: Finished parsing trading_log_dbt/models/staging/stg_tradelog.sql [  0.00s]
+18:43:37.033986 [debug]: Finished parsing target/generic_tests/source_not_null_raw_data_raw_trading_log_Position.sql [  0.00s]
+18:43:37.035245 [debug]: Finished parsing target/generic_tests/source_not_null_raw_data_raw_trading_log_Symbol.sql [  0.00s]
+18:43:37.037483 [info ]: Finished parsing [  0.04s]
+18:43:37.038893 [info ]: Started scheduling
+18:43:37.039341 [info ]: Finished scheduling [  0.00s]
+18:43:37.056626 [debug]: No platform credentials found, skipping remote license
+18:43:37.056705 [debug]: License check failed: Feature not licensed: 'lineage'
+18:43:37.057260 [info ]: Started building task graph
+18:43:37.057411 [info ]: Finished building task graph [  0.00s]
+18:43:37.090265 [debug]: Query executed on node unknown:
+/* {"app": "dbt", "connection_name": "", "dbt_version": "2.0.0", "profile_name": "trading_log_dbt", "target_name": "dev"} */
+
+    
+    select schema_name
+    from system.information_schema.schemata
+    
+    where lower(catalog_name) = '"dev"'
+    
+  
+  
+18:43:37.091347 [debug]: Query executed on node unknown:
+/* {"app": "dbt", "connection_name": "", "dbt_version": "2.0.0", "profile_name": "trading_log_dbt", "target_name": "dev"} */
+
+    
+        select type from duckdb_databases()
+        where lower(database_name)='dev'
+        and type='sqlite'
+    
+  
+18:43:37.091866 [debug]: Query executed on node unknown:
+/* {"app": "dbt", "connection_name": "", "dbt_version": "2.0.0", "profile_name": "trading_log_dbt", "target_name": "dev"} */
+
+    
+    
+        create schema if not exists "dev"."main"
+    
+18:43:37.092006 [info ]: Started rendering (1 nodes)
+18:43:37.092079 [info ]: Started model main.stg_tradelog
+18:43:37.092097 [debug]: Started rendering model main.stg_tradelog
+18:43:37.093116 [debug]: Compiled SQL for node model.trading_log_dbt.stg_tradelog at target/compiled/trading_log_dbt/trading_log_dbt/models/staging/stg_tradelog.sql
+18:43:37.093267 [debug]: Finished rendering [  0.00s] model main.stg_tradelog [success]
+18:43:37.093331 [info ]: Finished rendering [  0.00s] (1 nodes, 0 skipped, 0 errors)
+18:43:37.093395 [info ]: Started analyzing (1 nodes)
+18:43:37.093503 [debug]: Started analyzing model main.stg_tradelog
+18:43:37.116660 [debug]: Finished analyzing [  0.02s] model main.stg_tradelog [success]
+18:43:37.116894 [info ]: Finished analyzing [  0.02s] (1 nodes, 0 skipped, 0 errors)
+18:43:37.117023 [info ]: Started running (1 nodes)
+18:43:37.117137 [info ]: Started running model main.stg_tradelog
+18:43:37.124711 [debug]: Query executed on node model.trading_log_dbt.stg_tradelog:
+SELECT table_catalog, table_schema, table_name, table_type FROM information_schema.tables WHERE table_schema = 'main'
+18:43:37.127691 [debug]: Writing runtime sql for node "model.trading_log_dbt.stg_tradelog"
+18:43:37.164855 [debug]: Query executed on node model.trading_log_dbt.stg_tradelog:
+/* {"app": "dbt", "dbt_version": "2.0.0", "node_id": "model.trading_log_dbt.stg_tradelog", "profile_name": "trading_log_dbt", "target_name": "dev"} */
+
+  
+  create view "dev"."main"."stg_tradelog__dbt_tmp" as (
+    with raw_data as (
+    select * from read_csv_auto('trading_log_dbt/data/trade_data.csv')
+),
+
+-- apply timezone conversion to timestamp columns
+timezoned as (
+    select
+        *,
+        
+    --interprets column as johburg time and converts to ny
+    timezone(
+        'America/New_York',
+        timezone('Africa/Johannesburg', Time)
+    )
+ as entryTime_NY,
+        
+    --interprets column as johburg time and converts to ny
+    timezone(
+        'America/New_York',
+        timezone('Africa/Johannesburg', Time_1)
+    )
+ as exitTime_NY
+    from raw_data
+),
+
+-- data cleaning
+staged as (
+    select
+        cast(Time as timestamp) as entryTime,
+        entryTime_NY,
+        cast(Position as varchar) as tradeid,
+        cast(Symbol as varchar) as symbol,
+        cast(Type as varchar) as type,
+        cast(replace(cast(Volume as varchar), ' ', '') as float) as lotsize,
+
+        -- Financial calculations
+        cast(replace(cast(Price as varchar), ' ', '') as float) as entry_price,
+        cast(replace(cast("S / L" as varchar), ' ', '') as float) as stop_loss,
+        cast(replace(cast("T / P" as varchar), ' ', '') as float) as take_profit,
+        cast(Time_1 as timestamp) as exitTime,
+        exitTime_NY,
+        cast(replace(cast(Price_1 as varchar), ' ', '') as float) as exit_price,
+        cast(replace(cast(Profit as varchar), ' ', '') as float) as profit,
+    from timezoned
+)
+
+select * from staged
+        
+
+
+  );
+
+18:43:37.168760 [debug]: Query executed on node model.trading_log_dbt.stg_tradelog:
+/* {"app": "dbt", "dbt_version": "2.0.0", "node_id": "model.trading_log_dbt.stg_tradelog", "profile_name": "trading_log_dbt", "target_name": "dev"} */
+
+      alter view "dev"."main"."stg_tradelog" rename to "stg_tradelog__dbt_backup"
+    
+18:43:37.172004 [debug]: Query executed on node model.trading_log_dbt.stg_tradelog:
+/* {"app": "dbt", "dbt_version": "2.0.0", "node_id": "model.trading_log_dbt.stg_tradelog", "profile_name": "trading_log_dbt", "target_name": "dev"} */
+
+      alter view "dev"."main"."stg_tradelog__dbt_tmp" rename to "stg_tradelog"
+    
+18:43:37.176092 [debug]: Query executed on node model.trading_log_dbt.stg_tradelog:
+/* {"app": "dbt", "dbt_version": "2.0.0", "node_id": "model.trading_log_dbt.stg_tradelog", "profile_name": "trading_log_dbt", "target_name": "dev"} */
+
+      drop view if exists "dev"."main"."stg_tradelog__dbt_backup" cascade
+    
+18:43:37.176619 [info ]: Finished running [  0.06s] model main.stg_tradelog [success]
+18:43:37.176698 [info ]: Finished running [  0.06s] (1 nodes, 0 skipped, 0 errors)
+18:43:37.176740 [info ]:  Succeeded [  0.08s] model main.stg_tradelog (view)
+18:43:37.799294 [info ]: New version available 2.0.0-preview.186 (run `dbt system update`)
+18:43:37.938028 [info ]: 
+==================== Execution Summary =====================
+Finished 'run' successfully for target 'dev' [959ms]
+Processed: 1 model
+Summary: 1 total | 1 success
+==================== 2026-06-07T18:45:20.033117Z | 019ea367-5a1f-7531-aaeb-95f793b4337d ====================
+18:45:20.033294 [info ]: dbt-fusion 2.0.0-preview.183
+18:45:20.033972 [info ]: Started loading project
+18:45:20.035043 [info ]: Loading ~/.dbt/profiles.yml
+18:45:20.058186 [debug]:    Started loading packages
+18:45:20.059452 [debug]:     Loaded [  0.00s] packages
+18:45:20.060974 [info ]: Finished loading project [  0.03s]
+18:45:20.061465 [info ]: Started parsing
+18:45:20.115939 [debug]: Finished parsing trading_log_dbt/models/staging/sources.yml [  0.00s]
+18:45:20.119509 [debug]: Finished parsing trading_log_dbt/models/marts/int_filtering.sql [  0.00s]
+18:45:20.120102 [debug]: Finished parsing trading_log_dbt/models/staging/stg_tradelog.sql [  0.00s]
+18:45:20.122489 [debug]: Finished parsing target/generic_tests/source_not_null_raw_data_raw_trading_log_Position.sql [  0.00s]
+18:45:20.123068 [debug]: Finished parsing target/generic_tests/source_not_null_raw_data_raw_trading_log_Symbol.sql [  0.00s]
+18:45:20.125717 [info ]: Finished parsing [  0.06s]
+18:45:20.126299 [info ]: Started scheduling
+18:45:20.126502 [info ]: Finished scheduling [  0.00s]
+18:45:20.147134 [debug]: No platform credentials found, skipping remote license
+18:45:20.147234 [debug]: License check failed: Feature not licensed: 'lineage'
+18:45:20.147960 [info ]: Started building task graph
+18:45:20.148185 [info ]: Finished building task graph [  0.00s]
+18:45:20.213078 [debug]: Query executed on node unknown:
+/* {"app": "dbt", "connection_name": "", "dbt_version": "2.0.0", "profile_name": "trading_log_dbt", "target_name": "dev"} */
+
+    
+    select schema_name
+    from system.information_schema.schemata
+    
+    where lower(catalog_name) = '"dev"'
+    
+  
+  
+18:45:20.216983 [debug]: Query executed on node unknown:
+/* {"app": "dbt", "connection_name": "", "dbt_version": "2.0.0", "profile_name": "trading_log_dbt", "target_name": "dev"} */
+
+    
+        select type from duckdb_databases()
+        where lower(database_name)='dev'
+        and type='sqlite'
+    
+  
+18:45:20.218365 [debug]: Query executed on node unknown:
+/* {"app": "dbt", "connection_name": "", "dbt_version": "2.0.0", "profile_name": "trading_log_dbt", "target_name": "dev"} */
+
+    
+    
+        create schema if not exists "dev"."main"
+    
+18:45:20.218656 [info ]: Started rendering (1 nodes)
+18:45:20.218868 [info ]: Started model main.stg_tradelog
+18:45:20.218933 [debug]: Started rendering model main.stg_tradelog
+18:45:20.224539 [debug]: Compiled SQL for node model.trading_log_dbt.stg_tradelog at target/compiled/trading_log_dbt/trading_log_dbt/models/staging/stg_tradelog.sql
+18:45:20.225999 [debug]: Finished rendering [  0.01s] model main.stg_tradelog [success]
+18:45:20.226310 [info ]: Finished rendering [  0.01s] (1 nodes, 0 skipped, 0 errors)
+18:45:20.226386 [info ]: Started analyzing (1 nodes)
+18:45:20.226438 [debug]: Started analyzing model main.stg_tradelog
+18:45:20.256792 [debug]: Finished analyzing [  0.03s] model main.stg_tradelog [success]
+18:45:20.257044 [info ]: Finished analyzing [  0.03s] (1 nodes, 0 skipped, 0 errors)
+18:45:20.257218 [info ]: Started running (1 nodes)
+18:45:20.257366 [info ]: Started running model main.stg_tradelog
+18:45:20.298318 [debug]: Query executed on node model.trading_log_dbt.stg_tradelog:
+SELECT table_catalog, table_schema, table_name, table_type FROM information_schema.tables WHERE table_schema = 'main'
+18:45:20.315718 [debug]: Writing runtime sql for node "model.trading_log_dbt.stg_tradelog"
+18:45:20.412448 [debug]: Query executed on node model.trading_log_dbt.stg_tradelog:
+/* {"app": "dbt", "dbt_version": "2.0.0", "node_id": "model.trading_log_dbt.stg_tradelog", "profile_name": "trading_log_dbt", "target_name": "dev"} */
+
+  
+  create view "dev"."main"."stg_tradelog__dbt_tmp" as (
+    with raw_data as (
+    select * from read_csv_auto('trading_log_dbt/data/trade_data.csv')
+),
+
+-- apply timezone conversion to timestamp columns
+timezoned as (
+    select
+        *,
+        
+    --interprets column as johburg time and converts to ny
+    timezone(
+        'America/New_York',
+        timezone('Africa/Johannesburg', Time)
+    )
+ as entryTime_NY,
+        
+    --interprets column as johburg time and converts to ny
+    timezone(
+        'America/New_York',
+        timezone('Africa/Johannesburg', Time_1)
+    )
+ as exitTime_NY
+    from raw_data
+),
+
+-- data cleaning
+staged as (
+    select
+        cast(Time as timestamp) as entryTime,
+        entryTime_NY,
+        cast(Position as varchar) as tradeid,
+        cast(Symbol as varchar) as symbol,
+        cast(Type as varchar) as type,
+        cast(replace(cast(Volume as varchar), ' ', '') as float) as lotsize,
+
+        -- Financial calculations
+        cast(replace(cast(Price as varchar), ' ', '') as float) as entry_price,
+        cast(replace(cast("S / L" as varchar), ' ', '') as float) as stop_loss,
+        cast(replace(cast("T / P" as varchar), ' ', '') as float) as take_profit,
+        cast(Time_1 as timestamp) as exitTime,
+        exitTime_NY,
+        cast(replace(cast(Price_1 as varchar), ' ', '') as float) as exit_price,
+        cast(replace(cast(Profit as varchar), ' ', '') as float) as profit,
+    from timezoned
+)
+
+select * from staged
+        
+
+
+  );
+
+18:45:20.426327 [debug]: Query executed on node model.trading_log_dbt.stg_tradelog:
+/* {"app": "dbt", "dbt_version": "2.0.0", "node_id": "model.trading_log_dbt.stg_tradelog", "profile_name": "trading_log_dbt", "target_name": "dev"} */
+
+      alter view "dev"."main"."stg_tradelog" rename to "stg_tradelog__dbt_backup"
+    
+18:45:20.437819 [debug]: Query executed on node model.trading_log_dbt.stg_tradelog:
+/* {"app": "dbt", "dbt_version": "2.0.0", "node_id": "model.trading_log_dbt.stg_tradelog", "profile_name": "trading_log_dbt", "target_name": "dev"} */
+
+      alter view "dev"."main"."stg_tradelog__dbt_tmp" rename to "stg_tradelog"
+    
+18:45:20.455054 [debug]: Query executed on node model.trading_log_dbt.stg_tradelog:
+/* {"app": "dbt", "dbt_version": "2.0.0", "node_id": "model.trading_log_dbt.stg_tradelog", "profile_name": "trading_log_dbt", "target_name": "dev"} */
+
+      drop view if exists "dev"."main"."stg_tradelog__dbt_backup" cascade
+    
+18:45:20.456370 [info ]: Finished running [  0.20s] model main.stg_tradelog [success]
+18:45:20.456476 [info ]: Finished running [  0.20s] (1 nodes, 0 skipped, 0 errors)
+18:45:20.456534 [info ]:  Succeeded [  0.23s] model main.stg_tradelog (view)
+18:45:20.925786 [info ]: New version available 2.0.0-preview.186 (run `dbt system update`)
+18:45:21.075360 [info ]: 
+==================== Execution Summary =====================
+Finished 'run' successfully for target 'dev' [1.0s]
+Processed: 1 model
+Summary: 1 total | 1 success
+==================== 2026-06-07T18:45:21.107216Z | 019ea367-5e51-7813-85ec-a07fa065ffce ====================
+18:45:21.107350 [info ]: dbt-fusion 2.0.0-preview.183
+18:45:21.107744 [info ]: Started loading project
+18:45:21.108593 [info ]: Loading ~/.dbt/profiles.yml
+18:45:21.129874 [debug]:    Started loading packages
+18:45:21.131267 [debug]:     Loaded [  0.00s] packages
+18:45:21.132412 [info ]: Finished loading project [  0.02s]
+18:45:21.133169 [info ]: Started parsing
+18:45:21.173040 [debug]: Finished parsing trading_log_dbt/models/staging/sources.yml [  0.00s]
+18:45:21.176270 [debug]: Finished parsing trading_log_dbt/models/marts/int_filtering.sql [  0.00s]
+18:45:21.176694 [debug]: Finished parsing trading_log_dbt/models/staging/stg_tradelog.sql [  0.00s]
+18:45:21.178925 [debug]: Finished parsing target/generic_tests/source_not_null_raw_data_raw_trading_log_Position.sql [  0.00s]
+18:45:21.179411 [debug]: Finished parsing target/generic_tests/source_not_null_raw_data_raw_trading_log_Symbol.sql [  0.00s]
+18:45:21.181551 [info ]: Finished parsing [  0.05s]
+18:45:21.181916 [info ]: Started scheduling
+18:45:21.182046 [info ]: Finished scheduling [  0.00s]
+18:45:21.205946 [debug]: No platform credentials found, skipping remote license
+18:45:21.206051 [debug]: License check failed: Feature not licensed: 'lineage'
+18:45:21.206756 [info ]: Started building task graph
+18:45:21.211514 [info ]: Finished building task graph [  0.00s]
+18:45:21.213222 [info ]: Started rendering (1 nodes)
+18:45:21.213353 [info ]: Started model main.stg_tradelog
+18:45:21.213378 [debug]: Started rendering model main.stg_tradelog
+18:45:21.214345 [debug]: Compiled SQL for node model.trading_log_dbt.stg_tradelog at target/compiled/trading_log_dbt/trading_log_dbt/models/staging/stg_tradelog.sql
+18:45:21.214482 [debug]: Finished rendering [  0.00s] model main.stg_tradelog [success]
+18:45:21.214589 [info ]: Finished rendering [  0.00s] (1 nodes, 0 skipped, 0 errors)
+18:45:21.214681 [info ]: Started analyzing (1 nodes)
+18:45:21.214744 [debug]: Started analyzing model main.stg_tradelog
+18:45:21.246339 [debug]: Finished analyzing [  0.03s] model main.stg_tradelog [success]
+18:45:21.246523 [info ]: Finished analyzing [  0.03s] (1 nodes, 0 skipped, 0 errors)
+18:45:21.246624 [info ]: Started running (1 nodes)
+18:45:21.246739 [info ]: Started running model main.stg_tradelog
+18:45:21.376510 [debug]: Query executed on node unknown:
+
+  
+  with raw_data as (
+    select * from read_csv_auto('trading_log_dbt/data/trade_data.csv')
+),
+
+-- apply timezone conversion to timestamp columns
+timezoned as (
+    select
+        *,
+        
+    --interprets column as johburg time and converts to ny
+    timezone(
+        'America/New_York',
+        timezone('Africa/Johannesburg', Time)
+    )
+ as entryTime_NY,
+        
+    --interprets column as johburg time and converts to ny
+    timezone(
+        'America/New_York',
+        timezone('Africa/Johannesburg', Time_1)
+    )
+ as exitTime_NY
+    from raw_data
+),
+
+-- data cleaning
+staged as (
+    select
+        cast(Time as timestamp) as entryTime,
+        entryTime_NY,
+        cast(Position as varchar) as tradeid,
+        cast(Symbol as varchar) as symbol,
+        cast(Type as varchar) as type,
+        cast(replace(cast(Volume as varchar), ' ', '') as float) as lotsize,
+
+        -- Financial calculations
+        cast(replace(cast(Price as varchar), ' ', '') as float) as entry_price,
+        cast(replace(cast("S / L" as varchar), ' ', '') as float) as stop_loss,
+        cast(replace(cast("T / P" as varchar), ' ', '') as float) as take_profit,
+        cast(Time_1 as timestamp) as exitTime,
+        exitTime_NY,
+        cast(replace(cast(Price_1 as varchar), ' ', '') as float) as exit_price,
+        cast(replace(cast(Profit as varchar), ' ', '') as float) as profit,
+    from timezoned
+)
+
+select * from staged
+        
+
+
+  
+  limit 10
+
+18:45:21.431926 [info ]: [34m[1mQuery[0m [1mshow_model_trading_log_dbt_stg_tradelog[0m
+┌─────────────────┬─────────────────┬─────────┬──────────┬──────┬─────────┬────┐
+│[1m entryTime       [0m┆[1m entryTime_NY    [0m┆[1m tradeid [0m┆[1m symbol   [0m┆[1m type [0m┆[1m lotsize [0m┆[1m .. [0m│
+╞═════════════════╪═════════════════╪═════════╪══════════╪══════╪═════════╪════╡
+│ 2026-05-28T17:3 ┆ 2026-05-28T11:3 ┆ 8261088 ┆ NAS100.x ┆ sell ┆ 0.01    ┆ .. │
+│ 3:18            ┆ 3:18            ┆         ┆          ┆      ┆         ┆    │
+│ 2026-05-28T17:3 ┆ 2026-05-28T11:3 ┆ 8261964 ┆ NAS100.x ┆ sell ┆ 0.02    ┆ .. │
+│ 4:18            ┆ 4:18            ┆         ┆          ┆      ┆         ┆    │
+│ 2026-05-28T17:3 ┆ 2026-05-28T11:3 ┆ 8265231 ┆ NAS100.x ┆ sell ┆ 0.02    ┆ .. │
+│ 8:13            ┆ 8:13            ┆         ┆          ┆      ┆         ┆    │
+│ 2026-05-28T17:3 ┆ 2026-05-28T11:3 ┆ 8265309 ┆ NAS100.x ┆ sell ┆ 0.02    ┆ .. │
+│ 8:18            ┆ 8:18            ┆         ┆          ┆      ┆         ┆    │
+│ 2026-05-28T17:4 ┆ 2026-05-28T11:4 ┆ 8268831 ┆ NAS100.x ┆ sell ┆ 0.02    ┆ .. │
+│ 2:27            ┆ 2:27            ┆         ┆          ┆      ┆         ┆    │
+│ 2026-05-28T17:4 ┆ 2026-05-28T11:4 ┆ 8273186 ┆ US30.x   ┆ buy  ┆ 0.01    ┆ .. │
+│ 5:46            ┆ 5:46            ┆         ┆          ┆      ┆         ┆    │
+│ 2026-05-28T17:4 ┆ 2026-05-28T11:4 ┆ 8273732 ┆ US30.x   ┆ buy  ┆ 0.07    ┆ .. │
+│ 6:07            ┆ 6:07            ┆         ┆          ┆      ┆         ┆    │
+│ 2026-05-28T17:4 ┆ 2026-05-28T11:4 ┆ 8274393 ┆ US30.x   ┆ buy  ┆ 0.07    ┆ .. │
+│ 6:38            ┆ 6:38            ┆         ┆          ┆      ┆         ┆    │
+│ 2026-05-28T17:4 ┆ 2026-05-28T11:4 ┆ 8276179 ┆ US30.x   ┆ buy  ┆ 0.07    ┆ .. │
+│ 8:08            ┆ 8:08            ┆         ┆          ┆      ┆         ┆    │
+│ 2026-05-28T17:4 ┆ 2026-05-28T11:4 ┆ 8277501 ┆ NAS100.x ┆ sell ┆ 0.02    ┆ .. │
+│ 9:54            ┆ 9:54            ┆         ┆          ┆      ┆         ┆    │
+└─────────────────┴─────────────────┴─────────┴──────────┴──────┴─────────┴────┘
+10 rows, 13 columns, showing only 10 rows and only 6 columns. Run with --limit -1 to show all rows. Run with a terminal width of at least 151 to show all columns.
+18:45:21.432184 [info ]: Finished running [  0.19s] model main.stg_tradelog [success]
+18:45:21.432250 [info ]: Finished running [  0.19s] (1 nodes, 0 skipped, 0 errors)
+18:45:21.432294 [info ]:  Succeeded [  0.22s] model main.stg_tradelog (view)
+18:45:21.587650 [info ]: New version available 2.0.0-preview.186 (run `dbt system update`)
+18:45:21.990765 [info ]: 
+==================== Execution Summary =====================
+Finished 'show' successfully for target 'dev' [883ms]
+==================== 2026-06-07T18:47:35.734110Z | 019ea369-6c34-76a2-811a-f11bd6f1a6ed ====================
+18:47:35.734286 [info ]: dbt-fusion 2.0.0-preview.183
+18:47:35.734686 [info ]: Started loading project
+18:47:35.736086 [info ]: Loading ~/.dbt/profiles.yml
+18:47:35.757675 [debug]:    Started loading packages
+18:47:35.758711 [debug]:     Loaded [  0.00s] packages
+18:47:35.759916 [info ]: Finished loading project [  0.03s]
+18:47:35.760430 [info ]: Started parsing
+18:47:35.820879 [debug]: Finished parsing trading_log_dbt/models/staging/sources.yml [  0.00s]
+18:47:35.831992 [debug]: Finished parsing trading_log_dbt/models/marts/int_filtering.sql [  0.01s]
+18:47:35.832609 [debug]: Finished parsing trading_log_dbt/models/staging/stg_tradelog.sql [  0.00s]
+18:47:35.838704 [debug]: Finished parsing target/generic_tests/source_not_null_raw_data_raw_trading_log_Position.sql [  0.00s]
+18:47:35.839936 [debug]: Finished parsing target/generic_tests/source_not_null_raw_data_raw_trading_log_Symbol.sql [  0.00s]
+18:47:35.844925 [info ]: Finished parsing [  0.08s]
+18:47:35.846837 [info ]: Started scheduling
+18:47:35.847136 [info ]: Finished scheduling [  0.00s]
+18:47:35.885118 [debug]: No platform credentials found, skipping remote license
+18:47:35.885347 [debug]: License check failed: Feature not licensed: 'lineage'
+18:47:35.887114 [info ]: Started building task graph
+18:47:35.888303 [info ]: Finished building task graph [  0.00s]
+18:47:35.987253 [debug]: Query executed on node unknown:
+/* {"app": "dbt", "connection_name": "", "dbt_version": "2.0.0", "profile_name": "trading_log_dbt", "target_name": "dev"} */
+
+    
+    select schema_name
+    from system.information_schema.schemata
+    
+    where lower(catalog_name) = '"dev"'
+    
+  
+  
+18:47:35.988854 [debug]: Query executed on node unknown:
+/* {"app": "dbt", "connection_name": "", "dbt_version": "2.0.0", "profile_name": "trading_log_dbt", "target_name": "dev"} */
+
+    
+        select type from duckdb_databases()
+        where lower(database_name)='dev'
+        and type='sqlite'
+    
+  
+18:47:35.991886 [debug]: Query executed on node unknown:
+/* {"app": "dbt", "connection_name": "", "dbt_version": "2.0.0", "profile_name": "trading_log_dbt", "target_name": "dev"} */
+
+    
+    
+        create schema if not exists "dev"."main"
+    
+18:47:35.992270 [info ]: Started rendering (1 nodes)
+18:47:35.992454 [info ]: Started model main.stg_tradelog
+18:47:35.992509 [debug]: Started rendering model main.stg_tradelog
+18:47:35.994395 [debug]: Compiled SQL for node model.trading_log_dbt.stg_tradelog at target/compiled/trading_log_dbt/trading_log_dbt/models/staging/stg_tradelog.sql
+18:47:35.996081 [debug]: Finished rendering [  0.00s] model main.stg_tradelog [success]
+18:47:35.999076 [info ]: Finished rendering [  0.01s] (1 nodes, 0 skipped, 0 errors)
+18:47:35.999187 [info ]: Started analyzing (1 nodes)
+18:47:35.999236 [debug]: Started analyzing model main.stg_tradelog
+18:47:36.064745 [debug]: Finished analyzing [  0.07s] model main.stg_tradelog [success]
+18:47:36.065098 [info ]: Finished analyzing [  0.07s] (1 nodes, 0 skipped, 0 errors)
+18:47:36.065441 [info ]: Started running (1 nodes)
+18:47:36.067370 [info ]: Started running model main.stg_tradelog
+18:47:36.076831 [debug]: Query executed on node model.trading_log_dbt.stg_tradelog:
+SELECT table_catalog, table_schema, table_name, table_type FROM information_schema.tables WHERE table_schema = 'main'
+18:47:36.079893 [debug]: Writing runtime sql for node "model.trading_log_dbt.stg_tradelog"
+18:47:36.126089 [debug]: Query executed on node model.trading_log_dbt.stg_tradelog:
+/* {"app": "dbt", "dbt_version": "2.0.0", "node_id": "model.trading_log_dbt.stg_tradelog", "profile_name": "trading_log_dbt", "target_name": "dev"} */
+
+  
+  create view "dev"."main"."stg_tradelog__dbt_tmp" as (
+    with raw_data as (
+    select * from read_csv_auto('trading_log_dbt/data/trade_data.csv')
+),
+
+-- apply timezone conversion to timestamp columns
+timezoned as (
+    select
+        *,
+        
+    --interprets column as johburg time and converts to ny
+    timezone(
+        'America/New_York',
+        timezone('Africa/Johannesburg', Time)
+    )
+ as entryTime_NY,
+        
+    --interprets column as johburg time and converts to ny
+    timezone(
+        'America/New_York',
+        timezone('Africa/Johannesburg', Time_1)
+    )
+ as exitTime_NY
+    from raw_data
+),
+
+-- data cleaning
+staged as (
+    select
+        cast(Time as timestamp) as entryTime,
+        entryTime_NY,
+        cast(Position as varchar) as tradeid,
+        cast(Symbol as varchar) as symbol,
+        cast(Type as varchar) as type,
+        ROUND(cast(replace(cast(Volume as varchar), ' ', '') as float), 2) as lotsize,
+
+        -- Financial calculations
+        ROUND(cast(replace(cast(Price as varchar), ' ', '') as float), 2) as entry_price,
+        ROUND(cast(replace(cast("S / L" as varchar), ' ', '') as float), 2) as stop_loss,
+        ROUND(cast(replace(cast("T / P" as varchar), ' ', '') as float), 2) as take_profit,
+        cast(Time_1 as timestamp) as exitTime,
+        exitTime_NY,
+        ROUND(cast(replace(cast(Price_1 as varchar), ' ', '') as float), 2) as exit_price,
+        ROUND(cast(replace(cast(Profit as varchar), ' ', '') as float), 2) as profit,
+    from timezoned
+)
+
+select * from staged
+        
+
+
+  );
+
+18:47:36.134519 [debug]: Query executed on node model.trading_log_dbt.stg_tradelog:
+/* {"app": "dbt", "dbt_version": "2.0.0", "node_id": "model.trading_log_dbt.stg_tradelog", "profile_name": "trading_log_dbt", "target_name": "dev"} */
+
+      alter view "dev"."main"."stg_tradelog" rename to "stg_tradelog__dbt_backup"
+    
+18:47:36.146769 [debug]: Query executed on node model.trading_log_dbt.stg_tradelog:
+/* {"app": "dbt", "dbt_version": "2.0.0", "node_id": "model.trading_log_dbt.stg_tradelog", "profile_name": "trading_log_dbt", "target_name": "dev"} */
+
+      alter view "dev"."main"."stg_tradelog__dbt_tmp" rename to "stg_tradelog"
+    
+18:47:36.151407 [debug]: Query executed on node model.trading_log_dbt.stg_tradelog:
+/* {"app": "dbt", "dbt_version": "2.0.0", "node_id": "model.trading_log_dbt.stg_tradelog", "profile_name": "trading_log_dbt", "target_name": "dev"} */
+
+      drop view if exists "dev"."main"."stg_tradelog__dbt_backup" cascade
+    
+18:47:36.152071 [info ]: Finished running [  0.08s] model main.stg_tradelog [success]
+18:47:36.152409 [info ]: Finished running [  0.09s] (1 nodes, 0 skipped, 0 errors)
+18:47:36.152517 [info ]:  Succeeded [  0.15s] model main.stg_tradelog (view)
+18:47:36.587487 [info ]: New version available 2.0.0-preview.186 (run `dbt system update`)
+18:47:36.725850 [info ]: 
+==================== Execution Summary =====================
+Finished 'run' successfully for target 'dev' [991ms]
+Processed: 1 model
+Summary: 1 total | 1 success
